@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function showNotificationWithSound(message) {
             const audio = new Audio('/site/assets/js/notif.mp3');
-            audio.volume = 0.5;
+            audio.volume = 0.2;
             audio.play().catch(e => console.log('Não foi possível reproduzir o som:', e));
         
             crate.notify({
