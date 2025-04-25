@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function () {
             color: '#7E56C2'
         });
 
-        const AVATAR_URL = '/site/assets/img/avatar.jpg';
+        const AVATAR_URL = '/assets/img/avatar.jpg';
 
         function showNotificationWithSound(message) {
-            const audio = new Audio('/site/assets/js/notif.mp3');
+            const audio = new Audio('/assets/js/notif.mp3');
             audio.volume = 0.2;
             audio.play().catch(e => console.log('Não foi possível reproduzir o som:', e));
         
