@@ -3012,30 +3012,19 @@
 
 <h2 id="recrutamento">Recrutamento<a class="headerlink" href="#recrutamento" title="Permanent link">&para;</a></h2>
 <p>Somos uma guilda de alto desempenho, necessitando que todos os candidatos conheçam as mecânicas dos ultra bosses e tenham habilidades de comunicação que são cruciais para passar a call, ou seja, dizer quais classes, enhancements, potions, elixires e tônicos que os aliados deverão usar.</p>
-<pre class="mermaid"><code>journey
-    title Jornada do Candidato no Recrutamento da Guilda
-    section Pré-requisitos
-        Estudo das mecânicas dos ultra bosses: 5: Candidato
-        Demonstração de habilidades de comunicação: 4: Candidato
-
-    section Avaliação pela banca
-        Designação dos bosses e classes para avaliação: 4: Banca
-        Candidato derrota os ultra bosses com classes designadas: 3: Candidato
-
-    section Prova prática
-        Escolha das classes que a banca usará: 4: Candidato
-        Início da raid contra o boss: 3: Todos
-
-    section Avaliação de desempenho
-        Execução da call e da luta: 2: Candidato
-        Atribuição de nota (0 a 100) por boss: 4: Banca
-        Perda de pontos por erros ou falhas: 3: Sistema
-
-    section Resultado final
-        Cálculo da média aritmética das notas: 5: Sistema
-        Verificação se média ≥ 93.5: 5: Sistema
-        Feedback final e nota ao candidato: 4: Banca
-        Nova tentativa em 3 dias se reprovado: 3: Candidato
+<pre class="mermaid"><code>flowchart TD
+    A[Estudo dos bosses] --&gt; B[Comunicação]
+    B --&gt; C[Designação de bosses]
+    C --&gt; D[Derrota dos bosses]
+    D --&gt; E[Escolha de classes]
+    E --&gt; F[Raid inicia]
+    F --&gt; G[Execução da luta]
+    G --&gt; H[Nota por boss]
+    H --&gt; I[Penalidades]
+    I --&gt; J[Média final]
+    J --&gt; K[Média ≥ 93.5?]
+    K --&gt;|Sim| L[Feedback final]
+    K --&gt;|Não| M[Nova tentativa em 3 dias]
 </code></pre>
 <p>No recrutamento, o candidato terá que derrotar todos os ultra bosses sugeridos pela banca, onde serão designadas classes específicas para serem avaliadas. </p>
 <p>Após isso, o candidato deverá selecionar quais as classes que a banca deverá usar e por fim, a raid será iniciada contra aquele ultraboss.</p>
@@ -3085,7 +3074,7 @@
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="25 de abril de 2025 15:55:28">25 de abril de 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="25 de abril de 2025 15:58:25">25 de abril de 2025</span>
   </span>
 
     
