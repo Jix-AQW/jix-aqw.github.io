@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     height: 'auto',
     eventSources: [
       {
-        url: '../assets/calendar/aqw.json', 
+        url: './assets/calendar/aqw.json', 
         failure: () => alert('Falha ao carregar aqw.json')
       }
     ],
