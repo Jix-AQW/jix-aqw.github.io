@@ -1,4 +1,46 @@
-/* Tooltip container */
+/* Barra de pesquisa normal */
+#pot-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 4px;
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+  margin-bottom: 1rem;
+}
+
+#pot-input:focus {
+  outline: none;
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 2px var(--md-accent-fg-color--transparent);
+}
+
+/* Lista de sugestões */
+.pot-list {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: var(--md-code-bg-color);
+}
+
+.pot-item {
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.pot-item:last-child {
+  border-bottom: none;
+}
+
+.pot-item:hover {
+  background: var(--md-primary-fg-color--transparent);
+}
+
+/* Tooltip */
 .hover-tooltip-container {
   position: relative;
   display: inline-block;
@@ -40,23 +82,18 @@
   transition: opacity 0.3s;
 }
 
-/* Mostrar tooltip ao passar mouse */
+/* Mostrar tooltip ao hover */
 .hover-tooltip-container:hover .hover-tooltip-box {
   visibility: visible;
   opacity: 1;
 }
 
-/* Links da lista */
-.pot-link {
-  display: block;
-  padding: 0.8rem;
-  color: var(--md-default-fg-color);
-  text-decoration: none;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  transition: background 0.2s ease;
+/* Links das combinações */
+.result-link {
+  color: var(--md-accent-fg-color);
+  text-decoration: underline;
 }
 
-.pot-link:hover {
-  background: var(--md-primary-fg-color--transparent);
-  color: var(--md-accent-fg-color);
+.result-link:hover {
+  color: var(--md-primary-fg-color);
 }

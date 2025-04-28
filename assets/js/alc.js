@@ -13,18 +13,14 @@ const filterPots = (kill) => {
     .filter((p) => p.toUpperCase().includes(q.toUpperCase()))
     .sort();
   list.innerHTML = filt
-    .map((p) => `
-      <a href="http://aqwwiki.wikidot.com/${encodeURIComponent(p.replace(/\s/g, '-'))}" target="_blank" class="pot-link">
-        ${p}
-      </a>
-    `)
+    .map((p) => `<div class="pot-item" onclick="recipie('${p}')">${p}</div>`)
     .join("");
 };
 
 const recipie = (pot) => {
   potSearch.value = pot;
   filterPots(true);
-  let result = `<h3>Combinações para ${pot}</h3><ul>`;
+  let result = `<h3>Combinações para <a href="http://aqwwiki.wikidot.com/${encodeURIComponent(pot.replace(/\s/g, '-'))}" target="_blank" class="result-link">${pot}</a></h3><ul>`;
   let rec = POTS[pot];
 
   let combs = [];
@@ -35,12 +31,14 @@ const recipie = (pot) => {
         ing.brew[ru].includes(rec.t) &&
         BREWS[ru][rec.t].some((potion) => potion.p === pot)
       ) {
-        combs.push(`<li>${ru} Rune: ${i} + Qualquer outro ingrediente</li>`);
+        combs.push(`<li>${ru} Rune: <a href="http://aqwwiki.wikidot.com/${encodeURIComponent(i.replace(/\s/g, '-'))}" target="_blank" class="result-link">${i}</a> + Qualquer outro ingrediente</li>`);
       }
     });
   });
 
-  result += `<li class="rec-colour">Recomendado: ${rec.r} Rune + ${rec.a} + ${rec.b}</li>`;
+  result += `<li class="rec-colour">Recomendado: ${rec.r} Rune + 
+    <a href="http://aqwwiki.wikidot.com/${encodeURIComponent(rec.a.replace(/\s/g, '-'))}" target="_blank" class="result-link">${rec.a}</a> + 
+    <a href="http://aqwwiki.wikidot.com/${encodeURIComponent(rec.b.replace(/\s/g, '-'))}" target="_blank" class="result-link">${rec.b}</a></li>`;
   result += combs.join("") + "</ul>";
   poRes.innerHTML = result;
 };
