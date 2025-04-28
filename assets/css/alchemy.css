@@ -1,0 +1,79 @@
+#alchemy-calculator {
+  font-family: var(--md-text-font, "Roboto"), sans-serif;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1em 0;
+  box-shadow: var(--md-shadow-z2);
+}
+
+.type {
+  color: var(--md-primary-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-primary-fg-color);
+  transition: all 0.3s ease;
+}
+
+.type.selected {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-bottom: 3px solid var(--md-accent-fg-color);
+}
+
+.button {
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.ingredient {
+  background: var(--md-primary-fg-color--transparent);
+  border-color: var(--md-primary-fg-color);
+}
+
+.ingredient.selected {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.choice {
+  background: var(--md-accent-fg-color--transparent);
+  border-color: var(--md-accent-fg-color);
+}
+
+.choice.selected {
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
+.result-box {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+}
+
+.hover-tooltip-box {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  box-shadow: var(--md-shadow-z2);
+}
+
+.rec {
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
+/* Ajustes responsivos */
+@media (max-width: 760px) {
+  .button-box {
+    flex-wrap: wrap;
+  }
+  
+  .ingredient, .choice {
+    flex: 1 1 100%;
+    margin: 2px 0;
+  }
+}
