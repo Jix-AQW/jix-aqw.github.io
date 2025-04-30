@@ -35,7 +35,8 @@
       position: relative;
       overflow: hidden;
       border-radius: 12px;
-      margin: 20px;
+      margin: 20px 40px 40px; /* Margem aumentada */
+      box-shadow: 0 8px 30px rgba(0,0,0,0.6); /* Sombra para profundidade */
     }
 
     .carousel-inner {
@@ -43,24 +44,32 @@
       transition: transform 0.5s ease-in-out;
     }
 
+
+
     .carousel-item {
       min-width: 100%;
       position: relative;
-      min-height: 70vh;
+      min-height: 60vh; /* Altura ajustada */
       background-size: cover;
       background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px; /* Espaçamento interno */
     }
+
 
     .featured-content {
       position: relative;
       z-index: 2;
       max-width: 800px;
-      margin: 0 10%;
+      width: 90%; 
+      margin: 0 auto; 
       padding: 40px;
-      background: rgba(20, 20, 20, 0.6);
+      background: rgba(20, 20, 20, 0.8); /* Fundo mais opaco */
       border-radius: 12px;
       backdrop-filter: blur(8px);
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 2px solid rgba(229,9,20,0.3); /* Borda vermelha sutil */
     }
 
     .featured-title {
@@ -120,8 +129,8 @@
 
     .games-grid {
       max-width: 1200px;
-      margin: 50px auto;
-      padding: 0 20px;
+      margin: 80px auto;
+      padding: 0 40px; 
     }
 
     .grid-title {
@@ -240,22 +249,24 @@
         
         // Carrossel
         const carouselHTML = `
-          <div class="carousel-container">
-            <div class="carousel-inner">
-              ${data.games.map((game, index) => `
-                <div class="carousel-item" 
-                     style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${game.cover}')">
-                  <div class="featured-content">
-                    <h1 class="featured-title">${game.title}</h1>
-                    <div class="featured-year">${game.year}</div>
-                    <p>${game.description}</p>
-                    <a href="${game.play_url}" class="play-button">Play Now</a>
+          <section class="carousel-section"> <!-- Nova seção encapsuladora -->
+            <div class="carousel-container">
+              <div class="carousel-inner">
+                ${data.games.map((game, index) => `
+                  <div class="carousel-item" 
+                      style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${game.cover}')">
+                    <div class="featured-content">
+                      <h1 class="featured-title">${game.title}</h1>
+                      <div class="featured-year">${game.year}</div>
+                      <p>${game.description}</p>
+                      <a href="${game.play_url}" class="play-button">Play Now</a>
+                    </div>
                   </div>
-                </div>
-              `).join('')}
+                `).join('')}
+              </div>
+              <div class="carousel-controls"></div>
             </div>
-            <div class="carousel-controls"></div>
-          </div>`;
+          </section>`;
         
         main.innerHTML = carouselHTML;
 
@@ -300,7 +311,17 @@
           </div>`;
         
         main.innerHTML += gamesHTML;
+
+        // Auto-rotate do carrossel (adicione esta parte para funcionamento automático)
+        setInterval(() => {
+          currentIndex = (currentIndex + 1) % items.length;
+          slideTo(currentIndex);
+        }, 8000);
       });
   </script>
+
 </body>
 </html>
+
+
+
