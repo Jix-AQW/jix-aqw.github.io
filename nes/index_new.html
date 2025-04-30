@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Artix NES Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    :root {
+      --nes-red: #e50914;
+      --nes-dark: #141414;
+      --nes-gray: #303030;
+    }
+
+    body {
+      margin: 0;
+      background: var(--nes-dark);
+      color: white;
+      font-family: 'Press Start 2P', cursive;
+      min-height: 100vh;
+    }
+
+    .nav-logo {
+      color: var(--nes-red);
+      font-size: 2rem;
+      text-shadow: 2px 2px 0 #5a0000;
+      padding: 15px 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 15px;
+    }
+
+    .carousel-container {
+      position: relative;
+      overflow: hidden;
+      margin: 15px;
+      border-radius: 10px;
+    }
+
+    .carousel-inner {
+      display: flex;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .carousel-item {
+      min-width: 100%;
+      position: relative;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+    }
+
+    .carousel-media {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .featured-content {
+      position: relative;
+      z-index: 3;
+      max-width: 800px;
+      width: 90%;
+      padding: 20px;
+      background: rgba(20, 20, 20, 0.95);
+      border-radius: 8px;
+      backdrop-filter: blur(6px);
+      text-align: center;
+      margin: 15px;
+    }
+
+    .featured-title {
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      margin-bottom: 12px;
+      line-height: 1.3;
+      text-shadow: 2px 2px 0 var(--nes-red);
+      overflow-wrap: break-word;
+    }
+
+    .featured-year {
+      color: #ff6b6b;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+      display: inline-block;
+      padding: 4px 10px;
+      background: rgba(229,9,20,0.3);
+      border-radius: 4px;
+    }
+
+    .featured-content p {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin: 15px 0;
+      color: #e0e0e0;
+    }
+
+    .play-button {
+      padding: 12px 30px;
+      background: var(--nes-red);
+      border-radius: 25px;
+      font-size: 1rem;
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .play-button:hover {
+      transform: scale(1.05);
+    }
+
+    .games-grid {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+
+    .grid-title {
+      font-size: 1.2rem;
+      color: var(--nes-red);
+      margin-bottom: 20px;
+      padding-left: 5px;
+    }
+
+    .games-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 15px;
+    }
+
+    .game-card {
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--nes-gray); 
+      border: 2px solid var(--nes-gray);
+      transition: all 0.3s;
+    }
+
+    .game-cover-link {
+      display: block;
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3/4;
+    }
+
+    .game-cover {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: filter 0.3s;
+    }
+
+    .game-cover-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(229, 9, 20, 0.6);
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s;
+    }
+
+    .game-cover-overlay::before {
+      content: 'play_arrow';
+      font-family: 'Material Icons';
+      font-size: 2.5rem;
+      font-weight: normal;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .game-cover-link:hover .game-cover-overlay,
+    .game-cover-link:focus .game-cover-overlay {
+      opacity: 1;
+    }
+
+    .game-cover-link:hover .game-cover {
+      filter: brightness(0.7);
+    }
+
+    .game-info {
+      padding: 12px;
+      background: var(--nes-gray);
+      border-radius: 0 0 8px 8px;
+    }
+
+    .game-title {
+      font-size: 0.75rem;
+      margin-bottom: 3px;
+      line-height: 1.3;
+      overflow-wrap: break-word;
+    }
+
+    .game-year {
+      font-size: 0.6rem;
+      color: var(--nes-red);
+    }
+
+    .carousel-controls {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 3;
+    }
+
+    .carousel-dot {
+      width: 10px;
+      height: 10px;
+      background: rgba(255,255,255,0.4);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .carousel-dot.active {
+      background: var(--nes-red);
+      transform: scale(1.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      background: var(--nes-gray);
+      margin-top: 30px;
+      font-size: 0.6rem;
+    }
+    
+    .material-icons {
+      font-feature-settings: 'liga';
+    }
+    
+    @media (max-width: 768px) {
+      .nav-logo {
+        font-size: 1.3rem;
+      }
+
+      .carousel-item {
+        min-height: 50vh;
+      }
+
+      .featured-title {
+        font-size: 1.3rem;
+      }
+
+      .featured-content {
+        padding: 12px;
+      }
+
+      .featured-content p {
+        font-size: 0.85rem;
+      }
+
+      .games-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 12px;
+      }
+
+      .game-title {
+        font-size: 0.7rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .carousel-item {
+        min-height: 60vh;
+      }
+      
+      .featured-content {
+        width: 95%;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="nav-logo">ARTIX NES</h1>
+  </header>
+
+  <main id="main-content"></main>
+
+  <footer>
+    Copyright (©) 2008 - 2025<br>
+    All games and characters are trademarks of Artix Entertainment, LLC.<br>
+    All Rights Reserved. All wrongs avenged by undead dragons.
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('games.json')
+        .then(response => response.json())
+        .then(data => {
+          const main = document.getElementById('main-content');
+          const featuredGames = data.games.filter(game => game.featured);
+
+          // Carrossel
+          const carouselHTML = `
+            <div class="carousel-container">
+              <div class="carousel-inner">
+                ${featuredGames.map((game, index) => `
+                  <div class="carousel-item">
+                    ${game.trailer_url ? `
+                      <iframe class="carousel-media" 
+                        src="${game.trailer_url.replace('watch?v=', 'embed/')}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope" 
+                        allowfullscreen>
+                      </iframe>
+                    ` : `<img class="carousel-media" src="${game.cover}" alt="${game.title}">`}
+                    
+                    <div class="featured-content">
+                      <h1 class="featured-title">${game.title}</h1>
+                      <div class="featured-year">${game.year}</div>
+                      <p>${game.description}</p>
+                      <a href="${game.play_url}" class="play-button">Play Now</a>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+              <div class="carousel-controls"></div>
+            </div>`;
+          
+          main.innerHTML = carouselHTML;
+
+          // Controles do carrossel
+          const items = document.querySelectorAll('.carousel-item');
+          const controls = document.querySelector('.carousel-controls');
+          let currentIndex = 0;
+          let autoRotateInterval;
+
+          featuredGames.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.className = `carousel-dot ${index === 0 ? 'active' : ''}`;
+            dot.addEventListener('click', () => {
+              clearInterval(autoRotateInterval);
+              slideTo(index);
+              startAutoRotate();
+            });
+            controls.appendChild(dot);
+          });
+
+          const inner = document.querySelector('.carousel-inner');
+
+          const slideTo = (index) => {
+            currentIndex = (index + items.length) % items.length;
+            inner.style.transform = `translateX(-${currentIndex * 100}%)`;
+            document.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+              dot.classList.toggle('active', i === currentIndex);
+            });
+          };
+
+          const startAutoRotate = () => {
+            autoRotateInterval = setInterval(() => {
+              slideTo(currentIndex + 1);
+            }, 6000);
+          };
+
+          startAutoRotate();
+
+          // Lista de jogos
+          const gamesHTML = `
+            <div class="games-grid">
+              <h2 class="grid-title">All Games</h2>
+              <div class="games-container">
+                ${data.games.map(game => `
+                  <div class="game-card">
+                    <a href="${game.play_url}" class="game-cover-link" aria-label="Play ${game.title}">
+                      <img src="${game.cover}" alt="${game.title}" class="game-cover">
+                      <div class="game-cover-overlay"></div>
+                    </a>
+                    <div class="game-info">
+                      <div class="game-title">${game.title}</div>
+                      <div class="game-year">${game.year}</div>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>`;
+          
+          main.innerHTML += gamesHTML;
+
+          // Touch support
+          let touchStartX = 0;
+          let touchEndX = 0;
+
+          document.querySelector('.carousel-container').addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+          });
+
+          document.querySelector('.carousel-container').addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            if (touchStartX - touchEndX > 50) slideTo(currentIndex + 1);
+            if (touchEndX - touchStartX > 50) slideTo(currentIndex - 1);
+          });
+        });
+    });
+  </script>
+</body>
+</html>
