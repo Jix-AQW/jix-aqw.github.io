@@ -24,37 +24,36 @@
       color: var(--nes-red);
       font-size: 2rem;
       text-shadow: 2px 2px 0 #5a0000;
-      padding: 20px 0;
+      padding: 15px 0;
     }
 
     header {
       text-align: center;
-      padding: 20px;
+      padding: 15px;
     }
 
-    /* Carrossel melhorado */
     .carousel-container {
       position: relative;
       overflow: hidden;
-      margin: 20px;
-      border-radius: 12px;
+      margin: 15px;
+      border-radius: 10px;
     }
 
     .carousel-inner {
       display: flex;
-      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .carousel-item {
       min-width: 100%;
       position: relative;
-      min-height: 50vh;
+      min-height: 55vh;
       background-size: cover;
       background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding: 15px;
     }
 
     .featured-content {
@@ -63,23 +62,23 @@
       max-width: 800px;
       width: 90%;
       padding: 20px;
-      background: rgba(20, 20, 20, 0.9);
+      background: rgba(20, 20, 20, 0.95);
       border-radius: 8px;
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(6px);
       text-align: center;
     }
 
     .featured-title {
-      font-size: 2rem;
-      margin-bottom: 15px;
+      font-size: 1.8rem;
+      margin-bottom: 12px;
       line-height: 1.2;
       text-shadow: 3px 3px 0 var(--nes-red);
     }
 
     .featured-year {
       color: #ff6b6b;
-      font-size: 1rem;
-      margin-bottom: 20px;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
       display: inline-block;
       padding: 4px 10px;
       background: rgba(229,9,20,0.3);
@@ -88,9 +87,9 @@
 
     .featured-content p {
       font-family: 'Segoe UI', sans-serif;
-      font-size: 1rem;
+      font-size: 0.95rem;
       line-height: 1.5;
-      margin: 20px 0;
+      margin: 15px 0;
       color: #e0e0e0;
     }
 
@@ -99,31 +98,39 @@
       background: var(--nes-red);
       border-radius: 25px;
       font-size: 1rem;
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+      transition: transform 0.2s;
     }
 
-    /* Grid de jogos reformulado */
+    .play-button:hover {
+      transform: scale(1.05);
+    }
+
     .games-grid {
       max-width: 1200px;
-      margin: 40px auto;
-      padding: 0 20px;
+      margin: 30px auto;
+      padding: 0 15px;
     }
 
     .grid-title {
       font-size: 1.2rem;
       color: var(--nes-red);
-      margin-bottom: 25px;
+      margin-bottom: 20px;
+      padding-left: 5px;
     }
 
     .games-container {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 15px;
     }
 
     .game-card {
       position: relative;
       overflow: hidden;
-      border-radius: 8px;
+      border-radius: 6px;
       transition: transform 0.3s;
     }
 
@@ -131,7 +138,7 @@
       display: block;
       position: relative;
       width: 100%;
-      height: 200px;
+      height: 180px;
     }
 
     .game-cover {
@@ -147,7 +154,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(229, 9, 20, 0.5);
+      background: rgba(229, 9, 20, 0.6);
       opacity: 0;
       display: flex;
       align-items: center;
@@ -157,26 +164,28 @@
 
     .game-cover-overlay::before {
       content: '▶';
-      font-size: 2rem;
+      font-size: 1.8rem;
       color: white;
-      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
 
-    .game-cover-link:hover .game-cover-overlay {
+    .game-cover-link:hover .game-cover-overlay,
+    .game-cover-link:focus .game-cover-overlay {
       opacity: 1;
     }
 
     .game-cover-link:hover .game-cover {
-      filter: brightness(0.8);
+      filter: brightness(0.7);
     }
 
     .game-info {
-      padding: 15px 10px;
+      padding: 12px 8px;
     }
 
     .game-title {
-      font-size: 0.8rem;
-      margin-bottom: 4px;
+      font-size: 0.75rem;
+      margin-bottom: 3px;
+      line-height: 1.3;
     }
 
     .game-year {
@@ -184,21 +193,20 @@
       color: var(--nes-red);
     }
 
-    /* Controles do carrossel */
     .carousel-controls {
       position: absolute;
-      bottom: 20px;
+      bottom: 15px;
       left: 50%;
       transform: translateX(-50%);
       display: flex;
-      gap: 10px;
+      gap: 8px;
       z-index: 3;
     }
 
     .carousel-dot {
       width: 10px;
       height: 10px;
-      background: rgba(255,255,255,0.5);
+      background: rgba(255,255,255,0.4);
       border-radius: 50%;
       cursor: pointer;
       transition: all 0.3s;
@@ -206,46 +214,60 @@
 
     .carousel-dot.active {
       background: var(--nes-red);
-      transform: scale(1.2);
+      transform: scale(1.3);
     }
 
     footer {
       text-align: center;
-      padding: 30px 20px;
+      padding: 25px 15px;
       background: var(--nes-gray);
-      margin-top: 40px;
+      margin-top: 30px;
       font-size: 0.6rem;
     }
 
-    /* Media Queries para mobile */
     @media (max-width: 768px) {
       .nav-logo {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
 
       .carousel-item {
-        min-height: 40vh;
-        padding: 10px;
+        min-height: 50vh;
       }
 
       .featured-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
 
       .featured-content {
-        padding: 15px;
+        padding: 12px;
       }
 
       .featured-content p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
       }
 
       .games-container {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+        gap: 12px;
       }
 
       .game-cover-link {
-        height: 150px;
+        height: 130px;
+      }
+
+      .game-title {
+        font-size: 0.7rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .carousel-item {
+        min-height: 60vh;
+      }
+      
+      .featured-content {
+        width: 95%;
+        padding: 10px;
       }
     }
   </style>
@@ -264,82 +286,105 @@
   </footer>
 
   <script>
-    fetch('games.json')
-      .then(response => response.json())
-      .then(data => {
-        const main = document.getElementById('main-content');
-        
-        // Carrossel
-        const carouselHTML = `
-          <div class="carousel-container">
-            <div class="carousel-inner">
-              ${data.games.map((game, index) => `
-                <div class="carousel-item" 
-                     style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${game.cover}')">
-                  <div class="featured-content">
-                    <h1 class="featured-title">${game.title}</h1>
-                    <div class="featured-year">${game.year}</div>
-                    <p>${game.description}</p>
-                    <a href="${game.play_url}" class="play-button">Play Now</a>
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('games.json')
+        .then(response => response.json())
+        .then(data => {
+          const main = document.getElementById('main-content');
+          
+          // Carrossel
+          const carouselHTML = `
+            <div class="carousel-container">
+              <div class="carousel-inner">
+                ${data.games.map((game, index) => `
+                  <div class="carousel-item" 
+                       style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${game.cover}')">
+                    <div class="featured-content">
+                      <h1 class="featured-title">${game.title}</h1>
+                      <div class="featured-year">${game.year}</div>
+                      <p>${game.description}</p>
+                      <a href="${game.play_url}" class="play-button">Play Now</a>
+                    </div>
                   </div>
-                </div>
-              `).join('')}
-            </div>
-            <div class="carousel-controls"></div>
-          </div>`;
-        
-        main.innerHTML = carouselHTML;
+                `).join('')}
+              </div>
+              <div class="carousel-controls"></div>
+            </div>`;
+          
+          main.innerHTML = carouselHTML;
 
-        // Controles do carrossel
-        const items = document.querySelectorAll('.carousel-item');
-        const controls = document.querySelector('.carousel-controls');
-        
-        items.forEach((_, index) => {
-          const dot = document.createElement('div');
-          dot.className = `carousel-dot ${index === 0 ? 'active' : ''}`;
-          dot.addEventListener('click', () => slideTo(index));
-          controls.appendChild(dot);
-        });
+          // Controles do carrossel
+          const items = document.querySelectorAll('.carousel-item');
+          const controls = document.querySelector('.carousel-controls');
+          let currentIndex = 0;
+          let autoRotateInterval;
 
-        let currentIndex = 0;
-        const inner = document.querySelector('.carousel-inner');
-
-        function slideTo(index) {
-          currentIndex = index;
-          inner.style.transform = `translateX(-${index * 100}%)`;
-          document.querySelectorAll('.carousel-dot').forEach((dot, i) => {
-            dot.classList.toggle('active', i === index);
+          items.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.className = `carousel-dot ${index === 0 ? 'active' : ''}`;
+            dot.addEventListener('click', () => {
+              clearInterval(autoRotateInterval);
+              slideTo(index);
+              startAutoRotate();
+            });
+            controls.appendChild(dot);
           });
-        }
 
-        // Auto-rotate
-        const autoRotate = setInterval(() => {
-          currentIndex = (currentIndex + 1) % items.length;
-          slideTo(currentIndex);
-        }, 5000);
+          const inner = document.querySelector('.carousel-inner');
 
-        // Lista de jogos
-        const gamesHTML = `
-          <div class="games-grid">
-            <h2 class="grid-title">All Games</h2>
-            <div class="games-container">
-              ${data.games.map(game => `
-                <div class="game-card">
-                  <a href="${game.play_url}" class="game-cover-link">
-                    <img src="${game.cover}" alt="${game.title}" class="game-cover">
-                    <div class="game-cover-overlay"></div>
-                  </a>
-                  <div class="game-info">
-                    <div class="game-title">${game.title}</div>
-                    <div class="game-year">${game.year}</div>
+          const slideTo = (index) => {
+            currentIndex = (index + items.length) % items.length;
+            inner.style.transform = `translateX(-${currentIndex * 100}%)`;
+            document.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+              dot.classList.toggle('active', i === currentIndex);
+            });
+          };
+
+          const startAutoRotate = () => {
+            autoRotateInterval = setInterval(() => {
+              slideTo(currentIndex + 1);
+            }, 6000);
+          };
+
+          startAutoRotate();
+
+          // Lista de jogos
+          const gamesHTML = `
+            <div class="games-grid">
+              <h2 class="grid-title">All Games</h2>
+              <div class="games-container">
+                ${data.games.map(game => `
+                  <div class="game-card">
+                    <a href="${game.play_url}" class="game-cover-link" aria-label="Play ${game.title}">
+                      <img src="${game.cover}" alt="${game.title}" class="game-cover">
+                      <div class="game-cover-overlay"></div>
+                    </a>
+                    <div class="game-info">
+                      <div class="game-title">${game.title}</div>
+                      <div class="game-year">${game.year}</div>
+                    </div>
                   </div>
-                </div>
-              `).join('')}
-            </div>
-          </div>`;
-        
-        main.innerHTML += gamesHTML;
-      });
+                `).join('')}
+              </div>
+            </div>`;
+          
+          main.innerHTML += gamesHTML;
+
+          // Touch support para mobile
+          let touchStartX = 0;
+          let touchEndX = 0;
+
+          document.querySelector('.carousel-container').addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+          });
+
+          document.querySelector('.carousel-container').addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            if (touchStartX - touchEndX > 50) slideTo(currentIndex + 1);
+            if (touchEndX - touchStartX > 50) slideTo(currentIndex - 1);
+          });
+        });
+    });
   </script>
 </body>
 </html>
