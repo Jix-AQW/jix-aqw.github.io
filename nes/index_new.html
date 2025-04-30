@@ -63,18 +63,27 @@
     .carousel-media-box {
       flex: 1 1 480px;
       max-width: 640px;
-      aspect-ratio: 16/9;
+      aspect-ratio: 3/4; /* Alterado para proporção comum de capas */
       overflow: hidden;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      position: relative;
+      background: var(--nes-dark); /* Fundo de fallback */
     }
 
     .carousel-media {
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      border: none;
+      object-fit: contain; /* Alterado para conter a imagem */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
+
+    .carousel-media-box iframe {
+      object-fit: cover; /* Mantém o cover para vídeos */
+    }    
 
     .featured-content {
       flex: 1 1 320px;
