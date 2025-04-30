@@ -47,8 +47,9 @@
       display: flex;
       transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     }
-
+    
     .carousel-item {
+      position: relative;
       min-width: 100%;
       display: flex;
       flex-wrap: wrap;
@@ -56,20 +57,44 @@
       align-items: center;
       gap: 25px;
       padding: 30px;
-      background: var(--nes-gray);
+      border-radius: 12px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 1;
+    }
+    .carousel-item::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
       border-radius: 12px;
     }
-
-    .carousel-media-box {
-      flex: 1 1 480px;
-      max-width: 640px;
-      aspect-ratio: 3/4; /* Alterado para proporção comum de capas */
-      overflow: hidden;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.6);
-      position: relative;
-      background: var(--nes-dark); /* Fundo de fallback */
-    }
+      
+  .carousel-media-box,
+  .featured-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .carousel-media-box {
+    flex: 1 1 480px;
+    max-width: 640px;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  
+  .featured-content {
+    flex: 1 1 320px;
+    max-width: 500px;
+    background: rgba(20, 20, 20, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    color: #f1f1f1;
+  }
 
     .carousel-media {
       width: 100%;
@@ -85,14 +110,6 @@
       object-fit: cover; /* Mantém o cover para vídeos */
     }    
 
-    .featured-content {
-      flex: 1 1 320px;
-      max-width: 500px;
-      background: #1a1a1a;
-      padding: 25px;
-      border-radius: 10px;
-      color: #f1f1f1;
-    }
 
     .featured-title {
       font-family: 'Press Start 2P', cursive;
@@ -317,7 +334,7 @@
             <div class="carousel-container">
               <div class="carousel-inner">
                 ${featuredGames.map((game, index) => `
-                  <div class="carousel-item">
+                  <div class="carousel-item" style="background-image: url('${game.cover}')">
                     <div class="carousel-media-box">
                       ${game.trailer_url ? `
                         <iframe class="carousel-media" 
