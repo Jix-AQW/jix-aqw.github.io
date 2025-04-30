@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Artix NES Games</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <style>
@@ -24,19 +24,20 @@
       color: var(--nes-red);
       font-size: 2rem;
       text-shadow: 2px 2px 0 #5a0000;
+      padding: 20px 0;
     }
 
     header {
       text-align: center;
-      padding: 50px 20px 20px;
+      padding: 20px;
     }
 
+    /* Carrossel melhorado */
     .carousel-container {
       position: relative;
       overflow: hidden;
+      margin: 20px;
       border-radius: 12px;
-      margin: 20px 40px 40px; /* Margem aumentada */
-      box-shadow: 0 8px 30px rgba(0,0,0,0.6); /* Sombra para profundidade */
     }
 
     .carousel-inner {
@@ -44,171 +45,161 @@
       transition: transform 0.5s ease-in-out;
     }
 
-
-
     .carousel-item {
       min-width: 100%;
       position: relative;
-      min-height: 60vh; /* Altura ajustada */
+      min-height: 50vh;
       background-size: cover;
       background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 40px; /* Espaçamento interno */
+      padding: 20px;
     }
-
 
     .featured-content {
       position: relative;
       z-index: 2;
       max-width: 800px;
-      width: 90%; 
-      margin: 0 auto; 
-      padding: 40px;
-      background: rgba(20, 20, 20, 0.8); /* Fundo mais opaco */
-      border-radius: 12px;
-      backdrop-filter: blur(8px);
-      border: 2px solid rgba(229,9,20,0.3); /* Borda vermelha sutil */
+      width: 90%;
+      padding: 20px;
+      background: rgba(20, 20, 20, 0.9);
+      border-radius: 8px;
+      backdrop-filter: blur(4px);
+      text-align: center;
     }
 
     .featured-title {
-      font-size: 3.5rem;
-      color: #fff;
-      text-shadow: 4px 4px 0 var(--nes-red);
+      font-size: 2rem;
       margin-bottom: 15px;
-      line-height: 1.1;
+      line-height: 1.2;
+      text-shadow: 3px 3px 0 var(--nes-red);
     }
 
     .featured-year {
       color: #ff6b6b;
-      font-size: 1.2rem;
-      margin-bottom: 25px;
+      font-size: 1rem;
+      margin-bottom: 20px;
       display: inline-block;
-      padding: 5px 12px;
+      padding: 4px 10px;
       background: rgba(229,9,20,0.3);
       border-radius: 4px;
     }
 
     .featured-content p {
       font-family: 'Segoe UI', sans-serif;
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin: 25px 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 20px 0;
       color: #e0e0e0;
-      max-width: 600px;
     }
 
     .play-button {
-      padding: 15px 40px;
+      padding: 12px 30px;
       background: var(--nes-red);
-      color: white;
-      border: none;
-      border-radius: 30px;
-      font-family: inherit;
-      cursor: pointer;
-      transition: all 0.3s;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 1.2rem;
-      box-shadow: 0 4px 15px rgba(229,9,20,0.4);
+      border-radius: 25px;
+      font-size: 1rem;
     }
 
-    .play-button::before {
-      content: '▶';
-      font-size: 1.4rem;
-    }
-
-    .play-button:hover {
-      background: #ff1a1a;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(229,9,20,0.6);
-    }
-
+    /* Grid de jogos reformulado */
     .games-grid {
       max-width: 1200px;
-      margin: 80px auto;
-      padding: 0 40px; 
+      margin: 40px auto;
+      padding: 0 20px;
     }
 
     .grid-title {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       color: var(--nes-red);
-      margin-bottom: 30px;
-      padding-left: 10px;
+      margin-bottom: 25px;
     }
 
     .games-container {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 30px;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
     }
 
     .game-card {
       position: relative;
+      overflow: hidden;
+      border-radius: 8px;
       transition: transform 0.3s;
-      cursor: pointer;
-      border: 2px solid transparent;
     }
 
-    .game-card:hover {
-      transform: translateY(-5px);
+    .game-cover-link {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 200px;
     }
 
     .game-cover {
       width: 100%;
-      height: 300px;
+      height: 100%;
       object-fit: cover;
-      border: 2px solid var(--nes-gray);
+      transition: filter 0.3s;
+    }
+
+    .game-cover-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(229, 9, 20, 0.5);
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s;
+    }
+
+    .game-cover-overlay::before {
+      content: '▶';
+      font-size: 2rem;
+      color: white;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .game-cover-link:hover .game-cover-overlay {
+      opacity: 1;
+    }
+
+    .game-cover-link:hover .game-cover {
+      filter: brightness(0.8);
     }
 
     .game-info {
       padding: 15px 10px;
-      position: relative;
     }
 
     .game-title {
-      font-size: 0.9rem;
-      color: white;
-      margin-bottom: 5px;
+      font-size: 0.8rem;
+      margin-bottom: 4px;
     }
 
     .game-year {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       color: var(--nes-red);
     }
 
-    .game-card .play-button {
-      opacity: 0;
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      transition: all 0.3s ease;
-      margin-top: 10px;
-    }
-
-    .game-card:hover .play-button {
-      opacity: 1;
-    }
-
+    /* Controles do carrossel */
     .carousel-controls {
       position: absolute;
       bottom: 20px;
       left: 50%;
       transform: translateX(-50%);
-      z-index: 3;
       display: flex;
       gap: 10px;
+      z-index: 3;
     }
 
     .carousel-dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
+      width: 10px;
+      height: 10px;
       background: rgba(255,255,255,0.5);
+      border-radius: 50%;
       cursor: pointer;
       transition: all 0.3s;
     }
@@ -220,11 +211,42 @@
 
     footer {
       text-align: center;
-      padding: 40px 20px;
+      padding: 30px 20px;
       background: var(--nes-gray);
-      margin-top: 60px;
-      font-size: 0.7rem;
-      color: #ccc;
+      margin-top: 40px;
+      font-size: 0.6rem;
+    }
+
+    /* Media Queries para mobile */
+    @media (max-width: 768px) {
+      .nav-logo {
+        font-size: 1.5rem;
+      }
+
+      .carousel-item {
+        min-height: 40vh;
+        padding: 10px;
+      }
+
+      .featured-title {
+        font-size: 1.5rem;
+      }
+
+      .featured-content {
+        padding: 15px;
+      }
+
+      .featured-content p {
+        font-size: 0.9rem;
+      }
+
+      .games-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      }
+
+      .game-cover-link {
+        height: 150px;
+      }
     }
   </style>
 </head>
@@ -249,24 +271,22 @@
         
         // Carrossel
         const carouselHTML = `
-          <section class="carousel-section"> <!-- Nova seção encapsuladora -->
-            <div class="carousel-container">
-              <div class="carousel-inner">
-                ${data.games.map((game, index) => `
-                  <div class="carousel-item" 
-                      style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${game.cover}')">
-                    <div class="featured-content">
-                      <h1 class="featured-title">${game.title}</h1>
-                      <div class="featured-year">${game.year}</div>
-                      <p>${game.description}</p>
-                      <a href="${game.play_url}" class="play-button">Play Now</a>
-                    </div>
+          <div class="carousel-container">
+            <div class="carousel-inner">
+              ${data.games.map((game, index) => `
+                <div class="carousel-item" 
+                     style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${game.cover}')">
+                  <div class="featured-content">
+                    <h1 class="featured-title">${game.title}</h1>
+                    <div class="featured-year">${game.year}</div>
+                    <p>${game.description}</p>
+                    <a href="${game.play_url}" class="play-button">Play Now</a>
                   </div>
-                `).join('')}
-              </div>
-              <div class="carousel-controls"></div>
+                </div>
+              `).join('')}
             </div>
-          </section>`;
+            <div class="carousel-controls"></div>
+          </div>`;
         
         main.innerHTML = carouselHTML;
 
@@ -292,6 +312,12 @@
           });
         }
 
+        // Auto-rotate
+        const autoRotate = setInterval(() => {
+          currentIndex = (currentIndex + 1) % items.length;
+          slideTo(currentIndex);
+        }, 5000);
+
         // Lista de jogos
         const gamesHTML = `
           <div class="games-grid">
@@ -299,11 +325,13 @@
             <div class="games-container">
               ${data.games.map(game => `
                 <div class="game-card">
-                  <img src="${game.cover}" alt="${game.title}" class="game-cover">
+                  <a href="${game.play_url}" class="game-cover-link">
+                    <img src="${game.cover}" alt="${game.title}" class="game-cover">
+                    <div class="game-cover-overlay"></div>
+                  </a>
                   <div class="game-info">
                     <div class="game-title">${game.title}</div>
                     <div class="game-year">${game.year}</div>
-                    <a href="${game.play_url}" class="play-button">Play</a>
                   </div>
                 </div>
               `).join('')}
@@ -311,17 +339,7 @@
           </div>`;
         
         main.innerHTML += gamesHTML;
-
-        // Auto-rotate do carrossel (adicione esta parte para funcionamento automático)
-        setInterval(() => {
-          currentIndex = (currentIndex + 1) % items.length;
-          slideTo(currentIndex);
-        }, 8000);
       });
   </script>
-
 </body>
 </html>
-
-
-
