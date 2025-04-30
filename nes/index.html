@@ -128,10 +128,11 @@
     }
 
     .game-card {
-      position: relative;
+      border-radius: 8px;
       overflow: hidden;
-      border-radius: 6px;
-      transition: transform 0.3s;
+      background: var(--nes-gray); 
+      border: 2px solid var(--nes-gray);
+      transition: all 0.3s;
     }
 
     .game-cover-link {
@@ -163,9 +164,10 @@
     }
 
     .game-cover-overlay::before {
-      content: '▶';
-      font-size: 1.8rem;
-      color: white;
+      content: 'play_arrow'; /* Novo ícone Material */
+      font-family: 'Material Icons';
+      font-size: 2.5rem;
+      font-weight: normal;
       text-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
 
@@ -179,7 +181,9 @@
     }
 
     .game-info {
-      padding: 12px 8px;
+      padding: 12px;
+      background: var(--nes-gray); /* Fundo igual ao card */
+      border-radius: 0 0 8px 8px; /* Bordas arredondadas na parte inferior */
     }
 
     .game-title {
@@ -224,7 +228,11 @@
       margin-top: 30px;
       font-size: 0.6rem;
     }
-
+    
+    .material-icons {
+      font-feature-settings: 'liga'; /* Otimiza ícones */
+    }
+    
     @media (max-width: 768px) {
       .nav-logo {
         font-size: 1.3rem;
@@ -333,18 +341,25 @@
           const inner = document.querySelector('.carousel-inner');
 
           const slideTo = (index) => {
-            currentIndex = (index + items.length) % items.length;
+            currentIndex = (index + items.length) % items.length; // Correção do loop infinito
             inner.style.transform = `translateX(-${currentIndex * 100}%)`;
             document.querySelectorAll('.carousel-dot').forEach((dot, i) => {
               dot.classList.toggle('active', i === currentIndex);
             });
           };
 
-          const startAutoRotate = () => {
-            autoRotateInterval = setInterval(() => {
-              slideTo(currentIndex + 1);
-            }, 6000);
-          };
+
+        // Atualize a função de auto-rotação
+        const startAutoRotate = () => {
+          autoRotateInterval = setInterval(() => {
+            slideTo(currentIndex + 1);
+          }, 6000);
+        };
+    
+        // Adicione este evento para reiniciar transição
+        inner.addEventListener('transitionend', () => {
+          inner.style.transition = 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
+        });
 
           startAutoRotate();
 
