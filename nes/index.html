@@ -31,30 +31,29 @@
       padding: 50px 20px 20px;
     }
 
-    .featured-game {
-      margin-top: 20px;
-      min-height: 70vh;
-      display: flex;
-      align-items: center;
+    .carousel-container {
       position: relative;
       overflow: hidden;
       border-radius: 12px;
       margin: 20px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
     }
 
-    .featured-game::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(45deg, rgba(20,20,20,0.9) 30%, rgba(229,9,20,0.15) 100%);
+    .carousel-inner {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-item {
+      min-width: 100%;
+      position: relative;
+      min-height: 70vh;
+      background-size: cover;
+      background-position: center;
     }
 
     .featured-content {
       position: relative;
+      z-index: 2;
       max-width: 800px;
       margin: 0 10%;
       padding: 40px;
@@ -82,7 +81,7 @@
       border-radius: 4px;
     }
 
-    .featured-game p {
+    .featured-content p {
       font-family: 'Segoe UI', sans-serif;
       font-size: 1.1rem;
       line-height: 1.6;
@@ -147,7 +146,6 @@
 
     .game-card:hover {
       transform: translateY(-5px);
-      border-color: var(--nes-red);
     }
 
     .game-cover {
@@ -159,6 +157,7 @@
 
     .game-info {
       padding: 15px 10px;
+      position: relative;
     }
 
     .game-title {
@@ -170,6 +169,44 @@
     .game-year {
       font-size: 0.7rem;
       color: var(--nes-red);
+    }
+
+    .game-card .play-button {
+      opacity: 0;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .game-card:hover .play-button {
+      opacity: 1;
+    }
+
+    .carousel-controls {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 3;
+      display: flex;
+      gap: 10px;
+    }
+
+    .carousel-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.5);
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .carousel-dot.active {
+      background: var(--nes-red);
+      transform: scale(1.2);
     }
 
     footer {
@@ -200,36 +237,68 @@
       .then(response => response.json())
       .then(data => {
         const main = document.getElementById('main-content');
-
-        const featured = data.featured;
-        const featuredHTML = `
-          <section class="featured-game" style="background-image: url('${featured.cover}')">
-            <div class="featured-content">
-              <h1 class="featured-title">${featured.title}</h1>
-              <div class="featured-year">${featured.year}</div>
-              <p style="margin: 20px 0;">${featured.description}</p>
-              <a href="${featured.play_url}" class="play-button">Play Now</a>
+        
+        // Carrossel
+        const carouselHTML = `
+          <div class="carousel-container">
+            <div class="carousel-inner">
+              ${data.games.map((game, index) => `
+                <div class="carousel-item" 
+                     style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${game.cover}')">
+                  <div class="featured-content">
+                    <h1 class="featured-title">${game.title}</h1>
+                    <div class="featured-year">${game.year}</div>
+                    <p>${game.description}</p>
+                    <a href="${game.play_url}" class="play-button">Play Now</a>
+                  </div>
+                </div>
+              `).join('')}
             </div>
-          </section>`;
-        main.innerHTML += featuredHTML;
+            <div class="carousel-controls"></div>
+          </div>`;
+        
+        main.innerHTML = carouselHTML;
 
-        let gamesHTML = `<div class="games-grid">
-          <h2 class="grid-title">All Games</h2>
-          <div class="games-container">`;
+        // Controles do carrossel
+        const items = document.querySelectorAll('.carousel-item');
+        const controls = document.querySelector('.carousel-controls');
+        
+        items.forEach((_, index) => {
+          const dot = document.createElement('div');
+          dot.className = `carousel-dot ${index === 0 ? 'active' : ''}`;
+          dot.addEventListener('click', () => slideTo(index));
+          controls.appendChild(dot);
+        });
 
-        for (const game of data.games) {
-          gamesHTML += `
-            <div class="game-card">
-              <img src="${game.cover}" alt="${game.title}" class="game-cover">
-              <div class="game-info">
-                <div class="game-title">${game.title}</div>
-                <div class="game-year">${game.year}</div>
-                <a href="${game.play_url}" class="play-button" style="margin-top:10px;">Play</a>
-              </div>
-            </div>`;
+        let currentIndex = 0;
+        const inner = document.querySelector('.carousel-inner');
+
+        function slideTo(index) {
+          currentIndex = index;
+          inner.style.transform = `translateX(-${index * 100}%)`;
+          document.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+          });
         }
 
-        gamesHTML += '</div></div>';
+        // Lista de jogos
+        const gamesHTML = `
+          <div class="games-grid">
+            <h2 class="grid-title">All Games</h2>
+            <div class="games-container">
+              ${data.games.map(game => `
+                <div class="game-card">
+                  <img src="${game.cover}" alt="${game.title}" class="game-cover">
+                  <div class="game-info">
+                    <div class="game-title">${game.title}</div>
+                    <div class="game-year">${game.year}</div>
+                    <a href="${game.play_url}" class="play-button">Play</a>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>`;
+        
         main.innerHTML += gamesHTML;
       });
   </script>
