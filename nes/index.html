@@ -1,1 +1,199 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artix NES Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --nes-red: #e50914;
+      --nes-dark: #141414;
+      --nes-gray: #303030;
+    }
+
+    body {
+      margin: 0;
+      background: var(--nes-dark);
+      color: white;
+      font-family: 'Press Start 2P', cursive;
+      min-height: 100vh;
+    }
+
+    .nav-logo {
+      color: var(--nes-red);
+      font-size: 2rem;
+      text-shadow: 2px 2px 0 #5a0000;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+    }
+
+    .featured-game {
+      margin-top: 20px;
+      padding: 40px 20px;
+      background-size: cover;
+      background-position: center;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+    }
+
+    .featured-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background: rgba(0,0,0,0.8);
+      border: 3px solid var(--nes-red);
+    }
+
+    .featured-title {
+      font-size: 2rem;
+      color: #ffd700;
+      text-shadow: 3px 3px 0 #5a0000;
+      margin-bottom: 10px;
+    }
+
+    .featured-year {
+      color: var(--nes-red);
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .play-button {
+      padding: 10px 25px;
+      background: var(--nes-red);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .play-button:hover {
+      background: #ff0000;
+      transform: scale(1.05);
+    }
+
+    .games-grid {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .grid-title {
+      font-size: 1.5rem;
+      color: var(--nes-red);
+      margin-bottom: 30px;
+      padding-left: 10px;
+    }
+
+    .games-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 30px;
+    }
+
+    .game-card {
+      position: relative;
+      transition: transform 0.3s;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .game-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--nes-red);
+    }
+
+    .game-cover {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border: 2px solid var(--nes-gray);
+    }
+
+    .game-info {
+      padding: 15px 10px;
+    }
+
+    .game-title {
+      font-size: 0.9rem;
+      color: white;
+      margin-bottom: 5px;
+    }
+
+    .game-year {
+      font-size: 0.7rem;
+      color: var(--nes-red);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: var(--nes-gray);
+      margin-top: 60px;
+      font-size: 0.7rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="nav-logo">ARTIX NES</h1>
+  </header>
+
+  <main id="main-content"></main>
+
+  <footer>
+    Copyright (©) 2008 - 2025<br>
+    All games and characters are trademarks of Artix Entertainment, LLC.<br>
+    All Rights Reserved. All wrongs avenged by undead dragons.
+  </footer>
+
+  <script>
+    fetch('games.json')
+      .then(response => response.json())
+      .then(data => {
+        const main = document.getElementById('main-content');
+
+        const featured = data.featured;
+        const featuredHTML = `
+          <section class="featured-game" style="background-image: url('${featured.cover}')">
+            <div class="featured-content">
+              <h1 class="featured-title">${featured.title}</h1>
+              <div class="featured-year">${featured.year}</div>
+              <p style="margin: 20px 0;">${featured.description}</p>
+              <a href="${featured.play_url}" class="play-button">▶ Play Now</a>
+            </div>
+          </section>`;
+        main.innerHTML += featuredHTML;
+
+        let gamesHTML = `<div class="games-grid">
+          <h2 class="grid-title">All Games</h2>
+          <div class="games-container">`;
+
+        for (const game of data.games) {
+          gamesHTML += `
+            <div class="game-card">
+              <img src="${game.cover}" alt="${game.title}" class="game-cover">
+              <div class="game-info">
+                <div class="game-title">${game.title}</div>
+                <div class="game-year">${game.year}</div>
+                <a href="${game.play_url}" class="play-button" style="margin-top:10px;">▶ Play</a>
+              </div>
+            </div>`;
+        }
+
+        gamesHTML += '</div></div>';
+        main.innerHTML += gamesHTML;
+      });
+  </script>
+</body>
+</html>

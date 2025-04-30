@@ -1,0 +1,41 @@
+{
+  "featured": {
+    "title": "Backwards Quest",
+    "year": "2025",
+    "description": "An epic retro quest where everything runs in reverse.",
+    "cover": "https://theretroverse.com/wp-content/uploads/2025/03/BackwardsQuest-Retroverse-1.jpg",
+    "play_url": "#"
+  },
+  "games": [
+    {
+      "title": "Backwards Quest",
+      "year": "2025",
+      "cover": "https://archive.org/download/nes_classic_box_art/NES%20Box%20Art%20%28USA%29%20742%20Covers/10-Yard%20Fight%20%28USA%29.png",
+      "play_url": "#"
+    },
+    {
+      "title": "Backwards Quest (PT)",
+      "year": "2025",
+      "cover": "https://archive.org/download/nes_classic_box_art/NES%20Box%20Art%20%28USA%29%20742%20Covers/10-Yard%20Fight%20%28USA%29.png",
+      "play_url": "#"
+    },
+    {
+      "title": "Pizza Portals",
+      "year": "2024",
+      "cover": "https://example.com/pizza-portals.jpg",
+      "play_url": "#"
+    },
+    {
+      "title": "ChronoKnight",
+      "year": "2022",
+      "cover": "https://example.com/chronoknight.jpg",
+      "play_url": "#"
+    },
+    {
+      "title": "NecroNancy",
+      "year": "2023",
+      "cover": "https://example.com/necronancy.jpg",
+      "play_url": "#"
+    }
+  ]
+}
