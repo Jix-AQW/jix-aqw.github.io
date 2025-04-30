@@ -41,51 +41,51 @@
       margin: 30px auto;
       max-width: 1200px;
       padding: 0 15px;
+      box-sizing: border-box;
     }
 
     .carousel-inner {
       display: flex;
       transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+        
     .carousel-item {
       position: relative;
-      min-width: 100%;
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 25px;
-      padding: 30px;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: stretch;
       border-radius: 12px;
+      padding: 0;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      z-index: 1;
+      min-height: 480px;
+      max-width: 100%;
+      overflow: hidden;
     }
-    .carousel-item::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.6);
-      z-index: 1;
-      border-radius: 12px;
-    }
-      
+  .carousel-item::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+        
   .carousel-media-box,
   .featured-content {
     position: relative;
     z-index: 2;
+    flex: 1 1 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
   }
-  
-  .carousel-media-box {
-    flex: 1 1 480px;
-    max-width: 640px;
-    aspect-ratio: 16/9;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  }
+.carousel-media-box {
+  padding: 30px;
+}
   
   .featured-content {
     flex: 1 1 320px;
@@ -96,15 +96,14 @@
     color: #f1f1f1;
   }
 
-    .carousel-media {
-      width: 100%;
-      height: 100%;
-      object-fit: contain; /* Alterado para conter a imagem */
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+.carousel-media {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  border: none;
+}
 
     .carousel-media-box iframe {
       object-fit: cover; /* Mantém o cover para vídeos */
@@ -129,14 +128,17 @@
       margin-bottom: 15px;
     }
 
-    .featured-content p {
-      font-family: 'Segoe UI', sans-serif;
-      font-size: 0.95rem;
-      line-height: 1.5;
-      color: #e0e0e0;
-      margin: 15px 0;
-    }
-
+.featured-content {
+  padding: 30px;
+  background: rgba(20, 20, 20, 0.9);
+  color: #fff;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+}
     .play-button {
       display: inline-flex;
       align-items: center;
@@ -277,23 +279,25 @@
     }
     
     @media (max-width: 768px) {
-      .carousel-item {
-        padding: 20px;
-        min-height: auto;
-      }
+  .carousel-item {
+    flex-direction: column;
+    min-height: unset;
+  }
 
-      .carousel-media-box {
-        flex-basis: 100%;
-      }
+  .carousel-media-box,
+  .featured-content {
+    max-width: 100%;
+    flex: 1 1 100%;
+    padding: 15px;
+  }
 
-      .featured-content {
-        flex-basis: 100%;
-        padding: 15px;
-      }
+  .carousel-media {
+    aspect-ratio: 16/9;
+  }
 
-      .featured-title {
-        font-size: 1.3rem;
-      }
+  .featured-title {
+    font-size: 1.2rem;
+  }
     }
 
     @media (max-width: 480px) {
