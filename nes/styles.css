@@ -2,6 +2,7 @@
     --nes-red: #e50914;
     --nes-dark: #141414;
     --nes-gray: #303030;
+    text-align: -webkit-center;
 }
 
 body {
