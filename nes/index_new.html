@@ -60,7 +60,7 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      min-height: 480px;
+      min-height: 560px;
       max-width: 100%;
       overflow: hidden;
     }
@@ -84,25 +84,22 @@
     box-sizing: border-box;
   }
 .carousel-media-box {
-  padding: 30px;
+  flex: 1 1 60% !important; /* Prioriza mais espaço para o vídeo */
+  max-width: 60% !important;
+  padding: 0 !important; /* Remove padding interno */
 }
-  
-  .featured-content {
-    flex: 1 1 320px;
-    max-width: 500px;
-    background: rgba(20, 20, 20, 0.9);
-    padding: 25px;
-    border-radius: 10px;
-    color: #f1f1f1;
-  }
+
+.featured-content {
+  flex: 1 1 40% !important;
+  max-width: 40% !important;
+  padding: 20px !important;
+}
 
 .carousel-media {
   width: 100%;
-  height: auto;
-  aspect-ratio: 16/9;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  border: none;
+  height: 100%;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
     .carousel-media-box iframe {
