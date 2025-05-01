@@ -27,9 +27,9 @@ header {
 .carousel-container {
     position: relative;
     overflow: hidden;
-    margin: 16px auto;
+    margin: 16px;
     max-width: 1200px;
-    padding: 4px;
+    padding: 0;
     box-sizing: border-box;
 }
 
