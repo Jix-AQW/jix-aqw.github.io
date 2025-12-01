@@ -302,42 +302,48 @@
     },
     {
       "id": "50",
+      "name": "Ultra Ezrajal",
+      "symbolSize": 0,
+      "value": "/guias/ultra-bosses/ultra-ezrajal.html"
+    },
+    {
+      "id": "51",
       "name": "Ultra Speaker",
       "symbolSize": 0,
       "value": "/guias/ultra-bosses/ultra-speaker.html"
     },
     {
-      "id": "51",
+      "id": "52",
       "name": "Jornal",
       "symbolSize": 0,
       "value": "/jornal/index.html"
     },
     {
-      "id": "52",
+      "id": "53",
       "name": "UltraHub",
       "symbolSize": 0,
       "value": "/ultrahub/index.html"
     },
     {
-      "id": "53",
+      "id": "54",
       "name": "Discord Bot",
       "symbolSize": 0,
       "value": "/ultrahub/bot/index.html"
     },
     {
-      "id": "54",
+      "id": "55",
       "name": "Pol\u00edtica de Privacidade - UltraHub",
       "symbolSize": 0,
       "value": "/ultrahub/bot/privacy.html"
     },
     {
-      "id": "55",
+      "id": "56",
       "name": "Termos de Uso - UltraHub",
       "symbolSize": 0,
       "value": "/ultrahub/bot/tos.html"
     },
     {
-      "id": "56",
+      "id": "57",
       "name": "Ins\u00edgnias",
       "symbolSize": 0,
       "value": "/ultrahub/insignias/index.html"
