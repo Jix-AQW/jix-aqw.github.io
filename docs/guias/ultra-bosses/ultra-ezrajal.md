@@ -29,20 +29,10 @@ hide:
 !!! tip "Dica"
     Veja os links à esquerda da página ou clique em :fontawesome-solid-bars: (canto superior esquerdo).
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe 
-    src="https://www.youtube.com/embed/" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-  ></iframe>
-</div>
+![alt text](https://i.imgur.com/DycHPTC.png)
 
 ## Introdução
-Salve rapaziada, fala tu! Jix aqui trazendo um guia rápido e direto de como derrotar o **Ultra Ezrajal**, um dos ultra bosses mais dinâmicos do jogo.
+TioShadow aqui trazendo um guia rápido e direto de como derrotar o **Ultra Ezrajal**, um dos ultra bosses mais dinâmicos do jogo.
 
 O Ultra Ezrajal é conhecido por seus ataques de alto dano verdadeiro, especialmente a **Explosão Prisma**, que consiste em **3 auto attacks seguidos**, cada um causando **true damage extremamente alto**, capazes de deletar jogadores desprotegidos.
 
@@ -50,8 +40,12 @@ Além disso, ele possui o **Contra Ataque**, que devolve parte do dano recebido 
 
 Lutar contra ele envolve timing, defesa adequada e composições específicas que maximizam DPS enquanto controlam os riscos do contra-ataque.
 
+## Mapa
+
+`/join ultraezrajal`
+
 ## Requisitos
-Requisitos aqui.
+O único requisito é ter nível 61 ou mais para acessar o mapa em que ele fica.
 
 ## Composições
 Estas são as composições recomendadas para poder derrotar o Ultra Ezrajal:
