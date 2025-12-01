@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2024-0903
+  created: 2024-09-03
   updated: 2025-09-04
 authors:
   - jix
