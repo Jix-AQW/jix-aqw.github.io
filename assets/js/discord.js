@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     if (window.Crate) {
         const crate = new Crate({
-            server: '1299162074609352787',
-            channel: '1299162075041628292',
+            server: '1361196873045643344',
+            channel: '1361196873045643348',
             color: '#7E56C2'
         });
 
@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 probability: 1.0
             },
             pageSpecific: {
-                "/site/index.html": {
+                "/index.html": {
                     messages: ["🌟 Bem-vindo à página inicial!", "🚀 Explore nosso conteúdo em Guias!"],
                     probability: 0.3
                 },
-                "/site/guias/ultra-bosses": {
+                "/guias/ultra-bosses": {
                     messages: [
                         "Tá precisando de ajuda com ultra boss, meu chapa?",
                         "Ainda tá com problemas com ultras?",
