@@ -140,6 +140,8 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - blog:
+      authors_profiles: true
+      authors_profiles_name: Authors
       enabled: true
       blog_dir: jornal
       post_date_format: medium # Jan 31, 2024
