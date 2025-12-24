@@ -24,16 +24,19 @@ social_share: true
 ---
 
 !!! info "O que é LQS?"
-    *Limited Quantity Sets* (LQS) são pacotes de itens **raros e limitados** no AdventureQuest Worlds.
+    *Limited Quantity Shops* (LQS) são pacotes de itens **raros e limitados** no AdventureQuest Worlds.
     Cada set possui uma **quantidade fixa global** e, quando esgota, **não volta mais**.
 
 Os LQS existem principalmente para **colecionadores**. São alguns dos itens mais valorizados do jogo justamente por sua **escassez controlada**.
 
 ---
 
-## O que são Limited Quantity Sets?
+<img width="545" height="307" alt="image" src="https://github.com/user-attachments/assets/702dd9cc-23d8-40c4-9d88-01cedc0c7d2d" />
 
-Os Limited Quantity Sets funcionam de forma simples:
+
+## O que são Limited Quantity Shops?
+
+Os Limited Quantity Shops funcionam de forma simples:
 
 - Cada pacote possui um **número máximo de unidades**
 - Esse número é o **mesmo para todos os jogadores, no mundo inteiro**
@@ -114,7 +117,7 @@ Não.
 Desde os primeiros anos do AdventureQuest Worlds, itens raros sempre tiveram um papel especial na comunidade.
 Inicialmente, muitos rares surgiam de eventos ou mapas temporários, o que tornava difícil controlar sua exclusividade.
 
-Os **Limited Quantity Sets** surgiram como uma solução mais justa e transparente:
+Os **Limited Quantity Shops** surgiram como uma solução mais justa e transparente:
 em vez de depender apenas do tempo online ou de eventos únicos, os jogadores passaram a disputar itens com base em **quantidade limitada global**.
 
 Isso transformou os LQS em símbolos de status, memória e história dentro do jogo.
@@ -126,7 +129,7 @@ Para muitos jogadores, possuir um LQS é como carregar um pedaço da história d
 
 ## Considerações finais
 
-Os Limited Quantity Sets não são feitos para todos — e essa é exatamente a ideia.
+Os Limited Quantity Sets não são feitos para todos, e essa é exatamente a ideia.
 Eles existem para valorizar a raridade, a coleção e o registro histórico do jogo.
 
 Se você busca itens exclusivos e gosta da ideia de colecionar raridades,
