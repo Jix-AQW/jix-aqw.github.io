@@ -260,90 +260,96 @@
     },
     {
       "id": "43",
+      "name": "Limited Quantity Sets (LQS)",
+      "symbolSize": 0,
+      "value": "/guias/geral/lqs.html"
+    },
+    {
+      "id": "44",
       "name": "Item",
       "symbolSize": 0,
       "value": "/guias/itens/index.html"
     },
     {
-      "id": "44",
+      "id": "45",
       "name": "Blade of Awe",
       "symbolSize": 0,
       "value": "/guias/itens/blade-of-awe.html"
     },
     {
-      "id": "45",
+      "id": "46",
       "name": "Reputa\u00e7\u00e3o",
       "symbolSize": 0,
       "value": "/guias/reputacao/index.html"
     },
     {
-      "id": "46",
+      "id": "47",
       "name": "Ultra Bosses",
       "symbolSize": 0,
       "value": "/guias/ultra-bosses/index.html"
     },
     {
-      "id": "47",
+      "id": "48",
       "name": "Champion Drakath",
       "symbolSize": 0,
       "value": "/guias/ultra-bosses/ultra-champion-drakath.html"
     },
     {
-      "id": "48",
+      "id": "49",
       "name": "Ultra Dage",
       "symbolSize": 0,
       "value": "/guias/ultra-bosses/ultra-dage.html"
     },
     {
-      "id": "49",
+      "id": "50",
       "name": "Ultra Drago",
       "symbolSize": 0,
       "value": "/guias/ultra-bosses/ultra-drago.html"
     },
     {
-      "id": "50",
+      "id": "51",
       "name": "Ultra Ezrajal",
       "symbolSize": 0,
       "value": "/guias/ultra-bosses/ultra-ezrajal.html"
     },
     {
-      "id": "51",
+      "id": "52",
       "name": "Ultra Speaker",
       "symbolSize": 0,
       "value": "/guias/ultra-bosses/ultra-speaker.html"
     },
     {
-      "id": "52",
+      "id": "53",
       "name": "Jornal",
       "symbolSize": 0,
       "value": "/jornal/index.html"
     },
     {
-      "id": "53",
+      "id": "54",
       "name": "UltraHub",
       "symbolSize": 0,
       "value": "/ultrahub/index.html"
     },
     {
-      "id": "54",
+      "id": "55",
       "name": "Discord Bot",
       "symbolSize": 0,
       "value": "/ultrahub/bot/index.html"
     },
     {
-      "id": "55",
+      "id": "56",
       "name": "Pol\u00edtica de Privacidade - UltraHub",
       "symbolSize": 0,
       "value": "/ultrahub/bot/privacy.html"
     },
     {
-      "id": "56",
+      "id": "57",
       "name": "Termos de Uso - UltraHub",
       "symbolSize": 0,
       "value": "/ultrahub/bot/tos.html"
     },
     {
-      "id": "57",
+      "id": "58",
       "name": "Ins\u00edgnias",
       "symbolSize": 0,
       "value": "/ultrahub/insignias/index.html"
