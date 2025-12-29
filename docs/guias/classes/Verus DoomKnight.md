@@ -37,11 +37,25 @@ Salve rapaziada, falatu! Jix novamente, desta vez trazendo o vídeo verus doomkn
 
 ## Visão Geral
 
-Em construção.
+A Verus DoomKnight (VDK) é uma classe melee física, tanque e extremamente versátil, que combina redução massiva de defesa e resistência inimiga, auto-sustain via lifesteal e HoT, além de modos de jogo dinâmicos baseados em stacks de Doom.
+
+Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa gerenciamento de habilidades, permitindo alternar entre dano máximo, sobrevivência e suporte conforme a necessidade da luta.
+
+É uma excelente classe tanto para solo quanto para grupo, funcionando muito bem como debuffer principal.
 
 ## Método de Obtenção
 
-Em construção.
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://www.youtube.com/embed/CS-EJ1UzyUQ" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>
 
 ## Status
 

@@ -42,7 +42,17 @@ Seu funcionamento gira em torno do acúmulo de efeitos com a terceira skill e a 
 
 ## Método de Obtenção
 
-*Em construção.*
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://www.youtube.com/embed/aRovjFo-DuE" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>
 
 ## Status
 
@@ -91,9 +101,14 @@ __[QUEEN IONA SEM FORGE - ARCANA INVOKER AQW]__ by @jix-aqw – :octicons-clock-
 __[ARCHMAGE VS ARCANA INVOKER! QUEM LEVA A MELHOR?]__ by @jix-aqw – :octicons-clock-24:
 21m – Entre Arcana Invoker e ArchMage, qual você escolheria?
 
+:fontawesome-brands-youtube:{ style="color: #EE0F0F" }
+__[ARCANA INVOKER É BOA? VALE A PENA? ENTENDA!]__ by @ahiz – :octicons-clock-24:
+9m – Saiba um pouco mais sobre a Arcane Invoker
+
+
   [QUEEN IONA SEM FORGE - ARCANA INVOKER AQW]: https://www.youtube.com/watch?v=f8PLMgSO-X4
   [ARCHMAGE VS ARCANA INVOKER! QUEM LEVA A MELHOR?]: https://www.youtube.com/watch?v=XHVVjc5FFxY 
-
+  [ARCANA INVOKER É BOA? VALE A PENA? ENTENDA!]: https://www.youtube.com/watch?v=PtgJqwi86xw
 ## Referências Bibliográficas
 
 - Vozes da minha cabeça.
