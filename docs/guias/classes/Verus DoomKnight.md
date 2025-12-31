@@ -57,6 +57,193 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
   ></iframe>
 </div>
 
+=== "Body, Soul and Domination"
+
+    Vá para /join titanattack
+        - Derrote Titanic Doomknight
+        - Colete 13x Titanic Spine
+
+    Vá para /join valleyofdoom
+        - Derrote Doom Knight Armor
+        - Colete 13x Doom Knight Plating
+
+    Vá para /join brainmeat
+        - Derrote Brain Matter
+        - Colete 13x Gray Matter
+
+    Vá para /join underrealm
+        - Derrote Fear
+        - Colete 13x Fear's Bones
+
+===+ "Of the Same Cloak"
+
+    Vá para /join necrodungeon
+        - Derrote 5 Headed Dracolich (4th Head)
+        - Colete The Mask of the Skulls
+
+    Vá para /join lumafortress
+        - Derrote Corrupted Luma
+        - Colete Doom Worshipper's Blade Of Doom
+
+    Vá para /join innershadows
+        - Derrote Krahen
+        - Colete Empress' ShadowCloak
+
+    Vá para /join techfortress
+        - Derrote MechaVortrix
+        - Colete Cybernetic Doom Blade
+
+    Vá para /join stonewooddeep
+        - Derrote Sir Kut
+        - Colete Asherion Armor
+
+===+ "Refracted Light"
+
+    Vá para /join shadowoff
+        - Derrote Shadowflame Paladin
+        - Colete 150x Shadowflame Spike
+
+    Vá para /join fiendshard
+        - Derrote Paladin Fiend
+        - Colete 150x Light Fiend Horn
+
+    Vá para /join legionarena
+        - Derrote Dark Legion Paladin
+        - Colete 50x Underworld Soul Glow
+
+    Vá para /join noxustower
+        - Derrote General Goldhammer
+        - Colete Gold Hammer Chip
+
+    Vá para /join chaoslab
+        - Derrote Chaos Artix
+        - Colete 20x Shimmering Tentacle
+
+===+ "Life Carve"
+
+    Vá para /join wanders
+        - Derrote Sek Duat
+        - Colete 8x Trace of Light
+
+    Vá para /join lightguardwar
+        - Derrote Extreme Noxus
+        - Colete 8x Trace of Dark
+
+    Vá para /join eternalchaos
+        - Derrote Bandit Drakath
+        - Colete 8x Trace of Wind
+
+    Vá para /join quibblehunt
+        - Derrote Entropy Dragon
+        - Colete 8x Trace of Earth
+
+    Vá para /join crashsite
+        - Derrote Protosatorium
+        - Colete 8x Trace of Energy
+
+    Vá para /join northlands
+        - Derrote Aisha's Drake
+        - Colete 8x Trace of Ice
+
+    Vá para /join deepchaos
+        - Derrote Kathool
+        - Colete 8x Trace of Water
+
+    Vá para /join drakonnan
+        - Derrote Ultra Drakonnan
+        - Colete 8x Trace of Fire
+
+    Vá para /join battlefowl
+        - Derrote Zeuster Projection
+        - Colete Trace of Bacon
+
+===+ "Soul Fracture"
+
+    Vá para /join ultraalteon
+        - Derrote Ultra Alteon
+        - Colete 40x Soul of Alteon
+
+    Vá para /join ebilcorphq
+        - Derrote Gravelyn
+        - Colete 40x Soul of Gravelyn
+
+    Vá para /join ebondungeon
+        - Derrote Dethrix
+        - Colete 40x Soul of Dethrix
+
+    Vá para /join ultradrakath
+        - Derrote Champion of Chaos
+        - Colete 40x Soul of Drakath
+
+    Vá para /join shadowstrike
+        - Derrote Sepulchuroth
+        - Colete 40x Soul of Sepulchuroth
+
+    Vá para /join shadowvoid
+        - Derrote Fragment of Doom
+        - Colete 40x Soul of Doom
+
+===+ "Doom Spikes"
+
+    Vá para /join voidxyfrag
+        - Derrote Xyfrag
+        - Colete 5x Xyfrag's Slimy Tooth
+
+    Vá para /join voidnerfkitten
+        - Derrote Sarah the NerfKitten
+        - Colete 3x Nerfkitten's Fang
+
+    Vá para /join doomkitten
+        - Derrote Doomkitten
+        - Colete 20x Doomkitten's Molar
+
+    Vá para /join seavoice
+        - Derrote Voice in the Sea
+        - Colete 10x Maw of the Sea
+
+    Vá para /join infernalarena
+        - Derrote Deadly Duo
+        - Colete 10x Deadly Duo's Decayed Denture
+        
+===+ "Necrotic Blade"
+
+    Vá para /join mirrorrealm
+        - Obtenha ShadowReaper of Doom (Merge)
+
+    Vá para /join shadowfall
+        - Complete a quest para obter Sepulchure's Original Helm
+
+    Vá para /join shadowvault
+        - Complete a quest para obter Arch DoomKnight Helm
+
+    Vá para /join terminatemple
+        - Obtenha Dragonlord of Evil (Merge)
+
+    Vá para /join doompirate
+        - Obtenha DoomTech Doomknight (Merge)
+
+===+ "Unleash Doom"
+
+    Observação:
+        - A quantidade de drops varia de 1 até 2000+ por kill
+
+    Vá para /join citadelruins
+        - Derrote qualquer Inquisitor
+        - Colete 1,000,000x Inquisitor Bones
+
+    Vá para /join deltavcore
+        - Derrote qualquer robô
+        - Colete 1,000,000x Refined Metal
+
+    Vá para /join etherwardes
+        - Derrote qualquer dragão
+        - Colete 1,000,000x Dragon Skin
+
+    Vá para /join necrocavern
+        - Derrote Chaos Vordred
+        - Colete 100,000x PaladinSlayer's Skull
+
+
 ## Status
 
 Em construção.
@@ -74,4 +261,4 @@ Em construção.
 Em construção.
 
 ## Referências Bibliográficas
-Vozes da minha cabeça.
+- Localizações dos Requisitos da Verus Doomknight - Redit - https://www.reddit.com/r/AQW/comments/171xv86/locations_of_verus_doomknight_quest_requirements/. Acesso em 31 de dezembro de 2025.
