@@ -244,7 +244,7 @@ Em construção.
 
 ## Consumíveis
 
-Em construção.
+{{ read_csv('./assets/consumiveis.csv', where="tipo_classe == 'Magica'") }}
 
 ## Referências Bibliográficas
 - Localizações dos Requisitos da Verus Doomknight - Redit - https://www.reddit.com/r/AQW/comments/171xv86/locations_of_verus_doomknight_quest_requirements/. Acesso em 31 de dezembro de 2025.
