@@ -57,194 +57,21 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
   ></iframe>
 </div>
 
-Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começar as missões abaixo.
-
-=== "Quest 1: Body, Soul and Domination"
-
-**Requisitos**
-
-- Must be Level 50
-- Must have completed the previous quest
-
-**Objetivos**
-
-- `/join titanattack`
-  - Derrote **Titanic Doomknight**
-  - Colete **13x Titanic Spine**
-
-- `/join valleyofdoom`
-  - Derrote **Doom Knight Armor**
-  - Colete **13x Doom Knight Plating**
-
-- `/join brainmeat`
-  - Derrote **Brain Matter**
-  - Colete **13x Gray Matter**
-
-- `/join underrealm`
-  - Derrote **Fear**
-  - Colete **13x Fear's Bones**
-
-===+ "Quest 2: Of the Same Cloak"
-
-**Requisitos**
-
-- Must be Level 50
-- Must have completed the previous quest
-
-**Objetivos**
-
-- `/join necrodungeon`
-  - Derrote **5 Headed Dracolich (4th Head)**
-  - Colete **The Mask of the Skulls**
-
-- `/join lumafortress`
-  - Derrote **Corrupted Luma**
-  - Colete **Doom Worshipper's Blade of Doom**
-
-- `/join innershadows`
-  - Derrote **Krahen**
-  - Colete **Empress' ShadowCloak**
-
-- `/join techfortress`
-  - Derrote **MechaVortrix**
-  - Colete **Cybernetic Doom Blade**
-
-- `/join stonewooddeep`
-  - Derrote **Sir Kut**
-  - Colete **Asherion Armor**
-
-===+ "Quest 3: Refracted Light"
-
-**Requisitos**
-
-- Must be Level 60
-- Must have completed the previous quest
-
-**Objetivos**
-
-- `/join shadowoff`
-  - Derrote **Shadowflame Paladin**
-  - Colete **150x Shadowflame Spike**
-
-- `/join fiendshard`
-  - Derrote **Paladin Fiend**
-  - Colete **150x Light Fiend Horn**
-
-- `/join legionarena`
-  - Derrote **Dark Legion Paladin**
-  - Colete **50x Underworld Soul Glow**
-
-- `/join noxustower`
-  - Derrote **General Goldhammer**
-  - Colete **Gold Hammer Chip**
-
-- `/join chaoslab`
-  - Derrote **Chaos Artix**
-  - Colete **20x Shimmering Tentacle**
-
-===+ "Quest 4: Life Carve"
-
-**Requisitos**
-
-- Must be Level 70
-- Must have completed the previous quest
-- Must have Rank 10 Evil
-
-**Objetivos**
-
-- `/join wanders` → **Sek Duat** → 8x Trace of Light
-- `/join lightguardwar` → **Extreme Noxus** → 8x Trace of Dark
-- `/join eternalchaos` → **Bandit Drakath** → 8x Trace of Wind
-- `/join quibblehunt` → **Entropy Dragon** → 8x Trace of Earth
-- `/join crashsite` → **Protosatorium** → 8x Trace of Energy
-- `/join northlands` → **Aisha's Drake** → 8x Trace of Ice
-- `/join deepchaos` → **Kathool** → 8x Trace of Water
-- `/join drakonnan` → **Ultra Drakonnan** → 8x Trace of Fire
-- `/join battlefowl` → **Zeuster Projection** → Trace of Bacon
-  
-===+ "Quest 5: Soul Fracture"
-
-**Requisitos**
-
-- Must have completed the previous quest
-
-**Objetivos**
-
-- `/join ultraalteon` → **Ultra Alteon** → 40x Soul of Alteon
-- `/join ebilcorphq` → **Gravelyn** → 40x Soul of Gravelyn
-- `/join ebondungeon` → **Dethrix** → 40x Soul of Dethrix
-- `/join ultradrakath` → **Champion of Chaos** → 40x Soul of Drakath
-- `/join shadowstrike` → **Sepulchuroth** → 40x Soul of Sepulchuroth
-- `/join shadowvoid` → **Fragment of Doom** → 40x Soul of Doom
-
-===+ "Quest 6: Doom Spikes"
-
-**Requisitos**
-
-- Must be Level 80
-- Must have completed the previous quest
-
-**Objetivos**
-
-- `/join voidxyfrag` → **Xyfrag** → 5x Xyfrag's Slimy Tooth
-- `/join voidnerfkitten` → **Sarah the NerfKitten** → 3x Nerfkitten's Fang
-- `/join doomkitten` → **Doomkitten** → 20x Doomkitten's Molar
-- `/join seavoice` → **Voice in the Sea** → 10x Maw of the Sea
-- `/join infernalarena` → **Deadly Duo** → 10x Deadly Duo's Decayed Denture
-
-===+ "Quest 7: Necrotic Blade"
-
-**Requisitos**
-
-- Must have completed the previous quest
-
-**Objetivos**
-
-- `/join mirrorrealm` → **ShadowReaper of Doom** (Merge)
-- `/join shadowfall` → **Sepulchure's Original Helm** (Quest)
-- `/join shadowvault` → **Arch DoomKnight Helm** (Quest)
-- `/join terminatemple` → **Dragonlord of Evil** (Merge)
-- `/join doompirate` → **DoomTech DoomKnight** (Merge)
-
-===+ "Quest 8: Unleash Doom"
-
-!!! warning
-    A quantidade de drops varia de **1 até 2000+ por kill**.
-
-**Objetivos**
-
-- `/join citadelruins`
-  - Derrote qualquer **Inquisitor**
-  - Colete **1,000,000x Inquisitor Bones**
-
-- `/join deltavcore`
-  - Derrote qualquer **robô**
-  - Colete **1,000,000x Refined Metal**
-
-- `/join etherwardes`
-  - Derrote qualquer **dragão**
-  - Colete **1,000,000x Dragon Skin**
-
-- `/join necrocavern`
-  - Derrote **Chaos Vordred**
-  - Colete **100,000x PaladinSlayer's Skull**
-
-
 ## Status
 
 Em construção.
 
 ## Combo
 
-Em construção.
+Em construção...
 
 ## Encantamentos
 
-Em construção.
+Em construção...
 
 ## Consumíveis
 
-{{ read_csv('./assets/consumiveis.csv', where="tipo_classe == 'Magica'") }}
+{{ read_csv('./assets/consumiveis.csv') }}
 
 ## Referências Bibliográficas
-- Localizações dos Requisitos da Verus Doomknight - Redit - https://www.reddit.com/r/AQW/comments/171xv86/locations_of_verus_doomknight_quest_requirements/. Acesso em 31 de dezembro de 2025.
+Vozes da minha cabeça.
