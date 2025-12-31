@@ -84,7 +84,7 @@ Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começa
   - Derrote **Fear**
   - Colete **13x Fear's Bones**
 
-=== "Quest 2: Of the Same Cloak"
+===+ "Quest 2: Of the Same Cloak"
 
 **Requisitos**
 
@@ -142,7 +142,7 @@ Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começa
   - Derrote **Chaos Artix**
   - Colete **20x Shimmering Tentacle**
 
-=== "Quest 4: Life Carve"
+===+ "Quest 4: Life Carve"
 
 **Requisitos**
 
@@ -162,7 +162,7 @@ Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começa
 - `/join drakonnan` → **Ultra Drakonnan** → 8x Trace of Fire
 - `/join battlefowl` → **Zeuster Projection** → Trace of Bacon
   
-=== "Quest 5: Soul Fracture"
+===+ "Quest 5: Soul Fracture"
 
 **Requisitos**
 
@@ -177,7 +177,7 @@ Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começa
 - `/join shadowstrike` → **Sepulchuroth** → 40x Soul of Sepulchuroth
 - `/join shadowvoid` → **Fragment of Doom** → 40x Soul of Doom
 
-=== "Quest 6: Doom Spikes"
+===+ "Quest 6: Doom Spikes"
 
 **Requisitos**
 
@@ -192,7 +192,7 @@ Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começa
 - `/join seavoice` → **Voice in the Sea** → 10x Maw of the Sea
 - `/join infernalarena` → **Deadly Duo** → 10x Deadly Duo's Decayed Denture
 
-=== "Quest 7: Necrotic Blade"
+===+ "Quest 7: Necrotic Blade"
 
 **Requisitos**
 
@@ -206,7 +206,7 @@ Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começa
 - `/join terminatemple` → **Dragonlord of Evil** (Merge)
 - `/join doompirate` → **DoomTech DoomKnight** (Merge)
 
-=== "Quest 8: Unleash Doom"
+===+ "Quest 8: Unleash Doom"
 
 !!! warning
     A quantidade de drops varia de **1 até 2000+ por kill**.
