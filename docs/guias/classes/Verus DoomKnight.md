@@ -60,189 +60,174 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
 Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começar as missões abaixo.
 
 === "Quest 1: Body, Soul and Domination"
-    - Requisitos:
-      - Must be Level 50.
-      - Must have completed the previous quest.
-    - Vá para /join titanattack
-      - Derrote Titanic Doomknight
-      - Colete 13x Titanic Spine
-    - Vá para /join valleyofdoom
-      - Derrote Doom Knight Armor
-      - Colete 13x Doom Knight Plating
-    - Vá para /join brainmeat
-      - Derrote Brain Matter
-      - Colete 13x Gray Matter
-    - Vá para /join underrealm
-      - Derrote Fear
-      - Colete 13x Fear's Bones
 
-===+ "Quest 2: Of the Same Cloak"
+**Requisitos**
 
-    Vá para /join necrodungeon
-        - Derrote 5 Headed Dracolich (4th Head)
-        - Colete The Mask of the Skulls
+- Must be Level 50
+- Must have completed the previous quest
 
-    Vá para /join lumafortress
-        - Derrote Corrupted Luma
-        - Colete Doom Worshipper's Blade Of Doom
+**Objetivos**
 
-    Vá para /join innershadows
-        - Derrote Krahen
-        - Colete Empress' ShadowCloak
+- `/join titanattack`
+  - Derrote **Titanic Doomknight**
+  - Colete **13x Titanic Spine**
 
-    Vá para /join techfortress
-        - Derrote MechaVortrix
-        - Colete Cybernetic Doom Blade
+- `/join valleyofdoom`
+  - Derrote **Doom Knight Armor**
+  - Colete **13x Doom Knight Plating**
 
-    Vá para /join stonewooddeep
-        - Derrote Sir Kut
-        - Colete Asherion Armor
+- `/join brainmeat`
+  - Derrote **Brain Matter**
+  - Colete **13x Gray Matter**
 
-===+ "Quest 3: Refracted Light"
+- `/join underrealm`
+  - Derrote **Fear**
+  - Colete **13x Fear's Bones**
 
-    Vá para /join shadowoff
-        - Derrote Shadowflame Paladin
-        - Colete 150x Shadowflame Spike
+=== "Quest 2: Of the Same Cloak"
 
-    Vá para /join fiendshard
-        - Derrote Paladin Fiend
-        - Colete 150x Light Fiend Horn
+**Requisitos**
 
-    Vá para /join legionarena
-        - Derrote Dark Legion Paladin
-        - Colete 50x Underworld Soul Glow
+- Must be Level 50
+- Must have completed the previous quest
 
-    Vá para /join noxustower
-        - Derrote General Goldhammer
-        - Colete Gold Hammer Chip
+**Objetivos**
 
-    Vá para /join chaoslab
-        - Derrote Chaos Artix
-        - Colete 20x Shimmering Tentacle
+- `/join necrodungeon`
+  - Derrote **5 Headed Dracolich (4th Head)**
+  - Colete **The Mask of the Skulls**
 
-===+ "Quest 4: Life Carve"
+- `/join lumafortress`
+  - Derrote **Corrupted Luma**
+  - Colete **Doom Worshipper's Blade of Doom**
 
-    Vá para /join wanders
-        - Derrote Sek Duat
-        - Colete 8x Trace of Light
+- `/join innershadows`
+  - Derrote **Krahen**
+  - Colete **Empress' ShadowCloak**
 
-    Vá para /join lightguardwar
-        - Derrote Extreme Noxus
-        - Colete 8x Trace of Dark
+- `/join techfortress`
+  - Derrote **MechaVortrix**
+  - Colete **Cybernetic Doom Blade**
 
-    Vá para /join eternalchaos
-        - Derrote Bandit Drakath
-        - Colete 8x Trace of Wind
+- `/join stonewooddeep`
+  - Derrote **Sir Kut**
+  - Colete **Asherion Armor**
 
-    Vá para /join quibblehunt
-        - Derrote Entropy Dragon
-        - Colete 8x Trace of Earth
+=== "Quest 3: Refracted Light"
 
-    Vá para /join crashsite
-        - Derrote Protosatorium
-        - Colete 8x Trace of Energy
+**Requisitos**
 
-    Vá para /join northlands
-        - Derrote Aisha's Drake
-        - Colete 8x Trace of Ice
+- Must be Level 60
+- Must have completed the previous quest
 
-    Vá para /join deepchaos
-        - Derrote Kathool
-        - Colete 8x Trace of Water
+**Objetivos**
 
-    Vá para /join drakonnan
-        - Derrote Ultra Drakonnan
-        - Colete 8x Trace of Fire
+- `/join shadowoff`
+  - Derrote **Shadowflame Paladin**
+  - Colete **150x Shadowflame Spike**
 
-    Vá para /join battlefowl
-        - Derrote Zeuster Projection
-        - Colete Trace of Bacon
+- `/join fiendshard`
+  - Derrote **Paladin Fiend**
+  - Colete **150x Light Fiend Horn**
 
-===+ "Quest 5: Soul Fracture"
+- `/join legionarena`
+  - Derrote **Dark Legion Paladin**
+  - Colete **50x Underworld Soul Glow**
 
-    Vá para /join ultraalteon
-        - Derrote Ultra Alteon
-        - Colete 40x Soul of Alteon
+- `/join noxustower`
+  - Derrote **General Goldhammer**
+  - Colete **Gold Hammer Chip**
 
-    Vá para /join ebilcorphq
-        - Derrote Gravelyn
-        - Colete 40x Soul of Gravelyn
+- `/join chaoslab`
+  - Derrote **Chaos Artix**
+  - Colete **20x Shimmering Tentacle**
 
-    Vá para /join ebondungeon
-        - Derrote Dethrix
-        - Colete 40x Soul of Dethrix
+=== "Quest 4: Life Carve"
 
-    Vá para /join ultradrakath
-        - Derrote Champion of Chaos
-        - Colete 40x Soul of Drakath
+**Requisitos**
 
-    Vá para /join shadowstrike
-        - Derrote Sepulchuroth
-        - Colete 40x Soul of Sepulchuroth
+- Must be Level 70
+- Must have completed the previous quest
+- Must have Rank 10 Evil
 
-    Vá para /join shadowvoid
-        - Derrote Fragment of Doom
-        - Colete 40x Soul of Doom
+**Objetivos**
 
-===+ "Quest 6: Doom Spikes"
+- `/join wanders` → **Sek Duat** → 8x Trace of Light
+- `/join lightguardwar` → **Extreme Noxus** → 8x Trace of Dark
+- `/join eternalchaos` → **Bandit Drakath** → 8x Trace of Wind
+- `/join quibblehunt` → **Entropy Dragon** → 8x Trace of Earth
+- `/join crashsite` → **Protosatorium** → 8x Trace of Energy
+- `/join northlands` → **Aisha's Drake** → 8x Trace of Ice
+- `/join deepchaos` → **Kathool** → 8x Trace of Water
+- `/join drakonnan` → **Ultra Drakonnan** → 8x Trace of Fire
+- `/join battlefowl` → **Zeuster Projection** → Trace of Bacon
+  
+=== "Quest 5: Soul Fracture"
 
-    Vá para /join voidxyfrag
-        - Derrote Xyfrag
-        - Colete 5x Xyfrag's Slimy Tooth
+**Requisitos**
 
-    Vá para /join voidnerfkitten
-        - Derrote Sarah the NerfKitten
-        - Colete 3x Nerfkitten's Fang
+- Must have completed the previous quest
 
-    Vá para /join doomkitten
-        - Derrote Doomkitten
-        - Colete 20x Doomkitten's Molar
+**Objetivos**
 
-    Vá para /join seavoice
-        - Derrote Voice in the Sea
-        - Colete 10x Maw of the Sea
+- `/join ultraalteon` → **Ultra Alteon** → 40x Soul of Alteon
+- `/join ebilcorphq` → **Gravelyn** → 40x Soul of Gravelyn
+- `/join ebondungeon` → **Dethrix** → 40x Soul of Dethrix
+- `/join ultradrakath` → **Champion of Chaos** → 40x Soul of Drakath
+- `/join shadowstrike` → **Sepulchuroth** → 40x Soul of Sepulchuroth
+- `/join shadowvoid` → **Fragment of Doom** → 40x Soul of Doom
 
-    Vá para /join infernalarena
-        - Derrote Deadly Duo
-        - Colete 10x Deadly Duo's Decayed Denture
-        
-===+ "Quest 7: Necrotic Blade"
+=== "Quest 6: Doom Spikes"
 
-    Vá para /join mirrorrealm
-        - Obtenha ShadowReaper of Doom (Merge)
+**Requisitos**
 
-    Vá para /join shadowfall
-        - Complete a quest para obter Sepulchure's Original Helm
+- Must be Level 80
+- Must have completed the previous quest
 
-    Vá para /join shadowvault
-        - Complete a quest para obter Arch DoomKnight Helm
+**Objetivos**
 
-    Vá para /join terminatemple
-        - Obtenha Dragonlord of Evil (Merge)
+- `/join voidxyfrag` → **Xyfrag** → 5x Xyfrag's Slimy Tooth
+- `/join voidnerfkitten` → **Sarah the NerfKitten** → 3x Nerfkitten's Fang
+- `/join doomkitten` → **Doomkitten** → 20x Doomkitten's Molar
+- `/join seavoice` → **Voice in the Sea** → 10x Maw of the Sea
+- `/join infernalarena` → **Deadly Duo** → 10x Deadly Duo's Decayed Denture
 
-    Vá para /join doompirate
-        - Obtenha DoomTech Doomknight (Merge)
+=== "Quest 7: Necrotic Blade"
 
-===+ "Quest 8: Unleash Doom"
+**Requisitos**
 
-    Observação:
-        - A quantidade de drops varia de 1 até 2000+ por kill
+- Must have completed the previous quest
 
-    Vá para /join citadelruins
-        - Derrote qualquer Inquisitor
-        - Colete 1,000,000x Inquisitor Bones
+**Objetivos**
 
-    Vá para /join deltavcore
-        - Derrote qualquer robô
-        - Colete 1,000,000x Refined Metal
+- `/join mirrorrealm` → **ShadowReaper of Doom** (Merge)
+- `/join shadowfall` → **Sepulchure's Original Helm** (Quest)
+- `/join shadowvault` → **Arch DoomKnight Helm** (Quest)
+- `/join terminatemple` → **Dragonlord of Evil** (Merge)
+- `/join doompirate` → **DoomTech DoomKnight** (Merge)
 
-    Vá para /join etherwardes
-        - Derrote qualquer dragão
-        - Colete 1,000,000x Dragon Skin
+=== "Quest 8: Unleash Doom"
 
-    Vá para /join necrocavern
-        - Derrote Chaos Vordred
-        - Colete 100,000x PaladinSlayer's Skull
+!!! warning
+    A quantidade de drops varia de **1 até 2000+ por kill**.
+
+**Objetivos**
+
+- `/join citadelruins`
+  - Derrote qualquer **Inquisitor**
+  - Colete **1,000,000x Inquisitor Bones**
+
+- `/join deltavcore`
+  - Derrote qualquer **robô**
+  - Colete **1,000,000x Refined Metal**
+
+- `/join etherwardes`
+  - Derrote qualquer **dragão**
+  - Colete **1,000,000x Dragon Skin**
+
+- `/join necrocavern`
+  - Derrote **Chaos Vordred**
+  - Colete **100,000x PaladinSlayer's Skull**
 
 
 ## Status
