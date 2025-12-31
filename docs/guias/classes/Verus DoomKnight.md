@@ -113,7 +113,7 @@ Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começa
   - Derrote **Sir Kut**
   - Colete **Asherion Armor**
 
-=== "Quest 3: Refracted Light"
+===+ "Quest 3: Refracted Light"
 
 **Requisitos**
 
