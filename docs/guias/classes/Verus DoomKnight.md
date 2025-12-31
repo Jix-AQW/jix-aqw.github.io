@@ -56,26 +56,25 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
   ></iframe>
 </div>
-
-=== "Body, Soul and Domination"
-
+Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começar as missões abaixo.
+=== "Quest 1: Body, Soul and Domination"
+    Requisitos:
+    - Must be Level 50.
+    - Must have completed the previous quest.
     Vá para /join titanattack
-        - Derrote Titanic Doomknight
-        - Colete 13x Titanic Spine
-
+    - Derrote Titanic Doomknight
+    - Colete 13x Titanic Spine
     Vá para /join valleyofdoom
-        - Derrote Doom Knight Armor
-        - Colete 13x Doom Knight Plating
-
+    - Derrote Doom Knight Armor
+    - Colete 13x Doom Knight Plating
     Vá para /join brainmeat
-        - Derrote Brain Matter
-        - Colete 13x Gray Matter
-
+    - Derrote Brain Matter
+    - Colete 13x Gray Matter
     Vá para /join underrealm
-        - Derrote Fear
-        - Colete 13x Fear's Bones
+    - Derrote Fear
+    - Colete 13x Fear's Bones
 
-===+ "Of the Same Cloak"
+===+ "Quest 2: Of the Same Cloak"
 
     Vá para /join necrodungeon
         - Derrote 5 Headed Dracolich (4th Head)
@@ -97,7 +96,7 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
         - Derrote Sir Kut
         - Colete Asherion Armor
 
-===+ "Refracted Light"
+===+ "Quest 3: Refracted Light"
 
     Vá para /join shadowoff
         - Derrote Shadowflame Paladin
@@ -119,7 +118,7 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
         - Derrote Chaos Artix
         - Colete 20x Shimmering Tentacle
 
-===+ "Life Carve"
+===+ "Quest 4: Life Carve"
 
     Vá para /join wanders
         - Derrote Sek Duat
@@ -157,7 +156,7 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
         - Derrote Zeuster Projection
         - Colete Trace of Bacon
 
-===+ "Soul Fracture"
+===+ "Quest 5: Soul Fracture"
 
     Vá para /join ultraalteon
         - Derrote Ultra Alteon
@@ -183,7 +182,7 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
         - Derrote Fragment of Doom
         - Colete 40x Soul of Doom
 
-===+ "Doom Spikes"
+===+ "Quest 6: Doom Spikes"
 
     Vá para /join voidxyfrag
         - Derrote Xyfrag
@@ -205,7 +204,7 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
         - Derrote Deadly Duo
         - Colete 10x Deadly Duo's Decayed Denture
         
-===+ "Necrotic Blade"
+===+ "Quest 7: Necrotic Blade"
 
     Vá para /join mirrorrealm
         - Obtenha ShadowReaper of Doom (Merge)
@@ -222,7 +221,7 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
     Vá para /join doompirate
         - Obtenha DoomTech Doomknight (Merge)
 
-===+ "Unleash Doom"
+===+ "Quest 8: Unleash Doom"
 
     Observação:
         - A quantidade de drops varia de 1 até 2000+ por kill
