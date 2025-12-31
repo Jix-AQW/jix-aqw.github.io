@@ -56,23 +56,25 @@ Apesar de muitos jogadores tratarem a classe como “spam”, a VDK recompensa g
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
   ></iframe>
 </div>
+
 Vá para `/join terminatemple` e fale com o NPC Mysterious Stranger para começar as missões abaixo.
+
 === "Quest 1: Body, Soul and Domination"
-    Requisitos:
-    - Must be Level 50.
-    - Must have completed the previous quest.
-    Vá para /join titanattack
-    - Derrote Titanic Doomknight
-    - Colete 13x Titanic Spine
-    Vá para /join valleyofdoom
-    - Derrote Doom Knight Armor
-    - Colete 13x Doom Knight Plating
-    Vá para /join brainmeat
-    - Derrote Brain Matter
-    - Colete 13x Gray Matter
-    Vá para /join underrealm
-    - Derrote Fear
-    - Colete 13x Fear's Bones
+    - Requisitos:
+      - Must be Level 50.
+      - Must have completed the previous quest.
+    - Vá para /join titanattack
+      - Derrote Titanic Doomknight
+      - Colete 13x Titanic Spine
+    - Vá para /join valleyofdoom
+      - Derrote Doom Knight Armor
+      - Colete 13x Doom Knight Plating
+    - Vá para /join brainmeat
+      - Derrote Brain Matter
+      - Colete 13x Gray Matter
+    - Vá para /join underrealm
+      - Derrote Fear
+      - Colete 13x Fear's Bones
 
 ===+ "Quest 2: Of the Same Cloak"
 
