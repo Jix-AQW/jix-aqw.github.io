@@ -1,0 +1,948 @@
+[
+  {
+    "id": "scroll-of-acid-rain",
+    "name": "Scroll of Acid Rain",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-acid-rain.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 50% Hybrid Damage and applies Acid Rain to the target, a 250% hybrid damage DoT (67% per tick) for 8 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-acid-rain"
+  },
+  {
+    "id": "scroll-of-arc-lightning",
+    "name": "Scroll of Arc Lightning",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-arc-lightning.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 90% Weapon Damage to the primary target, and 50% more to each consecutive target."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-arc-lightning"
+  },
+  {
+    "id": "scroll-of-bane",
+    "name": "Scroll of Bane",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-bane.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Previously called\"Scroll of Talon Twisting\"."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-bane"
+  },
+  {
+    "id": "scroll-of-blessed-shard",
+    "name": "Scroll of Blessed Shard",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-blessed-shard.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Can only be used againstUndead Monsters.",
+      "Cooldown lasts 30 seconds.",
+      "Deals 50% Spell Damage and applies Vulnerable to the target, increasing its All In by 50% for 10 seconds.",
+      "Crafts in batches of 10.",
+      "Used in the 'Shadowslayer Summoning Ritual' quest."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-blessed-shard"
+  },
+  {
+    "id": "scroll-of-blinding-light",
+    "name": "Scroll of Blinding Light",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-blinding-light.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Blinded cannot be applied if the target hasShadow Sealedactive, but does not fade if Shadow Sealed is applied after.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 300% Hybrid DPS to up to 4 targets and has a chance to apply Blinded to the target, decreasing its Hit Chance by 50% for 6 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-blinding-light"
+  },
+  {
+    "id": "scroll-of-cantor-s-lament",
+    "name": "Scroll of Cantor s Lament",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-cantor-s-lament.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 100% Spell Damage and applies Crescendo to the target."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-cantor-s-lament"
+  },
+  {
+    "id": "scroll-of-chain-lightning",
+    "name": "Scroll of Chain Lightning",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Embersea Healing-Embersea",
+      "Reens' Potion Shop-Arcangrove",
+      "Reens' Potion Shop-Northpointe",
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Also seeBottled Lightning."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-chain-lightning"
+  },
+  {
+    "id": "scroll-of-chains",
+    "name": "Scroll of Chains",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-chains.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 180% Weapon DPS and has a chance to apply Chained to the target, reducing its Haste by 50% for 8 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-chains"
+  },
+  {
+    "id": "scroll-of-chaos-fog",
+    "name": "Scroll of Chaos Fog",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-chaos-fog.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 150% Hybrid DPS and has a chance to apply either effect to the target:Insanity, reducing its Crit Chance and Dodge by 50% for 10 seconds.Stunned, stunning them for 2 seconds.",
+      "Insanity, reducing its Crit Chance and Dodge by 50% for 10 seconds.",
+      "Stunned, stunning them for 2 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-chaos-fog"
+  },
+  {
+    "id": "scroll-of-charged-flare",
+    "name": "Scroll of Charged Flare",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-charged-flare.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 400% Hybrid DPS and has a chance to apply Stunned to the target, stunning them for 2 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-charged-flare"
+  },
+  {
+    "id": "scroll-of-corrosion",
+    "name": "Scroll of Corrosion",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-corrosion.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Only usable against Undead targets.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 100% Hybrid Damage and applies Corrosion to the target, increasing its All In by 20% for 6 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-corrosion"
+  },
+  {
+    "id": "scroll-of-cripple",
+    "name": "Scroll of Cripple",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-cripple.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 150% Hybrid DPS and applies Crippled to the target, decreasing its Haste by 20% for 6 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-cripple"
+  },
+  {
+    "id": "scroll-of-crushing-wave",
+    "name": "Scroll of Crushing Wave",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-crushing-wave.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts 1 at a time.",
+      "Deals 350% Spell DPS."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-crushing-wave"
+  },
+  {
+    "id": "scroll-of-dark-arc",
+    "name": "Scroll of Dark Arc",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-dark-arc.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Blinded cannot be applied if the target hasShadow Sealedactive, but does not fade if Shadow Sealed is applied after.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Deals 100% Hybrid DPS and has a chance to apply Blinded to the target, reducing its Hit Chance by 50% for 6 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-dark-arc"
+  },
+  {
+    "id": "scroll-of-dark-energy",
+    "name": "Scroll of Dark Energy",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-dark-energy.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Deals 300% Hybrid DPS.",
+      "Crafts in batches of 10.",
+      "Used in the following quests:'Reborn in the Dark Side (Rare)''Reborn in the Dark Side (Shadow)'",
+      "'Reborn in the Dark Side (Rare)'",
+      "'Reborn in the Dark Side (Shadow)'"
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-dark-energy"
+  },
+  {
+    "id": "scroll-of-dark-flare",
+    "name": "Scroll of Dark Flare",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts for 15 seconds.",
+      "Also seeScroll of Doom Flare."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-dark-flare"
+  },
+  {
+    "id": "scroll-of-dark-grip",
+    "name": "Scroll of Dark Grip",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-dark-grip.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Applies Dark Grip to the target, reducing its Haste by 20% and increasing its All In by 20% for 16 seconds.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 10.",
+      "Used in the following quests:'Reborn in the Dark Side (Rare)''Reborn in the Dark Side (Shadow)'",
+      "'Reborn in the Dark Side (Rare)'",
+      "'Reborn in the Dark Side (Shadow)'"
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-dark-grip"
+  },
+  {
+    "id": "scroll-of-death-pact",
+    "name": "Scroll of Death Pact",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-death-pact.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Deals 110% Weapon DPS at max health, damage increases the lower your current health is.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-death-pact"
+  },
+  {
+    "id": "scroll-of-decay",
+    "name": "Scroll of Decay",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-decay.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Deals 40% Hybrid Damage and applies Decay, Cannot Heal to the target, preventing it to heal (except lifesteals) for 10 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-decay"
+  },
+  {
+    "id": "scroll-of-diamond-cage",
+    "name": "Scroll of Diamond Cage",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-diamond-cage.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Deals 350% Weapon DPS.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-diamond-cage"
+  },
+  {
+    "id": "scroll-of-dissonance",
+    "name": "Scroll of Dissonance",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-dissonance.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Applies Dissonance to the target, reducing its Haste and outgoing damage by 15% and Crit Chance by 5%. Also grants 2 mana to the attacker for every hit attempt (restores mana even on dodges and misses). Lasts 15 seconds.",
+      "Cooldown lasts 45 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-dissonance"
+  },
+  {
+    "id": "scroll-of-distracting-hugs",
+    "name": "Scroll of Distracting Hugs",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 45 seconds.",
+      "Reduces Hit Chance by 50%.",
+      "Also seeScroll of Mystify."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-distracting-hugs"
+  },
+  {
+    "id": "scroll-of-doom-flare",
+    "name": "Scroll of Doom Flare",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-doom-flare.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts for 15 seconds.",
+      "Crafts in batches of 20.",
+      "Also seeScroll of Dark Flare."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-doom-flare"
+  },
+  {
+    "id": "scroll-of-eclipse",
+    "name": "Scroll of Eclipse",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-eclipse.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Used in the 'Book of Aether: Supernova' and 'Shadowslayer Summoning Ritual' quests.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 5."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-eclipse"
+  },
+  {
+    "id": "scroll-of-enrage",
+    "name": "Scroll of Enrage",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-enrage.png",
+    "notes": [
+      "Stacks up to 1,000.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 40.",
+      "Applies Focus to the target, forcing it to attack the user for 6 seconds.",
+      "Applies Reckless to the target, reducing all outgoing damage by 15% for 10 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-enrage"
+  },
+  {
+    "id": "scroll-of-ethereal-curse",
+    "name": "Scroll of Ethereal Curse",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-ethereal-curse.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Reduces targets Outgoing damage by 30% and Haste by 25% for 6 seconds.",
+      "Has a cooldown of 60 seconds.",
+      "Crafts in batches of 5.",
+      "Used in the 'Book of Arcana: Arcane Sigil' quest."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-ethereal-curse"
+  },
+  {
+    "id": "scroll-of-ethereal-slumber",
+    "name": "Scroll of Ethereal Slumber",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-ethereal-slumber.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 5.",
+      "Used in the 'Righteous Seal' quest.",
+      "Also seeScroll of Satisfying Snooze."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-ethereal-slumber"
+  },
+  {
+    "id": "scroll-of-exorcise",
+    "name": "Scroll of Exorcise",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-exorcise.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Crafts in batches of 10.",
+      "Does 500% variable magical attack damage toUndead Monstersand 200% to others.",
+      "Cooldown lasts 20 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-exorcise"
+  },
+  {
+    "id": "scroll-of-fire-flare",
+    "name": "Scroll of Fire Flare",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-fire-flare.png",
+    "notes": [
+      "Embersea Healing-Embersea",
+      "SpellCraft",
+      "100 Gold",
+      "UseHallow Inkand makethis combination",
+      "Stacks up to 99.",
+      "Cooldown lasts 45 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-fire-flare"
+  },
+  {
+    "id": "scroll-of-fire-storm",
+    "name": "Scroll of Fire Storm",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-fire-storm.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Applies Scared to the player, reducing Intellect by 99% for 12 seconds.",
+      "Applies Burned to the player, a DoT lasting 6 seconds.",
+      "Cooldown lasts 90 seconds.",
+      "Crafts in batches of 5.",
+      "Used in the 'Book of Fire: Immolation' quest."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-fire-storm"
+  },
+  {
+    "id": "scroll-of-fireball-1",
+    "name": "Scroll of Fireball (1)",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Embersea Healing-Embersea",
+      "Reens' Potion Shop-Arcangrove",
+      "Reens' Potion Shop-Northpointe",
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Also see:Scroll of Fireball (2).Scroll of Fireball (3).",
+      "Scroll of Fireball (2).",
+      "Scroll of Fireball (3)."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-fireball-1"
+  },
+  {
+    "id": "scroll-of-fireball-2",
+    "name": "Scroll of Fireball (2)",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-fireball-2.png",
+    "notes": [
+      "Stacks to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 10.",
+      "Also see:Scroll of Fireball (1).Scroll of Fireball (3).",
+      "Scroll of Fireball (1).",
+      "Scroll of Fireball (3)."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-fireball-2"
+  },
+  {
+    "id": "scroll-of-fireblast",
+    "name": "Scroll of Fireblast",
+    "icon": "icons/icon-scroll-of-fireblast.png",
+    "combination_image": null,
+    "notes": [
+      "Embersea Healing-Embersea",
+      "Reens' Potion Shop-Arcangrove",
+      "Reens' Potion Shop-Northpointe",
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-fireblast"
+  },
+  {
+    "id": "scroll-of-firebolt",
+    "name": "Scroll of Firebolt",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-firebolt.png",
+    "notes": [
+      "Embersea Healing-Embersea",
+      "SpellCraft",
+      "100 Gold",
+      "UseElemental Inkand makethis combination",
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Has a chance to apply Burning to the target, casting a high DoT for 6 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-firebolt"
+  },
+  {
+    "id": "scroll-of-freezing-flame",
+    "name": "Scroll of Freezing Flame",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-freezing-flame.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-freezing-flame"
+  },
+  {
+    "id": "scroll-of-frost-flare",
+    "name": "Scroll of Frost Flare",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-frost-flare.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 45 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-frost-flare"
+  },
+  {
+    "id": "scroll-of-frostbite",
+    "name": "Scroll of Frostbite",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-frostbite.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Used in the 'Book of Ice: Glacial Impact' quest."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-frostbite"
+  },
+  {
+    "id": "scroll-of-furious-gale",
+    "name": "Scroll of Furious Gale",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-furious-gale.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-furious-gale"
+  },
+  {
+    "id": "scroll-of-geyser",
+    "name": "Scroll of Geyser",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-geyser.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-geyser"
+  },
+  {
+    "id": "scroll-of-guardian-blast",
+    "name": "Scroll of Guardian Blast",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-guardian-blast.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Hits 3 targets."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-guardian-blast"
+  },
+  {
+    "id": "scroll-of-heartbeat",
+    "name": "Scroll of Heartbeat",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-heartbeat.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 20."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-heartbeat"
+  },
+  {
+    "id": "scroll-of-holy-bolt",
+    "name": "Scroll of Holy Bolt",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-holy-bolt.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-holy-bolt"
+  },
+  {
+    "id": "scroll-of-holy-flare",
+    "name": "Scroll of Holy Flare",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-holy-flare.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-holy-flare"
+  },
+  {
+    "id": "scroll-of-ice-shard",
+    "name": "Scroll of Ice Shard",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Reens' Potion Shop-Arcangrove",
+      "Reens' Potion Shop-Northpointe",
+      "Stacks up to 99.",
+      "Applies Frigid to the target, reducing their attack power and Haste by 20% for 10 seconds.",
+      "Cooldown lasts 60 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-ice-shard"
+  },
+  {
+    "id": "scroll-of-life-steal",
+    "name": "Scroll of Life Steal",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Embersea Healing-Embersea",
+      "Reens' Potion Shop-Arcangrove",
+      "Reens' Potion Shop-Northpointe",
+      "Song's Potions-Termina Temple",
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Also seeSteal Their Breath."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-life-steal"
+  },
+  {
+    "id": "scroll-of-mystify",
+    "name": "Scroll of Mystify",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-mystify.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 45 seconds.",
+      "Crafts in batches of 5.",
+      "Reduces Hit Chance by 50%.",
+      "Used in the 'Book of Magus: Incantation' quest.",
+      "Also seeScroll of Distracting Hugs."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-mystify"
+  },
+  {
+    "id": "scroll-of-nightmares",
+    "name": "Scroll of Nightmares",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Stacks up to 99.",
+      "Also seeScroll of Petrify."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-nightmares"
+  },
+  {
+    "id": "scroll-of-pangs",
+    "name": "Scroll of Pangs",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Reens' Potion Shop-Arcangrove",
+      "Reens' Potion Shop-Northpointe",
+      "Stacks up to 99.",
+      "Applies Pangs to the target, a moderate DoT that lasts for 12 seconds.",
+      "Cooldown lasts 60 seconds.",
+      "Also seeWinds of Fury."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-pangs"
+  },
+  {
+    "id": "scroll-of-petrify",
+    "name": "Scroll of Petrify",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-petrify.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts for 60 seconds.",
+      "Crafts in batches of 10.",
+      "Effect lasts for 4 seconds.",
+      "Also seeScroll of Nightmares."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-petrify"
+  },
+  {
+    "id": "scroll-of-plague-flare",
+    "name": "Scroll of Plague Flare",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-plague-flare.png",
+    "notes": [
+      "Embersea Healing-Embersea",
+      "SpellCraft",
+      "100 Gold",
+      "UseHallow Inkand makethis combination",
+      "Stacks up to 99.",
+      "Cooldown lasts 45 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-plague-flare"
+  },
+  {
+    "id": "scroll-of-plasma-bolt",
+    "name": "Scroll of Plasma Bolt",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-plasma-bolt.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-plasma-bolt"
+  },
+  {
+    "id": "scroll-of-psychic-wave",
+    "name": "Scroll of Psychic Wave",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-psychic-wave.png",
+    "notes": [
+      "SpellCraft",
+      "Tree Titan",
+      "UseEntropic Inkand makethis combination",
+      "Reward from the 'Committing Tree-son' quest",
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-psychic-wave"
+  },
+  {
+    "id": "scroll-of-pulse-compression",
+    "name": "Scroll of Pulse Compression",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-pulse-compression.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-pulse-compression"
+  },
+  {
+    "id": "scroll-of-purge",
+    "name": "Scroll of Purge",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-purge.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-purge"
+  },
+  {
+    "id": "scroll-of-satisfying-snooze",
+    "name": "Scroll of Satisfying Snooze",
+    "icon": null,
+    "combination_image": null,
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Also seeScroll of Ethereal Slumber."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-satisfying-snooze"
+  },
+  {
+    "id": "scroll-of-scorched-steel",
+    "name": "Scroll of Scorched Steel",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-scorched-steel.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Used in the following quests:'Forge the Blaze of Awe''Forge the Blazing Light of Destiny''Forge the Burning Sword of Doom'",
+      "'Forge the Blaze of Awe'",
+      "'Forge the Blazing Light of Destiny'",
+      "'Forge the Burning Sword of Doom'"
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-scorched-steel"
+  },
+  {
+    "id": "scroll-of-shadow-bolt",
+    "name": "Scroll of Shadow Bolt",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-shadow-bolt.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Scales with your spell power."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-shadow-bolt"
+  },
+  {
+    "id": "scroll-of-shadowblade",
+    "name": "Scroll of Shadowblade",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-shadowblade.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Blind reduces hit chance by 100%."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-shadowblade"
+  },
+  {
+    "id": "scroll-of-shadowburn",
+    "name": "Scroll of Shadowburn",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-shadowburn.png",
+    "notes": [
+      "Embersea Healing-Embersea",
+      "SpellCraft",
+      "100 Gold",
+      "UseEmber Inkand makethis combination",
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 10.",
+      "Stun lasts 4 seconds.",
+      "Deals 165% weapon damage."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-shadowburn"
+  },
+  {
+    "id": "scroll-of-shiftburn",
+    "name": "Scroll of Shiftburn",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-shiftburn.png",
+    "notes": [
+      "Previously called\"Scroll of Shift Burn\"and before\"Scroll of Shiftburn\".",
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Applies Burning to the target, casting a moderate DoT lasting 10 seconds.",
+      "Applies noMana to the user, reducing mana usage by 90% for 21 seconds.",
+      "Has a chance to apply Trolled, stunning the user for 2 seconds.",
+      "Has a chance to apply Stunned, stunning the target for 2 seconds.",
+      "Has a chance to apply Shifting to the user, increasing haste for 10 seconds.",
+      "Has a chance to apply Shifted to the user, a high HoT lasting 10 seconds.",
+      "Has a chance to apply Burnated to the target, reducing their damage taken by 25% for 10 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-shiftburn"
+  },
+  {
+    "id": "scroll-of-soul-crush",
+    "name": "Scroll of Soul Crush",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-soul-crush.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Increases Mana Costs by 70%."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-soul-crush"
+  },
+  {
+    "id": "scroll-of-spirit-rend",
+    "name": "Scroll of Spirit Rend",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-spirit-rend.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10.",
+      "Used in the 'Shadowslayer Summoning Ritual' quest."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-spirit-rend"
+  },
+  {
+    "id": "scroll-of-ssikari-s-breath",
+    "name": "Scroll of Ssikari s Breath",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-ssikari-s-breath.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10.",
+      "Damage Over Time lasts 10 seconds.",
+      "Deals 100% spell damage on impact."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-ssikari-s-breath"
+  },
+  {
+    "id": "scroll-of-torment",
+    "name": "Scroll of Torment",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-torment.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 120 seconds.",
+      "Crafts in batches of 10.",
+      "Reduces the target's Critical Multiplier by 190% for 10 seconds."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-torment"
+  },
+  {
+    "id": "scroll-of-underworld",
+    "name": "Scroll of Underworld",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-underworld.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 45 seconds.",
+      "Crafts in batches of 5.",
+      "Used in the 'A Dark Temptation' quest."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-underworld"
+  },
+  {
+    "id": "scroll-of-void-strike",
+    "name": "Scroll of Void Strike",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-void-strike.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Damage is 30% of current HP + Spell Power.",
+      "Cooldown lasts 30 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-void-strike"
+  },
+  {
+    "id": "scroll-of-weaken",
+    "name": "Scroll of Weaken",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-weaken.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 60 seconds.",
+      "Crafts in batches of 10.",
+      "Reduces target outgoing damage by 40%."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-weaken"
+  },
+  {
+    "id": "scroll-of-wind-strike",
+    "name": "Scroll of Wind Strike",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-wind-strike.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 20 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-wind-strike"
+  },
+  {
+    "id": "scroll-of-wither",
+    "name": "Scroll of Wither",
+    "icon": null,
+    "combination_image": "combinations/combination-scroll-of-wither.png",
+    "notes": [
+      "Stacks up to 99.",
+      "Cooldown lasts 45 seconds.",
+      "Crafts in batches of 10."
+    ],
+    "source": "http://aqwwiki.wikidot.com/scroll-of-wither"
+  }
+]

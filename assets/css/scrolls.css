@@ -1,0 +1,122 @@
+/* Campo de busca */
+#scroll-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 4px;
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+  margin-bottom: 1rem;
+}
+
+#scroll-input:focus {
+  outline: none;
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 2px var(--md-accent-fg-color--transparent);
+}
+
+/* Lista de sugestões */
+.scroll-list {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: var(--md-code-bg-color);
+}
+
+.scroll-item {
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.scroll-item:last-child {
+  border-bottom: none;
+}
+
+.scroll-item:hover {
+  background: var(--md-primary-fg-color--transparent);
+}
+
+/* Caixa de resultado */
+.scroll-result {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: var(--md-default-bg-color);
+  border-radius: 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: var(--md-shadow-z1);
+}
+
+/* Cabeçalho do scroll */
+.scroll-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.scroll-icon {
+  width: 48px;
+  height: 48px;
+  image-rendering: pixelated;
+}
+
+/* Imagem da combinação */
+.scroll-combination {
+  margin-top: 1.5rem;
+}
+
+.scroll-combination img {
+  max-width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Tooltip reutilizado */
+.hover-tooltip-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.hover-tooltip {
+  background-color: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.hover-tooltip-box {
+  visibility: hidden;
+  width: 320px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  text-align: left;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: var(--md-shadow-z2);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hover-tooltip-container:hover .hover-tooltip-box {
+  visibility: visible;
+  opacity: 1;
+}
