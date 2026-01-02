@@ -73,5 +73,7 @@ Em construção...
 
 {{ read_csv('./assets/consumiveis.csv') }}
 
+
+
 ## Referências Bibliográficas
 Vozes da minha cabeça.
