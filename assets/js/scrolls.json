@@ -3,7 +3,7 @@
     "id": "scroll-of-acid-rain",
     "name": "Scroll of Acid Rain",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-acid-rain.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-acid-rain.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -16,7 +16,7 @@
     "id": "scroll-of-arc-lightning",
     "name": "Scroll of Arc Lightning",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-arc-lightning.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-arc-lightning.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -29,7 +29,7 @@
     "id": "scroll-of-bane",
     "name": "Scroll of Bane",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-bane.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-bane.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -42,7 +42,7 @@
     "id": "scroll-of-blessed-shard",
     "name": "Scroll of Blessed Shard",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-blessed-shard.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-blessed-shard.png",
     "notes": [
       "Stacks up to 99.",
       "Can only be used againstUndead Monsters.",
@@ -57,7 +57,7 @@
     "id": "scroll-of-blinding-light",
     "name": "Scroll of Blinding Light",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-blinding-light.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-blinding-light.png",
     "notes": [
       "Stacks up to 99.",
       "Blinded cannot be applied if the target hasShadow Sealedactive, but does not fade if Shadow Sealed is applied after.",
@@ -71,7 +71,7 @@
     "id": "scroll-of-cantor-s-lament",
     "name": "Scroll of Cantor s Lament",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-cantor-s-lament.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-cantor-s-lament.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -99,7 +99,7 @@
     "id": "scroll-of-chains",
     "name": "Scroll of Chains",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-chains.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-chains.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -112,7 +112,7 @@
     "id": "scroll-of-chaos-fog",
     "name": "Scroll of Chaos Fog",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-chaos-fog.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-chaos-fog.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -127,7 +127,7 @@
     "id": "scroll-of-charged-flare",
     "name": "Scroll of Charged Flare",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-charged-flare.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-charged-flare.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 60 seconds.",
@@ -140,7 +140,7 @@
     "id": "scroll-of-corrosion",
     "name": "Scroll of Corrosion",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-corrosion.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-corrosion.png",
     "notes": [
       "Stacks up to 99.",
       "Only usable against Undead targets.",
@@ -154,7 +154,7 @@
     "id": "scroll-of-cripple",
     "name": "Scroll of Cripple",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-cripple.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-cripple.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -167,7 +167,7 @@
     "id": "scroll-of-crushing-wave",
     "name": "Scroll of Crushing Wave",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-crushing-wave.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-crushing-wave.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -180,7 +180,7 @@
     "id": "scroll-of-dark-arc",
     "name": "Scroll of Dark Arc",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-dark-arc.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-dark-arc.png",
     "notes": [
       "Stacks up to 99.",
       "Blinded cannot be applied if the target hasShadow Sealedactive, but does not fade if Shadow Sealed is applied after.",
@@ -194,7 +194,7 @@
     "id": "scroll-of-dark-energy",
     "name": "Scroll of Dark Energy",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-dark-energy.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-dark-energy.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -222,7 +222,7 @@
     "id": "scroll-of-dark-grip",
     "name": "Scroll of Dark Grip",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-dark-grip.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-dark-grip.png",
     "notes": [
       "Stacks up to 99.",
       "Applies Dark Grip to the target, reducing its Haste by 20% and increasing its All In by 20% for 16 seconds.",
@@ -238,7 +238,7 @@
     "id": "scroll-of-death-pact",
     "name": "Scroll of Death Pact",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-death-pact.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-death-pact.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 60 seconds.",
@@ -251,7 +251,7 @@
     "id": "scroll-of-decay",
     "name": "Scroll of Decay",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-decay.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-decay.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 60 seconds.",
@@ -264,7 +264,7 @@
     "id": "scroll-of-diamond-cage",
     "name": "Scroll of Diamond Cage",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-diamond-cage.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-diamond-cage.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -277,7 +277,7 @@
     "id": "scroll-of-dissonance",
     "name": "Scroll of Dissonance",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-dissonance.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-dissonance.png",
     "notes": [
       "Stacks up to 99.",
       "Applies Dissonance to the target, reducing its Haste and outgoing damage by 15% and Crit Chance by 5%. Also grants 2 mana to the attacker for every hit attempt (restores mana even on dodges and misses). Lasts 15 seconds.",
@@ -303,7 +303,7 @@
     "id": "scroll-of-doom-flare",
     "name": "Scroll of Doom Flare",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-doom-flare.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-doom-flare.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts for 15 seconds.",
@@ -316,7 +316,7 @@
     "id": "scroll-of-eclipse",
     "name": "Scroll of Eclipse",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-eclipse.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-eclipse.png",
     "notes": [
       "Stacks up to 99.",
       "Used in the 'Book of Aether: Supernova' and 'Shadowslayer Summoning Ritual' quests.",
@@ -329,7 +329,7 @@
     "id": "scroll-of-enrage",
     "name": "Scroll of Enrage",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-enrage.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-enrage.png",
     "notes": [
       "Stacks up to 1,000.",
       "Cooldown lasts 20 seconds.",
@@ -343,7 +343,7 @@
     "id": "scroll-of-ethereal-curse",
     "name": "Scroll of Ethereal Curse",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-ethereal-curse.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-ethereal-curse.png",
     "notes": [
       "Stacks up to 99.",
       "Reduces targets Outgoing damage by 30% and Haste by 25% for 6 seconds.",
@@ -357,7 +357,7 @@
     "id": "scroll-of-ethereal-slumber",
     "name": "Scroll of Ethereal Slumber",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-ethereal-slumber.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-ethereal-slumber.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 60 seconds.",
@@ -371,7 +371,7 @@
     "id": "scroll-of-exorcise",
     "name": "Scroll of Exorcise",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-exorcise.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-exorcise.png",
     "notes": [
       "Stacks up to 99.",
       "Crafts in batches of 10.",
@@ -384,7 +384,7 @@
     "id": "scroll-of-fire-flare",
     "name": "Scroll of Fire Flare",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-fire-flare.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-fire-flare.png",
     "notes": [
       "Embersea Healing-Embersea",
       "SpellCraft",
@@ -400,7 +400,7 @@
     "id": "scroll-of-fire-storm",
     "name": "Scroll of Fire Storm",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-fire-storm.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-fire-storm.png",
     "notes": [
       "Stacks up to 99.",
       "Applies Scared to the player, reducing Intellect by 99% for 12 seconds.",
@@ -432,7 +432,7 @@
     "id": "scroll-of-fireball-2",
     "name": "Scroll of Fireball (2)",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-fireball-2.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-fireball-2.png",
     "notes": [
       "Stacks to 99.",
       "Cooldown lasts 60 seconds.",
@@ -461,7 +461,7 @@
     "id": "scroll-of-firebolt",
     "name": "Scroll of Firebolt",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-firebolt.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-firebolt.png",
     "notes": [
       "Embersea Healing-Embersea",
       "SpellCraft",
@@ -478,7 +478,7 @@
     "id": "scroll-of-freezing-flame",
     "name": "Scroll of Freezing Flame",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-freezing-flame.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-freezing-flame.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -490,7 +490,7 @@
     "id": "scroll-of-frost-flare",
     "name": "Scroll of Frost Flare",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-frost-flare.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-frost-flare.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 45 seconds.",
@@ -502,7 +502,7 @@
     "id": "scroll-of-frostbite",
     "name": "Scroll of Frostbite",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-frostbite.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-frostbite.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -515,7 +515,7 @@
     "id": "scroll-of-furious-gale",
     "name": "Scroll of Furious Gale",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-furious-gale.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-furious-gale.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -527,7 +527,7 @@
     "id": "scroll-of-geyser",
     "name": "Scroll of Geyser",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-geyser.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-geyser.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -539,7 +539,7 @@
     "id": "scroll-of-guardian-blast",
     "name": "Scroll of Guardian Blast",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-guardian-blast.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-guardian-blast.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -552,7 +552,7 @@
     "id": "scroll-of-heartbeat",
     "name": "Scroll of Heartbeat",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-heartbeat.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-heartbeat.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -564,7 +564,7 @@
     "id": "scroll-of-holy-bolt",
     "name": "Scroll of Holy Bolt",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-holy-bolt.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-holy-bolt.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -576,7 +576,7 @@
     "id": "scroll-of-holy-flare",
     "name": "Scroll of Holy Flare",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-holy-flare.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-holy-flare.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -618,7 +618,7 @@
     "id": "scroll-of-mystify",
     "name": "Scroll of Mystify",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-mystify.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-mystify.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 45 seconds.",
@@ -659,7 +659,7 @@
     "id": "scroll-of-petrify",
     "name": "Scroll of Petrify",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-petrify.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-petrify.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts for 60 seconds.",
@@ -673,7 +673,7 @@
     "id": "scroll-of-plague-flare",
     "name": "Scroll of Plague Flare",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-plague-flare.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-plague-flare.png",
     "notes": [
       "Embersea Healing-Embersea",
       "SpellCraft",
@@ -689,7 +689,7 @@
     "id": "scroll-of-plasma-bolt",
     "name": "Scroll of Plasma Bolt",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-plasma-bolt.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-plasma-bolt.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -701,7 +701,7 @@
     "id": "scroll-of-psychic-wave",
     "name": "Scroll of Psychic Wave",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-psychic-wave.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-psychic-wave.png",
     "notes": [
       "SpellCraft",
       "Tree Titan",
@@ -717,7 +717,7 @@
     "id": "scroll-of-pulse-compression",
     "name": "Scroll of Pulse Compression",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-pulse-compression.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-pulse-compression.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -729,7 +729,7 @@
     "id": "scroll-of-purge",
     "name": "Scroll of Purge",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-purge.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-purge.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -753,7 +753,7 @@
     "id": "scroll-of-scorched-steel",
     "name": "Scroll of Scorched Steel",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-scorched-steel.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-scorched-steel.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -769,7 +769,7 @@
     "id": "scroll-of-shadow-bolt",
     "name": "Scroll of Shadow Bolt",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-shadow-bolt.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-shadow-bolt.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -782,7 +782,7 @@
     "id": "scroll-of-shadowblade",
     "name": "Scroll of Shadowblade",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-shadowblade.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-shadowblade.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -795,7 +795,7 @@
     "id": "scroll-of-shadowburn",
     "name": "Scroll of Shadowburn",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-shadowburn.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-shadowburn.png",
     "notes": [
       "Embersea Healing-Embersea",
       "SpellCraft",
@@ -813,7 +813,7 @@
     "id": "scroll-of-shiftburn",
     "name": "Scroll of Shiftburn",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-shiftburn.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-shiftburn.png",
     "notes": [
       "Previously called\"Scroll of Shift Burn\"and before\"Scroll of Shiftburn\".",
       "Stacks up to 99.",
@@ -833,7 +833,7 @@
     "id": "scroll-of-soul-crush",
     "name": "Scroll of Soul Crush",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-soul-crush.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-soul-crush.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -846,7 +846,7 @@
     "id": "scroll-of-spirit-rend",
     "name": "Scroll of Spirit Rend",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-spirit-rend.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-spirit-rend.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 30 seconds.",
@@ -859,7 +859,7 @@
     "id": "scroll-of-ssikari-s-breath",
     "name": "Scroll of Ssikari s Breath",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-ssikari-s-breath.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-ssikari-s-breath.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -873,7 +873,7 @@
     "id": "scroll-of-torment",
     "name": "Scroll of Torment",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-torment.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-torment.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 120 seconds.",
@@ -886,7 +886,7 @@
     "id": "scroll-of-underworld",
     "name": "Scroll of Underworld",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-underworld.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-underworld.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 45 seconds.",
@@ -899,7 +899,7 @@
     "id": "scroll-of-void-strike",
     "name": "Scroll of Void Strike",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-void-strike.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-void-strike.png",
     "notes": [
       "Stacks up to 99.",
       "Damage is 30% of current HP + Spell Power.",
@@ -912,7 +912,7 @@
     "id": "scroll-of-weaken",
     "name": "Scroll of Weaken",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-weaken.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-weaken.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 60 seconds.",
@@ -925,7 +925,7 @@
     "id": "scroll-of-wind-strike",
     "name": "Scroll of Wind Strike",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-wind-strike.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-wind-strike.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 20 seconds.",
@@ -937,7 +937,7 @@
     "id": "scroll-of-wither",
     "name": "Scroll of Wither",
     "icon": null,
-    "combination_image": "combinations/combination-scroll-of-wither.png",
+    "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-wither.png",
     "notes": [
       "Stacks up to 99.",
       "Cooldown lasts 45 seconds.",
