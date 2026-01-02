@@ -35,11 +35,31 @@ Ajude o Bagre apoiando o canal!
 
 ## Visão Geral
 
-Em construção.
+A **Chaos Avenger** é uma classe melee física, tanque, com foco em STR e bom aproveitamento de LUK.
+
+É uma classe lenta, porém extremamente resistente, capaz de solar bosses e também atuar como suporte defensivo, aplicando debuffs importantes no inimigo.
+
+Seu dano gira em torno de:
+
+- Ataques básicos fortes
+- Stacks de _Ravaged_
+- Críticos elevados via passivas
+
+Apesar da baixa haste base, a classe consegue se manter rápida ao manter a skill 5 ativa, o que é essencial para seu desempenho.
 
 ## Método de Obtenção
 
-Em construção.
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://www.youtube.com/embed/xZwA_TK9wqw" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>
 
 ## Status
 
@@ -47,15 +67,51 @@ Em construção.
 
 ## Combo
 
-Em construção.
+A Chaos Avenger não possui combo fixo, mas sim uma prioridade de habilidades baseada em mana, stacks e sobrevivência.
+
+Prioridades Gerais
+
+1. Skill 5: manter sempre ativa (buff de haste)
+2. Skill 4: usar antes de receber dano pesado
+3. Skill 3: sempre que disponível para debuff/taunt
+4. Skill 2: usar apenas quando precisar recuperar vida
+5. Auto Attack: fundamental para recuperar mana, dobrar o dano após skills e aplicar stacks.
+
+Fluxo Básico:
+
+1. Use uma skill
+2. Dê auto attack
+3. Repita
+
+Isso garante:
+
+1. Recuperação de mana
+2. Aplicação de Ravaged
+3. Dano máximo na skill 5
 
 ## Encantamentos
 
-Em construção.
+### Arma
+FORGE Enhancements:
+- Ravenous: melhor opção geral (dano e sustain)
+- Dauntless: boa sinergia, especialmente em ultras
+- Valiance: alternativa sólida
+
+AWE Enhancements:
+- Awe Blast é a melhor opção (reduz defesa e crit do inimigo)
+
+### Capacete
+- Luck sempre
+- Anima – mais dano bruto
+- Forge Base – equilíbrio entre dano e sobrevivência
+
+### Capa
+- Vainglory: foco em dano e haste
+- Penitence: foco em tankar e solar bosses fortes
 
 ## Consumíveis
 
-Em construção.
+{{ read_csv('./assets/consumiveis.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

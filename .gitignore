@@ -4,3 +4,5 @@
 *.bat
 .makemd/
 **/.space/**
+.venv/
+*.env
