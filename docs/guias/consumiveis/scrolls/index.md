@@ -110,5 +110,35 @@ As cores no guia de feitiços indicarão o tipo de classe usada para os testes d
 ## Em breve...
 Guia com combinações de símbolos para cada feitiço estará disponível aqui!
 
+## Scrolls
+
+<link rel="stylesheet" href="../../../assets/css/scrolls.css">
+
+<div id="scroll-calculator">
+  <input
+    id="scroll-input"
+    type="text"
+    placeholder="Digite o nome do scroll..."
+    onkeyup="filterScrolls()"
+    autocomplete="off"
+  >
+
+  <div id="scroll-list" class="scroll-list"></div>
+
+  <div id="scroll-result" class="scroll-result">
+    <p>Comece digitando o nome de um scroll.</p>
+  </div>
+
+  <div class="hover-tooltip-container">
+    <span class="hover-tooltip">?</span>
+    <div class="hover-tooltip-box">
+      <p>🔍 Digite o nome do scroll para ver sugestões.</p>
+      <p>🧪 A combinação mostra os reagentes necessários no SpellCraft.</p>
+    </div>
+  </div>
+</div>
+
+<script src="../../../assets/js/scrolls.js"></script>
+
 ## Referência Bibliográfica
 - https://forums2.battleon.com/f/tm.asp?m=21434649&mpage=1&key=&#21434649

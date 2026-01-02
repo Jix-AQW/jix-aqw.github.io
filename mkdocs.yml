@@ -134,6 +134,7 @@ plugins:
       use_material_social_cards: true
   - awesome-nav:  
   - git-committers:
+      enabled: false
       repository: jix-AQW/site
       branch: main
   - table-reader:
