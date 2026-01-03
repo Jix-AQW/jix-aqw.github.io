@@ -20,3 +20,29 @@ hide:
 
 !!! tip "Dica"
     Veja os links à esquerda da página ou clique em :fontawesome-solid-bars: (canto superior esquerdo).
+
+Aqui você encontra guias para as principais classes do AQWorlds:
+
+- [[ArchMage]]
+- [[Arcana Invoker]]
+- [[ArchPaladin]]
+- [[Archfiend]]
+- [[Chaos Avenger]]
+- [[Chrono Chaorruptor]]
+- [[Chrono Commandant]]
+- [[Chrono ShadowHunter]]
+- [[Chronomancer Prime]]
+- [[Dragon of Time]]
+- [[Drakkar Knight]]
+- [[Great Thief]]
+- [[Healer]]
+- [[Legion DoomKnight]]
+- [[Legion Revenant]]
+- [[Lord of Order]]
+- [[Mage]]
+- [[Rogue]]
+- [[StoneCrusher]]
+- [[Verus DoomKnight]]
+- [[Warrior]]
+
+Para mais detalhes, veja os guias individuais.

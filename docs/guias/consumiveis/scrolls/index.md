@@ -4,7 +4,7 @@
     Veja os links à esquerda da página ou clique em :fontawesome-solid-bars: (canto superior esquerdo).
 
 ## Introdução
-**SpellCrafting** é uma das várias habilidades de ofício disponíveis em **AdventureQuest Worlds (AQW)**. Com ela, você pode criar feitiços poderosos para usar em batalha. Por exemplo, o Scroll of Enrage provoca os inimigos, atraindo sua atenção para o usuário.
+**SpellCrafting** é uma das várias habilidades de ofício disponíveis em **AdventureQuest Worlds (AQW)**. Com ela, você pode criar feitiços poderosos para usar em batalha. Por exemplo, o Enrage provoca os inimigos, atraindo sua atenção para o usuário.
 
 Use a barra de busca abaixo para procurar um scroll pelo nome ou pelo ingrediente usado:
 
@@ -59,21 +59,24 @@ A primeira missão recomendada é a da **Sora to Hoshi**:
 ## Como criar feitiços?
 
 ### Etapa 1: Obter Tintas (Spell Ink)
-Antes de criar feitiços, será necessário fabricar tintas mágicas.
+Antes de criar feitiços, será necessário obter as tintas mágicas (Ink).
 
 **Materiais utilizados para criar tintas:**
 
-- **Mystic Quills** – usados para feitiços **Ember, Radiant, Runic, Fading, Elemental**
-- **Mystic Parchment** – usados para feitiços **Hallow ou Zealous**
-- **Mystic Shards** – usados para feitiços **ArchMage**
-- **Arcane Quills** – podem ser usados para todas as tintas
+- **Mystic Quills**: usados para feitiços **Ember, Radiant, Runic, Fading, Elemental**
+- **Mystic Parchment**: usados para feitiços **Hallow** ou **Zealous**
+- **Mystic Shards**: usados para feitiços **ArchMage**
+- **Arcane Quills**: podem ser usados para todas as tintas
 
 Você pode obter esses itens gratuitamente completando missões repetíveis em `/join dragonrune` ou como drop de monstros listados no [Wiki do AQW](http://aqwwiki.wikidot.com/).
 
 ### Etapa 2: Criar a Tinta
 Volte ao mapa **Dragonrune** e fale com **Neveya**. Clique na opção **"Get Spell Ink"** para acessar o *merge shop*.
 
+
+
 Para iniciantes, recomenda-se criar a **Ember Ink** primeiro.
+
 
 ### Etapa 3: Acessar o Minigame
 Com a tinta no inventário, clique em qualquer uma das folhas de criação de feitiço na sala para iniciar o minigame.
@@ -102,16 +105,88 @@ Você só poderá criar feitiços de outro capítulo após completar o capítulo
 
 ## Categorias de Feitiços
 
-- **Ember**
-- **Radiant**
-- **Runic**
-- **Fading**
-- **Elemental**
-- **Hallow**
-- **Zealous**
-- **Entropic**
-- **Enchanted**
-- **ArchMage**
+```mermaid
+---
+config:
+  theme: 'forest'
+---
+mindmap
+  root((Spellcraft))
+    Craft (Inks)
+      Ember
+        Dark Energy
+        Diamond Cage
+        Fireball (2)
+        Plasma Bolt
+        Shadow Bolt
+        Ssikari s Breath
+      Radiant
+        Acid Rain
+        Corrosion
+        Crushing Wave
+        Exorcise
+        Heartbeat
+        Wind Strike
+      Runic
+        Bane
+        Cripple
+        Dark Grip
+        Petrify
+        Weaken
+      Fading
+        Arc Lightning
+        Chains
+        Dark Arc
+        Eclipse
+        Spirit Rend
+      Elemental
+        Blessed Shard
+        Frostbite
+        Geyser
+        Holy Bolt
+        Purge
+        Scorched Steel
+      Hallow
+        Charged Flare
+        Doom Flare
+        Frost Flare
+        Holy Flare
+      Zealous
+        Blinding Light
+        Decay
+        Enrage
+        Furious Gale
+        Guardian Blast
+        Shadowblade
+      Entropic
+        Cantor s Lament
+        Death Pact
+        Dissonance
+        Pulse Compression
+        Soul Crush
+        Void Strike
+      Enchanted
+        Chaos Fog
+        Freezing Flame
+        Shiftburn
+        Torment
+      ArchMage
+        Ethereal Curse
+        Ethereal Slumber
+        Fire Storm
+        Mystify
+        Underworld
+        Wither
+    Gold (Vendor)
+      Chain Lightning
+      Dark Flare
+      Fireball (1)
+      Fireblast
+      Ice Shard
+      Life Steal
+      Nightmares
+      Pangs
+```
 
 ## Outros Tipos de Feitiço
 Os feitiços também variam entre **mágicos**, **físicos (melee)** ou híbridos. Veja abaixo as classes usadas para testes de dano:

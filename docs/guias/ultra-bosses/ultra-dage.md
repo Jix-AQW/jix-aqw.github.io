@@ -50,7 +50,7 @@ Salve rapaziada fala tu! Jix novamente desta vez trazendo um tutorial ou guia de
 Esse ultra facilita muito o farm da Legion Revenant, te permite pegar Caladbolg na versão 51%, Necrotic Blade of the Underworld e muito mais!
 
 ## Requisitos
-Você precisa ser membro do `/Underworld` que pode ser obtido ao completar a quest [Fail to the King](aqwwiki.wikidot.com/dage-the-evil-s-quests). Vale lembrar que você só poderá iniciar a missão caso tenha a amadura [Undead Warrior]([Undead Warrior (Armor) - AQW](http://aqwwiki.wikidot.com/undead-warrior-armor)) em seu inventário.
+Você precisa ser membro do `/Underworld` que pode ser obtido ao completar a quest [Fail to the King](https://aqwwiki.wikidot.com/dage-the-evil-s-quests). Vale lembrar que você só poderá iniciar a missão caso tenha a amadura [Undead Warrior]([Undead Warrior (Armor) - AQW](https://aqwwiki.wikidot.com/undead-warrior-armor)) em seu inventário.
 
 ## Mecânicas
 - Você **não pode curar com magias de cura normais ou curas ao longo do tempo (HoT)** por causa do debuff de Decay. É possível se você acertar o tempo certo, mas corre o risco de matar seu grupo. Você pode usar a interface de Auras para monitorar o debuff de Decay, mas a janela para curar é extremamente pequena. É recomendado usar o aprimoramento AWE Health Vamp aqui, mas se a sua classe tiver algum tipo de cura parecida com ela, como é o caso da Great Thief, você não precisará dele.

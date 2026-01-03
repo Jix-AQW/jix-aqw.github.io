@@ -97,6 +97,7 @@ theme:
 # Plugins ====================================================================================================
 
 plugins:
+  - obsidian-support:
   - obsidian-interactive-graph:
   - rss:
       abstract_chars_count: 160  # -1 for full content
@@ -134,7 +135,7 @@ plugins:
       use_material_social_cards: true
   - awesome-nav:  
   - git-committers:
-      enabled: false
+      enabled: true
       repository: jix-AQW/site
       branch: main
   - table-reader:
@@ -178,13 +179,14 @@ plugins:
 extra_css:
   - https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.min.css
   - assets/stylesheets/interactive_graph.css
+  
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  - assets/javascripts/interactive_graph.js
   - https://cdn.jsdelivr.net/npm/@widgetbot/crate@3
   - assets/js/discord.js  # Arquivo local com a inicialização
+  - assets/javascripts/interactive_graph.js
 extra:
   robots.txt: robots.txt  # Se estiver na pasta "docs/"
   #alternate:
@@ -221,7 +223,7 @@ extra:
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/jixaqw
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/Jix-AQW/site
+      link: https://github.com/Jix-AQW/
   consent:
     title: Cookie consent
     description: >- 

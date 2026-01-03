@@ -52,6 +52,8 @@ Os  aprimoramentos **Forge** oferecem habilidades bônus únicas para armas, cap
 
     **Efeito**: causa 80% de Dano Mágico a até 2 alvos, sempre acerta e é crítico. Ganha uma pilha de *Stygian* para cada alvo atingido, aumentando o Dano Causado e a Chance de Acerto em 30% por 6 segundos, mas inflige um dano ao longo do tempo no usuário.
 
+    *Usado em builds de [[ArchMage]] para suporte em grupo.*
+
 - #### :fontawesome-solid-music: **Arcana's Concerto**
 
     ---
@@ -72,6 +74,8 @@ Os  aprimoramentos **Forge** oferecem habilidades bônus únicas para armas, cap
     **Chance de ativação**: 100% na terceira habilidade (sem tempo de recarga).
 
     **Efeito**: causa de 250% a 1125% de Dano Mágico a até 2 alvos, aumentando conforme a Mana diminui, sempre acerta, mas não é crítico. Ganha uma pilha de *Elysian* para cada alvo atingido, proporcionando uma cura rápida, regenerando 4 de Mana por segundo e aumentando o Dano Causado em 10% por 8 segundos.
+
+    *Popular em builds de [[ArchMage]] para dano sustentável.*
 
 - #### :fontawesome-solid-scissors: **Lacerate**
 
@@ -100,6 +104,8 @@ Os  aprimoramentos **Forge** oferecem habilidades bônus únicas para armas, cap
     **Chance de ativação**: 100% em ataques automáticos (20 segundos de recarga).
 
     **Efeito**: aplica *Valiance* ao usuário, aumentando Força, Destreza, Intelecto, Sabedoria e Resistência em 30%, e Sorte em 10% por 20 segundos.
+
+    *Usado em builds de alto dano em [[ArchMage]] e outras classes.*
 
 - #### :fontawesome-solid-utensils: **Ravenous**
 
@@ -204,5 +210,9 @@ Os  aprimoramentos **Forge** oferecem habilidades bônus únicas para armas, cap
 
 ## Considerações Finais
 Cada um desses encantamentos permite uma personalização estratégica do personagem, sendo essencial escolher os aprimoramentos que melhor se alinham ao seu estilo de jogo e às necessidades específicas de cada batalha.
+
+### Links Relacionados
+- [Voltar para Enhancements](../)
+- [[ArchMage]]
 
 Assistam os vídeos ou navege pelas categorias ao lado para entender um pouco mais sobre cada encantamento.

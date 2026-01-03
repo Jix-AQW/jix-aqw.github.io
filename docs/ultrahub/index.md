@@ -23,7 +23,7 @@ hide:
     Veja os links à esquerda da página ou clique em :fontawesome-solid-bars: (canto superior esquerdo).
 
 ## Sobre Nós
-Nós somos a **UltraHub**, uma guilda brasileira fundada em 13 de Abril de 2025 pelo Jix e Pen. Surgimos com a proposta de nos tornarmos um centro de ajuda contra os ultra bosses.
+Nós somos a **UltraHub**, uma guilda brasileira fundada em 13 de Abril de 2025 pelo Jix e Pen. Surgimos com a proposta de nos tornarmos um centro de ajuda contra os [Ultra Bosses](../guias/ultra-bosses/).
 
 ## Nossa Sede
 Com o intuito de abrir uma sede de ajuda, criamos o **UltraHub** que pode ser acessado colocando `/house UltraHub` no seu chat e apertando ENTER.
@@ -41,26 +41,26 @@ Com o intuito de abrir uma sede de ajuda, criamos o **UltraHub** que pode ser ac
 </div>
 
 ## Recrutamento
-Somos uma guilda de alto desempenho, necessitando que todos os candidatos conheçam as mecânicas dos ultra bosses e tenham habilidades de comunicação que são cruciais para passar a call, ou seja, dizer quais classes, enhancements, potions, elixires e tônicos que os aliados deverão usar.
+Somos uma guilda de alto desempenho, necessitando que todos os candidatos conheçam as mecânicas dos ultra bosses e tenham habilidades de comunicação que são cruciais para passar a call, ou seja, dizer quais [Classes](../guias/classes/), enhancements, potions, elixires e tônicos que os aliados deverão usar.
 
 ???+ Tip "Processo de Recrutamento"
     ```mermaid
     flowchart TD
         Start([Início do Recrutamento via Discord])
-        ListaBosses[["Lista de 10 Ultra Bosses definidos"]]
+        ListaBosses['Lista de 10 Ultra Bosses definidos']
         ParaCadaBoss{Para cada Ultra Boss?}
-        BancaEscolheClasses[["Banca escolhe as classes que o candidato usará"]]
-        CandidatoEscolheApoio[["Candidato escolhe classes, enchants e bagres da banca"]]
-        EmCall[["Candidato deve estar em call no Discord"]]
-        RaidComeca[["Raid contra o Ultra começa"]]
+        BancaEscolheClasses['Banca escolhe as classes que o candidato usará']
+        CandidatoEscolheApoio['Candidato escolhe classes, enchants e bagres da banca']
+        EmCall['Candidato deve estar em call no Discord']
+        RaidComeca['Raid contra o Ultra começa']
         ExecutouCorretamente{Execução correta?}
         DerrotouBoss{Boss derrotado?}
-        SubtraiErros[["Subtrai pontos por falhas (morte, falha técnica etc)"]]
-        AtribuirNota[["Atribui nota de 0 a 100 para o boss"]]
+        SubtraiErros['Subtrai pontos por falhas (morte, falha técnica etc)']
+        AtribuirNota['Atribui nota de 0 a 100 para o boss']
         ProximoBoss{Ainda há bosses?}
-        CalcularMedia[["Calcular média das notas"]]
+        CalcularMedia['Calcular média das notas']
         Aprovado{Média ≥ 93,5?}
-        Feedback[["Exibir nota final e feedback"]]
+        Feedback['Exibir nota final e feedback']
         AprovadoMsg([✅ Aprovado na guilda UltraHub!])
         ReprovadoMsg([❌ Reprovado. Nova tentativa em 3 dias.])
         End([Fim do Processo])

@@ -43,11 +43,11 @@ Requisitos aqui.
 ## Composições
 
 ### Lua
-Verus Doomknight, Lord of order + 2 classes físicas (Void Highlord, Chaos Avenger, Chrono Shadowhunter, Great Thief, Archfiend, exalted harbinger, Archpaladin)
+[[Verus Doomknight]], [[Lord of Order]] + 2 classes físicas ([[Void Highlord]], [[Chaos Avenger]], [[Chrono Shadowhunter]], [[Great Thief]], [[Archfiend]], [[Exalted harbinger]], [[ArchPaladin]])
 ### Sol
-Legion revenant, Lord of order + 2 classes mágicas (Archpaladin, Dragon of time, Shaman, Arcana Invoker
+[[Legion Revenant]], [[Lord of Order]] + 2 classes mágicas ([[ArchPaladin]], [[Dragon of time]], [[Shaman]], [[Arcana Invoker]]
 ### Eclipse
-Legion Revenant, Lord of Order, Archpaladin + classe DPS AOE (Arcana Invoker, Shaman, Dragon of Time
+[[Legion Revenant]], [[Lord of Order]], [[ArchPaladin]] + classe DPS AOE ([[Arcana Invoker]], [[Shaman]], [[Dragon of Time]]
 
 ## Considerações Finais
 É isso.

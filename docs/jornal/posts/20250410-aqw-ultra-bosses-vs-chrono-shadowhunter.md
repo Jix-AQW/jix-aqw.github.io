@@ -1,7 +1,6 @@
 ---
-date:
-  created: 2025-04-12
-  updated: 2025-04-12
+date: 2025-04-12
+
 authors:
   - jix
 categories:

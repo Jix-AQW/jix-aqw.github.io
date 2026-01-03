@@ -30,3 +30,13 @@ hide:
 ---
 !!! tip "Dica"
     Veja os links à esquerda da página ou clique em :fontawesome-solid-bars: (canto superior esquerdo).
+
+Guias para os principais Ultra Bosses:
+
+- [Champion Drakath](ultra-champion-drakath.md)
+- [Ultra Dage](ultra-dage.md)
+- [Ultra Drago](ultra-drago.md)
+- [Ultra Ezrajal](ultra-ezrajal.md)
+- [Ultra Speaker](ultra-speaker.md)
+
+Para estratégias, veja os guias individuais. Muitas vezes, classes como [[ArchMage]] ou [[Arcana Invoker]] são essenciais.

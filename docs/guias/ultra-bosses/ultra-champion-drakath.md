@@ -45,9 +45,9 @@ hide:
 </div>
 
 ## Introdução
-Salve rapaziada, fala tu! Jix novamente, desta vez trazendo um guia definitivo de como derrotar o Champion Drakath!
+Salve rapaziada, fala tu! Jix novamente, desta vez trazendo um guia definitivo de como derrotar o Champion Drakath e conseguir a então sonhada [[Chaos Avenger]].
 
-Menção honrosa ao Scroll of Dissonance que consegue ajudar a equipe na recuperação de mana, dessa forma substituindo uma StoneCrusher!
+Menção honrosa ao **Scroll of Dissonance** que consegue ajudar a equipe na recuperação de mana, dessa forma substituindo uma [[StoneCrusher]]!
 
 ## Requisitos
 Para completar a missão, o jogador deverá ser nível 80.
