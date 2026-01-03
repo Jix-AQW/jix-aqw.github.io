@@ -97,7 +97,7 @@ theme:
 # Plugins ====================================================================================================
 
 plugins:
-  - obsidian-support:
+  #- obsidian-support:
   - obsidian-interactive-graph:
   - rss:
       abstract_chars_count: 160  # -1 for full content

@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install mkdocs mkdocstrings mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-table-reader-plugin mkdocs-glightbox mkdocs-rss-plugin mkdocs-awesome-nav mkdocs-obsidian-interactive-graph-plugin obsidian-support
+      - run: pip install mkdocs mkdocstrings mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-table-reader-plugin mkdocs-glightbox mkdocs-rss-plugin mkdocs-awesome-nav mkdocs-obsidian-interactive-graph-plugin
 
       # Configura o Git corretamente ↓
       - name: Configure Git
