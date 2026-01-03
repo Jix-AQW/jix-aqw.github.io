@@ -6,7 +6,7 @@
 ## Introdução
 **SpellCrafting** é uma das várias habilidades de ofício disponíveis em **AdventureQuest Worlds (AQW)**. Com ela, você pode criar feitiços poderosos para usar em batalha. Por exemplo, o Scroll of Enrage provoca os inimigos, atraindo sua atenção para o usuário.
 
-
+Use a barra de busca abaixo para procurar um scroll pelo nome ou pelo ingrediente usado:
 
 <link rel="stylesheet" href="../../../assets/css/scrolls.css">
 
