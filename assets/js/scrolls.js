@@ -12,6 +12,27 @@ fetch("/assets/js/scrolls.json")
     data.forEach(s => SCROLLS[s.name] = s);
   })
   .catch(err => console.error("Erro ao carregar scrolls.json", err));
+const getSearchableText = (scroll) => {
+  let text = "";
+
+  // Nome
+  if (scroll.name) text += scroll.name + " ";
+
+  // Campos simples
+  if (scroll.description) text += scroll.description + " ";
+  if (scroll.type) text += scroll.type + " ";
+  if (scroll.location) text += scroll.location + " ";
+  if (scroll.price) text += scroll.price + " ";
+  if (scroll.sellback) text += scroll.sellback + " ";
+  if (scroll.required_item) text += scroll.required_item + " ";
+
+  // Notas (array)
+  if (Array.isArray(scroll.notes)) {
+    text += scroll.notes.join(" ") + " ";
+  }
+
+  return text.toLowerCase();
+};
 
 // ==========================
 // FILTER SCROLLS
@@ -31,10 +52,13 @@ const filterScrolls = (kill) => {
     return;
   }
   
-  const filtered = Object.keys(SCROLLS)
-    .filter(s => s.toLowerCase().includes(q.toLowerCase()))
+  const query = q.toLowerCase();
+
+  const filtered = Object.values(SCROLLS)
+    .filter(scroll => getSearchableText(scroll).includes(query))
+    .map(scroll => scroll.name)
     .sort();
-  
+
   scrollList.innerHTML = filtered
     .map(s => `<div class="pot-item" onclick="selectScroll('${s.replace(/'/g, "\\'")}')">${s}</div>`)
     .join("");

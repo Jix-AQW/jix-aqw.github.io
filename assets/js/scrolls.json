@@ -2,19 +2,19 @@
   {
     "id": "scroll-of-acid-rain",
     "name": "Scroll of Acid Rain",
-    "icon": null,
+    "icon": "http://aqwwiki.wdfiles.com/local--files/use-items/Fang.png",
     "combination_image": "https://raw.githubusercontent.com/Jix-AQW/jix-aqw.github.io/refs/heads/main/assets/scrolls/combination-scroll-of-acid-rain.png",
     "location": "N/A",
     "price": "N/A",
     "required_item": "Radiant Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summons a face melting rain cloud to damage your opponent for 8 seconds.",
+    "description": "Invoca uma nuvem de chuva derretedora de rostos para danificar seu oponente por 8 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 50% Hybrid Damage and applies Acid Rain to the target, a 250% hybrid damage DoT (67% per tick) for 8 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 50% de Dano Híbrido e aplica Chuva Ácida ao alvo, um DoT de dano híbrido de 250% (67% por tick) por 8 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-acid-rain"
   },
@@ -28,12 +28,12 @@
     "required_item": "Fading Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Emits a burst of electrical energy that will bounce to up to 3 targets, dealing more damage with each bounce.",
+    "description": "Emite uma explosão de energia elétrica que ricocheteia para até 3 alvos, causando mais dano a cada ricochete.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 90% Weapon Damage to the primary target, and 50% more to each consecutive target."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 90% de Dano de Arma ao alvo primário, e 50% a mais para cada alvo consecutivo."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-arc-lightning"
   },
@@ -47,12 +47,12 @@
     "required_item": "Runic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals damage and applies an effect based on your target's tag.",
+    "description": "Causa dano e aplica um efeito baseado na tag do seu alvo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Previously called\"Scroll of Talon Twisting\"."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Anteriormente chamado \"Scroll of Talon Twisting\"."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-bane"
   },
@@ -66,14 +66,14 @@
     "required_item": "Elemental Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "If your target is undead, this attack pierces your targets armor leaving them extremely vulnerable to all attacks for 10 seconds.",
+    "description": "Se o seu alvo for morto-vivo, este ataque perfura a armadura deles deixando-os extremamente vulneráveis a todos os ataques por 10 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Can only be used againstUndead Monsters.",
-      "Cooldown lasts 30 seconds.",
-      "Deals 50% Spell Damage and applies Vulnerable to the target, increasing its All In by 50% for 10 seconds.",
-      "Crafts in batches of 10.",
-      "Used in the 'Shadowslayer Summoning Ritual' quest."
+      "Acumule até 99.",
+      "Pode ser usado apenas contra Monstros Mortos-Vivos.",
+      "Cooldown dura 30 segundos.",
+      "Causa 50% de Dano de Feitiço e aplica Vulnerável ao alvo, aumentando seu All In em 50% por 10 segundos.",
+      "Craftado em lotes de 10.",
+      "Usado na missão 'Shadowslayer Summoning Ritual'."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-blessed-shard"
   },
@@ -87,13 +87,13 @@
     "required_item": "Zealous Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals damage to all enemies in range with a chance to blind your target.",
+    "description": "Causa dano a todos os inimigos no alcance com uma chance de cegar seu alvo.",
     "notes": [
-      "Stacks up to 99.",
-      "Blinded cannot be applied if the target hasShadow Sealedactive, but does not fade if Shadow Sealed is applied after.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 300% Hybrid DPS to up to 4 targets and has a chance to apply Blinded to the target, decreasing its Hit Chance by 50% for 6 seconds."
+      "Acumule até 99.",
+      "Cego não pode ser aplicado se o alvo tiver Selo Sombrio ativo, mas não desaparece se Selo Sombrio for aplicado depois.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 300% DPS Híbrido a até 4 alvos e tem uma chance de aplicar Cego ao alvo, diminuindo sua Chance de Acerto em 50% por 6 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-blinding-light"
   },
@@ -107,12 +107,12 @@
     "required_item": "Entropic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Enchant your weapon with Crescendo a magical poison, dealing damage over 10 seconds, that get's stronger every time it deals damage.",
+    "description": "Encanta sua arma com Crescendo, um veneno mágico, causando dano ao longo de 10 segundos, que fica mais forte a cada vez que causa dano.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 100% Spell Damage and applies Crescendo to the target."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 100% de Dano de Feitiço e aplica Crescendo ao alvo."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-cantor-s-lament"
   },
@@ -126,11 +126,11 @@
     "required_item": "N/A",
     "sellback": "278 Gold",
     "type": "Item",
-    "description": "This scroll arcs lightning to up to 4 targets, dealing less damage to each new target (scrolls must be equipped in order to be used from your Action Bar!).",
+    "description": "Este pergaminho lança relâmpagos para até 4 alvos, causando menos dano a cada novo alvo (os pergaminhos devem ser equipados para serem usados da sua Barra de Ação!).",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Also seeBottled Lightning."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Veja também Garrafa de Relâmpago."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-chain-lightning"
   },
@@ -144,12 +144,12 @@
     "required_item": "Fading Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals moderate damage, bouncing up to 3 targets with a chance to slow your targets haste significantly. Stronger with a higher Attack Power.",
+    "description": "Causa dano moderado, ricocheteando até 3 alvos com uma chance de retardar a pressa deles significativamente. Mais forte com maior Poder de Ataque.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 180% Weapon DPS and has a chance to apply Chained to the target, reducing its Haste by 50% for 8 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 180% DPS de Arma e tem uma chance de aplicar Acorrentado ao alvo, reduzindo sua Pressa em 50% por 8 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-chains"
   },
@@ -163,12 +163,12 @@
     "required_item": "Enchanted Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "A poisonous gas that instills insanity dealing damage with a chance to stun or cause insanity. Insane opponents have a reduced chance to dodge and deal less critical strikes.",
+    "description": "Um gás venenoso que instila insanidade causando dano com uma chance de atordoar ou causar insanidade. Oponentes insanos têm uma chance reduzida de esquivar e causar golpes críticos menores.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 150% Hybrid DPS and has a chance to apply either effect to the target:Insanity, reducing its Crit Chance and Dodge by 50% for 10 seconds.Stunned, stunning them for 2 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 150% DPS Híbrido e tem uma chance de aplicar um dos efeitos ao alvo: Insanidade, reduzindo sua Chance de Crítico e Esquiva em 50% por 10 segundos. Atordoado, atordoando-os por 2 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-chaos-fog"
   },
@@ -182,12 +182,12 @@
     "required_item": "Hallow Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon a burst of electricity shocking the two closest targets for high damage with a chance to stun your target.",
+    "description": "Invoca uma explosão de eletricidade chocando os dois alvos mais próximos para alto dano com uma chance de atordoar seu alvo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 400% Hybrid DPS and has a chance to apply Stunned to the target, stunning them for 2 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 400% DPS Híbrido e tem uma chance de aplicar Atordoado ao alvo, atordoando-os por 2 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-charged-flare"
   },
@@ -201,13 +201,13 @@
     "required_item": "Radiant Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon the wrath of nature to poison your opponent and weaken their defenses for 4 seconds.",
+    "description": "Invoca a ira da natureza para envenenar seu oponente e enfraquecer suas defesas por 4 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Only usable against Undead targets.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 100% Hybrid Damage and applies Corrosion to the target, increasing its All In by 20% for 6 seconds."
+      "Acumule até 99.",
+      "Usável apenas contra alvos Mortos-Vivos.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 100% de Dano Híbrido e aplica Corrosão ao alvo, aumentando seu All In em 20% por 6 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-corrosion"
   },
@@ -221,12 +221,12 @@
     "required_item": "Runic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Curse your opponent dealing moderate damage while crippling their attack speed for 6 seconds.",
+    "description": "Amaldiçoa seu oponente causando dano moderado enquanto aleija a velocidade de ataque deles por 6 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 150% Hybrid DPS and applies Crippled to the target, decreasing its Haste by 20% for 6 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 150% DPS Híbrido e aplica Aleijado ao alvo, diminuindo sua Pressa em 20% por 6 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-cripple"
   },
@@ -240,12 +240,12 @@
     "required_item": "Radiant Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summons a tidal wave to crush your opponent where he stands. Stronger with high Spell Power.",
+    "description": "Invoca uma onda de maré para esmagar seu oponente onde ele está. Mais forte com alto Poder de Feitiço.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts 1 at a time.",
-      "Deals 350% Spell DPS."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado 1 de cada vez.",
+      "Causa 350% DPS de Feitiço."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-crushing-wave"
   },
@@ -259,13 +259,13 @@
     "required_item": "Fading Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "A magical attacks that bounces up to 4 targets dealing light damage with a chance to blind each target.",
+    "description": "Um ataque mágico que ricocheteia até 4 alvos causando dano leve com uma chance de cegar cada alvo.",
     "notes": [
-      "Stacks up to 99.",
-      "Blinded cannot be applied if the target hasShadow Sealedactive, but does not fade if Shadow Sealed is applied after.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Deals 100% Hybrid DPS and has a chance to apply Blinded to the target, reducing its Hit Chance by 50% for 6 seconds."
+      "Acumule até 99.",
+      "Cego não pode ser aplicado se o alvo tiver Selo Sombrio ativo, mas não desaparece se Selo Sombrio for aplicado depois.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Causa 100% DPS Híbrido e tem uma chance de aplicar Cego ao alvo, reduzindo sua Chance de Acerto em 50% por 6 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-dark-arc"
   },
@@ -279,13 +279,13 @@
     "required_item": "Ember Ink",
     "sellback": "50 Gold",
     "type": "Item",
-    "description": "Condenses dark energy into a solid projectile and launches it at your enemy.",
+    "description": "Condensa energia escura em um projétil sólido e lança-o contra seu inimigo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Deals 300% Hybrid DPS.",
-      "Crafts in batches of 10.",
-      "Used in the following quests:'Reborn in the Dark Side (Rare)''Reborn in the Dark Side (Shadow)'"
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Causa 300% DPS Híbrido.",
+      "Craftado em lotes de 10.",
+      "Usado nas seguintes missões: 'Reborn in the Dark Side (Rare)' 'Reborn in the Dark Side (Shadow)'"
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-dark-energy"
   },
@@ -299,11 +299,11 @@
     "required_item": "N/A",
     "sellback": "500 Gold",
     "type": "Item",
-    "description": "Unleash a torrent of dark energies that strikes up to 5 targets near by dealing moderate damage. (Potions must be equipped in order to be used from your Action Bar!)",
+    "description": "Liberta uma torrente de energias escuras que atingem até 5 alvos próximos causando dano moderado. (Poções devem ser equipadas para serem usadas da sua Barra de Ação!)",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts for 15 seconds.",
-      "Also seeScroll of Doom Flare."
+      "Acumule até 99.",
+      "Cooldown dura por 15 segundos.",
+      "Veja também Scroll of Doom Flare."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-dark-flare"
   },
@@ -317,13 +317,13 @@
     "required_item": "Runic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Darkness grips your enemy reducing haste and increasing all damage they receive.",
+    "description": "A escuridão agarra seu inimigo reduzindo a pressa e aumentando todo o dano que eles recebem.",
     "notes": [
-      "Stacks up to 99.",
-      "Applies Dark Grip to the target, reducing its Haste by 20% and increasing its All In by 20% for 16 seconds.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 10.",
-      "Used in the following quests:'Reborn in the Dark Side (Rare)''Reborn in the Dark Side (Shadow)'"
+      "Acumule até 99.",
+      "Aplica Garra Escura ao alvo, reduzindo sua Pressa em 20% e aumentando seu All In em 20% por 16 segundos.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 10.",
+      "Usado nas seguintes missões: 'Reborn in the Dark Side (Rare)' 'Reborn in the Dark Side (Shadow)'"
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-dark-grip"
   },
@@ -337,12 +337,12 @@
     "required_item": "Entropic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "As a last resort this black magic spell will lash out at your opponent in revenge dealing more damage the closer you are to death. Stronger with high Attack Power.",
+    "description": "Como último recurso este feitiço de magia negra lança-se contra seu oponente em vingança causando mais dano quanto mais próximo você está da morte. Mais forte com alto Poder de Ataque.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Deals 110% Weapon DPS at max health, damage increases the lower your current health is.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Causa 110% DPS de Arma em saúde máxima, o dano aumenta quanto menor sua saúde atual.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-death-pact"
   },
@@ -356,12 +356,12 @@
     "required_item": "Zealous Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Decay prevents your opponent from healing for 10 seconds.",
+    "description": "O decaimento impede seu oponente de se curar por 10 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Deals 40% Hybrid Damage and applies Decay, Cannot Heal to the target, preventing it to heal (except lifesteals) for 10 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Causa 40% de Dano Híbrido e aplica Decaimento, Não Pode Curar ao alvo, impedindo-o de se curar (exceto lifesteals) por 10 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-decay"
   },
@@ -375,12 +375,12 @@
     "required_item": "Ember Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summons multiple razor sharp diamonds that surround and tear at your opponent. Stronger with a high attack power.",
+    "description": "Invoca múltiplos diamantes afiados que cercam e rasgam seu oponente. Mais forte com alto poder de ataque.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Deals 350% Weapon DPS.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Causa 350% DPS de Arma.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-diamond-cage"
   },
@@ -394,12 +394,12 @@
     "required_item": "Entropic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Reduces the target's damage and haste by 15% and critical strike chance by 5%, and grants an additional mana to attackers striking the target for 15 seconds.",
+    "description": "Reduz o dano e a pressa do alvo em 15% e a chance de golpe crítico em 5%, e concede mana adicional aos atacantes que atingem o alvo por 15 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Applies Dissonance to the target, reducing its Haste and outgoing damage by 15% and Crit Chance by 5%. Also grants 2 mana to the attacker for every hit attempt (restores mana even on dodges and misses). Lasts 15 seconds.",
-      "Cooldown lasts 45 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Aplica Dissonância ao alvo, reduzindo sua Pressa e dano de saída em 15% e Chance de Crítico em 5%. Também concede 2 mana ao atacante para cada tentativa de golpe (restaura mana mesmo em esquivas e erros). Dura 15 segundos.",
+      "Cooldown dura 45 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-dissonance"
   },
@@ -413,12 +413,12 @@
     "required_item": "N/A",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Hug your opponent and cloud their mine in a snugglific mist causing them to miss with most attacks for the next 8 seconds.",
+    "description": "Abraça seu oponente e nubla a mente deles em uma névoa aconchegante causando-lhes errar com a maioria dos ataques pelos próximos 8 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 45 seconds.",
-      "Reduces Hit Chance by 50%.",
-      "Also seeScroll of Mystify."
+      "Acumule até 99.",
+      "Cooldown dura 45 segundos.",
+      "Reduz a Chance de Acerto em 50%.",
+      "Veja também Scroll of Mystify."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-distracting-hugs"
   },
@@ -432,12 +432,12 @@
     "required_item": "Hallow Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Unleash a torrent of dark energies that strikes up to 5 targets near by dealing moderate damage.",
+    "description": "Liberta uma torrente de energias escuras que atingem até 5 alvos próximos causando dano moderado.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts for 15 seconds.",
-      "Crafts in batches of 20.",
-      "Also seeScroll of Dark Flare."
+      "Acumule até 99.",
+      "Cooldown dura por 15 segundos.",
+      "Craftado em lotes de 20.",
+      "Veja também Scroll of Dark Flare."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-doom-flare"
   },
@@ -451,12 +451,12 @@
     "required_item": "Fading Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon a small solar eclipse to burn a group of enemies. The damage increases for each target struck.",
+    "description": "Invoca um pequeno eclipse solar para queimar um grupo de inimigos. O dano aumenta para cada alvo atingido.",
     "notes": [
-      "Stacks up to 99.",
-      "Used in the 'Book of Aether: Supernova' and 'Shadowslayer Summoning Ritual' quests.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 5."
+      "Acumule até 99.",
+      "Usado nas missões 'Book of Aether: Supernova' e 'Shadowslayer Summoning Ritual'.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 5."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-eclipse"
   },
@@ -470,13 +470,13 @@
     "required_item": "Zealous Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "This spell forces your target to focus their attacks on you and causes them to attack recklessly lowering their damage for 10 seconds. (Taunt effects do not work on players.)",
+    "description": "Este feitiço força seu alvo a focar seus ataques em você e causa-lhes atacar de forma imprudente baixando seu dano por 10 segundos. (Efeitos de taunt não funcionam em jogadores.)",
     "notes": [
-      "Stacks up to 1,000.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 40.",
-      "Applies Focus to the target, forcing it to attack the user for 6 seconds.",
-      "Applies Reckless to the target, reducing all outgoing damage by 15% for 10 seconds."
+      "Acumule até 1.000.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 40.",
+      "Aplica Foco ao alvo, forçando-o a atacar o usuário por 6 segundos.",
+      "Aplica Imprudente ao alvo, reduzindo todo o dano de saída em 15% por 10 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-enrage"
   },
@@ -490,13 +490,13 @@
     "required_item": "Archmage Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Curses your target to exist partially within the ethereal plane reducing their haste and total damage for 6 seconds.",
+    "description": "Amaldiçoa seu alvo a existir parcialmente no plano etéreo reduzindo sua pressa e dano total por 6 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Reduces targets Outgoing damage by 30% and Haste by 25% for 6 seconds.",
-      "Has a cooldown of 60 seconds.",
-      "Crafts in batches of 5.",
-      "Used in the 'Book of Arcana: Arcane Sigil' quest."
+      "Acumule até 99.",
+      "Reduz o dano de saída do alvo em 30% e Pressa em 25% por 6 segundos.",
+      "Tem um cooldown de 60 segundos.",
+      "Craftado em lotes de 5.",
+      "Usado na missão 'Book of Arcana: Arcane Sigil'."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-ethereal-curse"
   },
@@ -510,13 +510,13 @@
     "required_item": "Archmage Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Send your opponent into a deep sleep within the ethereal plane for 10 seconds. Your target is stunned for the duration but also takes 90% less damage from all attacks while ethereal.",
+    "description": "Envia seu oponente para um sono profundo no plano etéreo por 10 segundos. Seu alvo é atordoado pela duração mas também toma 90% menos dano de todos os ataques enquanto etéreo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 5.",
-      "Used in the 'Righteous Seal' quest.",
-      "Also seeScroll of Satisfying Snooze."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 5.",
+      "Usado na missão 'Righteous Seal'.",
+      "Veja também Scroll of Satisfying Snooze."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-ethereal-slumber"
   },
@@ -530,12 +530,12 @@
     "required_item": "Radiant Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "A light based ranged attack, high damage against undead enemies.",
+    "description": "Um ataque à distância baseado em luz, alto dano contra inimigos mortos-vivos.",
     "notes": [
-      "Stacks up to 99.",
-      "Crafts in batches of 10.",
-      "Does 500% variable magical attack damage toUndead Monstersand 200% to others.",
-      "Cooldown lasts 20 seconds."
+      "Acumule até 99.",
+      "Craftado em lotes de 10.",
+      "Causa 500% de dano de ataque mágico variável a Monstros Mortos-Vivos e 200% a outros.",
+      "Cooldown dura 20 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-exorcise"
   },
@@ -549,11 +549,11 @@
     "required_item": "N/A",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon a burst of Fire to hit up to 3 targets around you for high damage. Stronger with high Spell Power.",
+    "description": "Invoca uma explosão de Fogo para atingir até 3 alvos ao seu redor para alto dano. Mais forte com alto Poder de Feitiço.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 45 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 45 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-fire-flare"
   },
@@ -567,14 +567,14 @@
     "required_item": "Archmage Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon a tempest of flame and destruction that deals damage scaled directly with your spell power but will leave you burned and scared in the process.",
+    "description": "Invoca um tempestade de chama e destruição que causa dano escalado diretamente com seu poder de feitiço mas deixará você queimado e assustado no processo.",
     "notes": [
-      "Stacks up to 99.",
-      "Applies Scared to the player, reducing Intellect by 99% for 12 seconds.",
-      "Applies Burned to the player, a DoT lasting 6 seconds.",
-      "Cooldown lasts 90 seconds.",
-      "Crafts in batches of 5.",
-      "Used in the 'Book of Fire: Immolation' quest."
+      "Acumule até 99.",
+      "Aplica Assustado ao jogador, reduzindo Intelecto em 99% por 12 segundos.",
+      "Aplica Queimado ao jogador, um DoT durando 6 segundos.",
+      "Cooldown dura 90 segundos.",
+      "Craftado em lotes de 5.",
+      "Usado na missão 'Book of Fire: Immolation'."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-fire-storm"
   },
@@ -588,11 +588,11 @@
     "required_item": "N/A",
     "sellback": "278 Gold",
     "type": "Item",
-    "description": "This scroll hurls flame at your opponent, dealing moderate damage on impact.",
+    "description": "Este pergaminho lança chama contra seu oponente, causando dano moderado no impacto.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Also see:Scroll of Fireball (2).Scroll of Fireball (3)."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Veja também: Scroll of Fireball (2). Scroll of Fireball (3)."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-fireball-1"
   },
@@ -606,12 +606,12 @@
     "required_item": "Ember Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Hurls flame at your opponent, dealing moderate damage on impact.",
+    "description": "Lança chama contra seu oponente, causando dano moderado no impacto.",
     "notes": [
-      "Stacks to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 10.",
-      "Also see:Scroll of Fireball (1).Scroll of Fireball (3)."
+      "Acumula até 99.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 10.",
+      "Veja também: Scroll of Fireball (1). Scroll of Fireball (3)."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-fireball-2"
   },
@@ -625,10 +625,10 @@
     "required_item": "N/A",
     "sellback": "834 Gold",
     "type": "Item",
-    "description": "Hurls flames at your opponents, dealing light damage to up to 4 targets.",
+    "description": "Lança chamas contra seus oponentes, causando dano leve a até 4 alvos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-fireblast"
   },
@@ -642,12 +642,12 @@
     "required_item": "N/A",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Cast a flaming projectile dealing high damage with a chance to catch your target on fire for double damage.",
+    "description": "Lança um projétil flamejante causando alto dano com uma chance de pegar seu alvo em fogo para dano duplo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Has a chance to apply Burning to the target, casting a high DoT for 6 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Tem uma chance de aplicar Queimando ao alvo, lançando um alto DoT por 6 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-firebolt"
   },
@@ -661,11 +661,11 @@
     "required_item": "Enchanted Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals moderate damage and either burns your foe for damage over time or freezes your target in place stunning them for 4 seconds. Effect increased by Elemental Grasp.",
+    "description": "Causa dano moderado e queima seu inimigo por dano ao longo do tempo ou congela seu alvo no lugar atordoando-os por 4 segundos. Efeito aumentado por Elemental Grasp.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-freezing-flame"
   },
@@ -679,11 +679,11 @@
     "required_item": "Hallow Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon a snowy explosion hitting up to 4 targets for moderate damage.",
+    "description": "Invoca uma explosão nevada atingindo até 4 alvos para dano moderado.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 45 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 45 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-frost-flare"
   },
@@ -697,12 +697,12 @@
     "required_item": "Elemental Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deal moderate freezing damage with a small chance to encase your opponent in a block of ice, stunning them for 6 seconds.",
+    "description": "Causa dano de congelamento moderado com uma pequena chance de encasar seu oponente em um bloco de gelo, atordoando-os por 6 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Used in the 'Book of Ice: Glacial Impact' quest."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Usado na missão 'Book of Ice: Glacial Impact'."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-frostbite"
   },
@@ -716,11 +716,11 @@
     "required_item": "Zealous Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Strike your opponent with elemental fury and a chance to slow their attacks. Stronger with high Spell Power.",
+    "description": "Ataca seu oponente com fúria elemental e uma chance de retardar seus ataques. Mais forte com alto Poder de Feitiço.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-furious-gale"
   },
@@ -734,11 +734,11 @@
     "required_item": "Elemental Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon a boiling burst of water to scorch your opponent. Deals more damage with high Spell Power.",
+    "description": "Invoca um estouro fervente de água para escaldar seu oponente. Causa mais dano com alto Poder de Feitiço.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-geyser"
   },
@@ -752,12 +752,12 @@
     "required_item": "Zealous Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Calls forth mighty dragon flames to scorch your opponents.",
+    "description": "Chama chamas de dragão poderosas para escaldar seus oponentes.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Hits 3 targets."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Atinge 3 alvos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-guardian-blast"
   },
@@ -771,11 +771,11 @@
     "required_item": "Radiant Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals 10% of current HP plus moderate magical damage to the target.",
+    "description": "Causa 10% da HP atual mais dano mágico moderado ao alvo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 20."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 20."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-heartbeat"
   },
@@ -789,11 +789,11 @@
     "required_item": "Elemental Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Launch a righteous ball of evil slaying to destroy undead with a chance to blind your target.",
+    "description": "Lança uma bola justa de matança do mal para destruir mortos-vivos com uma chance de cegar seu alvo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-holy-bolt"
   },
@@ -807,11 +807,11 @@
     "required_item": "Hallow Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Unleash a torrent of holy energies striking up to 5 targets. Deals extra damage verses undead.",
+    "description": "Liberta uma torrente de energias sagradas atingindo até 5 alvos. Causa dano extra contra mortos-vivos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-holy-flare"
   },
@@ -825,11 +825,11 @@
     "required_item": "N/A",
     "sellback": "278 Gold",
     "type": "Item",
-    "description": "This scroll launches a freezing shard at your enemy, dealing moderate damage and reducing their attack speed and power.",
+    "description": "Este pergaminho lança um fragmento congelante contra seu inimigo, causando dano moderado e reduzindo a velocidade e poder de ataque deles.",
     "notes": [
-      "Stacks up to 99.",
-      "Applies Frigid to the target, reducing their attack power and Haste by 20% for 10 seconds.",
-      "Cooldown lasts 60 seconds."
+      "Acumule até 99.",
+      "Aplica Frio ao alvo, reduzindo seu poder de ataque e Pressa em 20% por 10 segundos.",
+      "Cooldown dura 60 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-ice-shard"
   },
@@ -843,11 +843,11 @@
     "required_item": "N/A",
     "sellback": "278 Gold",
     "type": "Item",
-    "description": "Drains some of the target's HP and gives it to you. (Scrolls must be equipped in order to be used from your Action Bar!)",
+    "description": "Drena parte da HP do alvo e dá a você. (Pergaminhos devem ser equipados para serem usados da sua Barra de Ação!)",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Also seeSteal Their Breath."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Veja também Roubar o Fôlego Deles."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-life-steal"
   },
@@ -861,14 +861,14 @@
     "required_item": "Archmage Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Cloud your opponent's mind in a clouding mist causing them to miss with most attacks for the next 8 seconds.",
+    "description": "Nubla a mente do seu oponente em uma névoa nublando causando-lhes errar com a maioria dos ataques pelos próximos 8 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 45 seconds.",
-      "Crafts in batches of 5.",
-      "Reduces Hit Chance by 50%.",
-      "Used in the 'Book of Magus: Incantation' quest.",
-      "Also seeScroll of Distracting Hugs."
+      "Acumule até 99.",
+      "Cooldown dura 45 segundos.",
+      "Craftado em lotes de 5.",
+      "Reduz a Chance de Acerto em 50%.",
+      "Usado na missão 'Book of Magus: Incantation'.",
+      "Veja também Scroll of Distracting Hugs."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-mystify"
   },
@@ -882,10 +882,10 @@
     "required_item": "N/A",
     "sellback": "625 Gold",
     "type": "Item",
-    "description": "Inflict a terrible dream upon your opponent, stunning them for 4 seconds, but reducing all damage they take by 10%. 60 second cooldown. (Potions must be equipped in order to be used from your Action Bar!)",
+    "description": "Inflige um sonho terrível ao seu oponente, atordoando-os por 4 segundos, mas reduzindo todo o dano que eles tomam em 10%. Cooldown de 60 segundos. (Poções devem ser equipadas para serem usadas da sua Barra de Ação!)",
     "notes": [
-      "Stacks up to 99.",
-      "Also seeScroll of Petrify."
+      "Acumule até 99.",
+      "Veja também Scroll of Petrify."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-nightmares"
   },
@@ -899,12 +899,12 @@
     "required_item": "N/A",
     "sellback": "834 Gold",
     "type": "Item",
-    "description": "Applies the Pangs DoT (Damage Over Time) to the the target, dealing an increasing percentage of weapon damage with each tick.",
+    "description": "Aplica o DoT Pangs (Dano Ao Longo do Tempo) ao alvo, causando uma porcentagem crescente de dano de arma com cada tick.",
     "notes": [
-      "Stacks up to 99.",
-      "Applies Pangs to the target, a moderate DoT that lasts for 12 seconds.",
-      "Cooldown lasts 60 seconds.",
-      "Also seeWinds of Fury."
+      "Acumule até 99.",
+      "Aplica Pangs ao alvo, um DoT moderado que dura por 12 segundos.",
+      "Cooldown dura 60 segundos.",
+      "Veja também Ventos de Fúria."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-pangs"
   },
@@ -918,13 +918,13 @@
     "required_item": "Runic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Unleash a powerful curse on your opponent stunning them and turning them into wood. Reduces all damage they take by 10% for the duration.",
+    "description": "Liberta uma maldição poderosa no seu oponente atordoando-os e transformando-os em madeira. Reduz todo o dano que eles tomam em 10% pela duração.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts for 60 seconds.",
-      "Crafts in batches of 10.",
-      "Effect lasts for 4 seconds.",
-      "Also seeScroll of Nightmares."
+      "Acumule até 99.",
+      "Cooldown dura por 60 segundos.",
+      "Craftado em lotes de 10.",
+      "Efeito dura por 4 segundos.",
+      "Veja também Scroll of Nightmares."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-petrify"
   },
@@ -938,11 +938,11 @@
     "required_item": "N/A",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Summon an explosion of pestilence dealing high damage to up to 3 targets. Stronger with high Attack Power.",
+    "description": "Invoca uma explosão de pestilência causando alto dano a até 3 alvos. Mais forte com alto Poder de Ataque.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 45 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 45 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-plague-flare"
   },
@@ -956,11 +956,11 @@
     "required_item": "Ember Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "An energy-based ranged attack dealing physical and magical damage.",
+    "description": "Um ataque à distância baseado em energia causando dano físico e mágico.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-plasma-bolt"
   },
@@ -974,11 +974,11 @@
     "required_item": "N/A",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "You send out waves of psychic energy dealing moderate damage to one or two enemies near you. Stronger with high Spell Power.",
+    "description": "Você envia ondas de energia psíquica causando dano moderado a um ou dois inimigos próximos a você. Mais forte com alto Poder de Feitiço.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-psychic-wave"
   },
@@ -992,11 +992,11 @@
     "required_item": "Entropic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "A strong ranged attack. Applies Pulse Compression, reducing the target's haste by 15% for 6 seconds.",
+    "description": "Um ataque forte à distância. Aplica Compressão de Pulso, reduzindo a pressa do alvo em 15% por 6 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-pulse-compression"
   },
@@ -1010,11 +1010,11 @@
     "required_item": "Elemental Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Furiously rip the evil nature from your target dealing moderate damage with a chance to weaken your opponent.",
+    "description": "Rasga furiosamente a natureza maligna do seu alvo causando dano moderado com uma chance de enfraquecer seu oponente.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-purge"
   },
@@ -1028,11 +1028,11 @@
     "required_item": "N/A",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Send your opponent into a deep sleep within the ethereal plane for 10 seconds. Your target is stunned for the duration but also takes 90% less damage from all attacks while ethereal.",
+    "description": "Envia seu oponente para um sono profundo no plano etéreo por 10 segundos. Seu alvo é atordoado pela duração mas também toma 90% menos dano de todos os ataques enquanto etéreo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Also seeScroll of Ethereal Slumber."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Veja também Scroll of Ethereal Slumber."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-satisfying-snooze"
   },
@@ -1046,12 +1046,12 @@
     "required_item": "Elemental Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Enchant your weapon with searing flames for a devastating attack. Deals more damage with high Attack Power.",
+    "description": "Encanta sua arma com chamas escaldantes para um ataque devastador. Causa mais dano com alto Poder de Ataque.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Used in the following quests:'Forge the Blaze of Awe''Forge the Blazing Light of Destiny''Forge the Burning Sword of Doom'"
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Usado nas seguintes missões: 'Forge the Blaze of Awe' 'Forge the Burning Sword of Doom' 'Forge the Blazing Light of Destiny'"
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-scorched-steel"
   },
@@ -1065,12 +1065,12 @@
     "required_item": "Ember Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Hurls a bolt of dark energy that can rend flesh and steel alike. Stronger when cast by the magically adept.",
+    "description": "Lança um raio de energia escura que pode rasgar carne e aço igualmente. Mais forte quando lançado pelos magicamente adeptos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Scales with your spell power."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Escala com seu poder de feitiço."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-shadow-bolt"
   },
@@ -1084,12 +1084,12 @@
     "required_item": "Zealous Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Enchant your weapon with dark power dealing physical and magical damage with a chance to completely blind your opponent.",
+    "description": "Encanta sua arma com poder escuro causando dano físico e mágico com uma chance de cegar completamente seu oponente.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Blind reduces hit chance by 100%."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Cego reduz a chance de acerto em 100%."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-shadowblade"
   },
@@ -1103,13 +1103,13 @@
     "required_item": "N/A",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals moderate weapon damage plus magical damage with a 50% chance to stun your target.",
+    "description": "Causa dano de arma moderado mais dano mágico com uma 50% de chance de atordoar seu alvo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 10.",
-      "Stun lasts 4 seconds.",
-      "Deals 165% weapon damage."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 10.",
+      "Atordoamento dura 4 segundos.",
+      "Causa 165% de dano de arma."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-shadowburn"
   },
@@ -1123,19 +1123,19 @@
     "required_item": "Enchanted Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals light damage with a chance to apply up to 6 different effects from increasing haste to dealing incredible amounts of damage.",
+    "description": "Causa dano leve com uma chance de aplicar até 6 efeitos diferentes de aumentar a pressa a causar quantidades incríveis de dano.",
     "notes": [
-      "Previously called\"Scroll of Shift Burn\"and before\"Scroll of Shiftburn\".",
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Applies Burning to the target, casting a moderate DoT lasting 10 seconds.",
-      "Applies noMana to the user, reducing mana usage by 90% for 21 seconds.",
-      "Has a chance to apply Trolled, stunning the user for 2 seconds.",
-      "Has a chance to apply Stunned, stunning the target for 2 seconds.",
-      "Has a chance to apply Shifting to the user, increasing haste for 10 seconds.",
-      "Has a chance to apply Shifted to the user, a high HoT lasting 10 seconds.",
-      "Has a chance to apply Burnated to the target, reducing their damage taken by 25% for 10 seconds."
+      "Anteriormente chamado \"Scroll of Shift Burn\" e antes \"Scroll of Shiftburn\".",
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Aplica Queimando ao alvo, lançando um DoT moderado durando 10 segundos.",
+      "Aplica semMana ao usuário, reduzindo o uso de mana em 90% for 21 segundos.",
+      "Tem uma chance de aplicar Trolado, atordoando o usuário por 2 segundos.",
+      "Tem uma chance de aplicar Atordoado, atordoando o alvo por 2 segundos.",
+      "Tem uma chance de aplicar Mudando, aumentando a pressa por 10 segundos.",
+      "Tem uma chance de aplicar Mudado, um HoT alto durando 10 segundos.",
+      "Tem uma chance de aplicar Queimado ao alvo, reduzindo o dano tomado em 25% por 10 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-shiftburn"
   },
@@ -1149,12 +1149,12 @@
     "required_item": "Entropic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "A quick attack dealing physical and magical damage, with a chance to apply Soulless increasing your opponents mana costs significantly for 6 seconds.",
+    "description": "Um ataque rápido causando dano físico e mágico, com uma chance de aplicar Sem Alma aumentando significativamente os custos de mana dos seus oponentes por 6 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Increases Mana Costs by 70%."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Aumenta os Custos de Mana em 70%."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-soul-crush"
   },
@@ -1168,12 +1168,12 @@
     "required_item": "Fading Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "A holy blast that bounces from to up 3 targets dealing more damage with each target. Stronger with higher spell power.",
+    "description": "Uma explosão sagrada que ricocheteia para até 3 alvos causando mais dano com cada alvo. Mais forte com maior poder de feitiço.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10.",
-      "Used in the 'Shadowslayer Summoning Ritual' quest."
+      "Acumule até 99.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10.",
+      "Usado na missão 'Shadowslayer Summoning Ritual'."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-spirit-rend"
   },
@@ -1187,13 +1187,13 @@
     "required_item": "Ember Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Breathes fire on your target causing moderate damage and applying the DragonBurn state to them for Damage Over Time.",
+    "description": "Respira fogo no seu alvo causando dano moderado e aplicando o estado DragonBurn a eles para Dano Ao Longo do Tempo.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10.",
-      "Damage Over Time lasts 10 seconds.",
-      "Deals 100% spell damage on impact."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10.",
+      "Dano Ao Longo do Tempo dura 10 segundos.",
+      "Causa 100% de dano de feitiço no impacto."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-ssikari-s-breath"
   },
@@ -1207,12 +1207,12 @@
     "required_item": "Enchanted Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Magically torment your foe's mind, causing slight damage and causing critical strikes to tickle.",
+    "description": "Tormenta magicamente a mente do seu inimigo, causando dano leve e fazendo com que golpes críticos façam cócegas.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 120 seconds.",
-      "Crafts in batches of 10.",
-      "Reduces the target's Critical Multiplier by 190% for 10 seconds."
+      "Acumule até 99.",
+      "Cooldown dura 120 segundos.",
+      "Craftado em lotes de 10.",
+      "Reduz o Multiplicador de Crítico do alvo em 190% por 10 segundos."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-torment"
   },
@@ -1226,12 +1226,12 @@
     "required_item": "Archmage Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Launch a spirit bomb at your target that will bounce to additional targets dealing more damage with each bounce. Strikes up to 6 targets.",
+    "description": "Lança uma bomba espiritual no seu alvo que ricocheteará para alvos adicionais causando mais dano com cada ricochete. Atinge até 6 alvos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 45 seconds.",
-      "Crafts in batches of 5.",
-      "Used in the 'A Dark Temptation' quest."
+      "Acumule até 99.",
+      "Cooldown dura 45 segundos.",
+      "Craftado em lotes de 5.",
+      "Usado na missão 'A Dark Temptation'."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-underworld"
   },
@@ -1245,12 +1245,12 @@
     "required_item": "Entropic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "A strong attack which deals weapon damage plus an amount derived from your current HP and MP.",
+    "description": "Um ataque forte que causa dano de arma mais uma quantia derivada da sua HP e MP atuais.",
     "notes": [
-      "Stacks up to 99.",
-      "Damage is 30% of current HP + Spell Power.",
-      "Cooldown lasts 30 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Dano é 30% da HP atual + Poder de Feitiço.",
+      "Cooldown dura 30 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-void-strike"
   },
@@ -1264,12 +1264,12 @@
     "required_item": "Runic Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Deals light damage and weakens the target lowering their damage for 6 seconds.",
+    "description": "Causa dano leve e enfraquece o alvo baixando seu dano por 6 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 60 seconds.",
-      "Crafts in batches of 10.",
-      "Reduces target outgoing damage by 40%."
+      "Acumule até 99.",
+      "Cooldown dura 60 segundos.",
+      "Craftado em lotes de 10.",
+      "Reduz o dano de saída do alvo em 40%."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-weaken"
   },
@@ -1283,11 +1283,11 @@
     "required_item": "Radiant Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Gusts of devastating wind are launched at your opponent dealing high damage.",
+    "description": "Rajadas de vento devastador são lançadas contra seu oponente causando alto dano.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 20 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 20 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-wind-strike"
   },
@@ -1301,11 +1301,11 @@
     "required_item": "Archmage Ink",
     "sellback": "25 Gold",
     "type": "Item",
-    "description": "Curse your opponents strength to wither and deteriorate, their attacks deal 30% less damage for 4 seconds.",
+    "description": "Amaldiçoa a força dos seus oponentes para murchar e deteriorar, seus ataques causam 30% menos dano por 4 segundos.",
     "notes": [
-      "Stacks up to 99.",
-      "Cooldown lasts 45 seconds.",
-      "Crafts in batches of 10."
+      "Acumule até 99.",
+      "Cooldown dura 45 segundos.",
+      "Craftado em lotes de 10."
     ],
     "source": "http://aqwwiki.wikidot.com/scroll-of-wither"
   }
