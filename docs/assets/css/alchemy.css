@@ -1,5 +1,13 @@
-/* Barra de pesquisa normal */
-#pot-input {
+/* ==========================
+   ESTILOS GERAIS PARA LISTAS
+   ========================== */
+.pot-search-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+/* Campo de pesquisa */
+.pot-input, #scroll-input {
   width: 100%;
   padding: 0.8rem;
   font-size: 1rem;
@@ -10,7 +18,7 @@
   margin-bottom: 1rem;
 }
 
-#pot-input:focus {
+.pot-input:focus, #scroll-input:focus {
   outline: none;
   border-color: var(--md-accent-fg-color);
   box-shadow: 0 0 0 2px var(--md-accent-fg-color--transparent);
@@ -23,6 +31,14 @@
   max-height: 300px;
   overflow-y: auto;
   background: var(--md-code-bg-color);
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  display: none;
+}
+
+.pot-list.active {
+  display: block;
 }
 
 .pot-item {
@@ -38,6 +54,32 @@
 
 .pot-item:hover {
   background: var(--md-primary-fg-color--transparent);
+}
+
+/* Caixa de resultado */
+.result-box {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: var(--md-default-bg-color);
+  border-radius: 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: var(--md-shadow-z1);
+}
+
+/* Links */
+.result-link {
+  color: var(--md-accent-fg-color);
+  text-decoration: underline;
+}
+
+.result-link:hover {
+  color: var(--md-primary-fg-color);
+}
+
+/* Recomendado */
+.rec-colour {
+  color: var(--md-typeset-a-color);
+  font-weight: bold;
 }
 
 /* Tooltip */
@@ -82,18 +124,41 @@
   transition: opacity 0.3s;
 }
 
-/* Mostrar tooltip ao hover */
 .hover-tooltip-container:hover .hover-tooltip-box {
   visibility: visible;
   opacity: 1;
 }
 
-/* Links das combinações */
-.result-link {
-  color: var(--md-accent-fg-color);
-  text-decoration: underline;
+/* Estilos específicos para scrolls */
+.scroll-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-.result-link:hover {
-  color: var(--md-primary-fg-color);
+.scroll-icon {
+  width: 48px;
+  height: 48px;
+  image-rendering: pixelated;
+}
+
+.scroll-notes {
+  margin-left: 1rem;
+}
+
+.scroll-combination {
+  margin-top: 1rem;
+}
+
+.scroll-combination img {
+  max-width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.scroll-source {
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
 }
