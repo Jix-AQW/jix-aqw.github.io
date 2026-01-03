@@ -27,103 +27,103 @@
     {
       "id": "4",
       "name": "Classes",
-      "symbolSize": 0,
+      "symbolSize": 21,
       "value": "/guias/classes/index.html"
     },
     {
       "id": "5",
       "name": "Arcana Invoker",
-      "symbolSize": 0,
+      "symbolSize": 5,
       "value": "/guias/classes/Arcana%20Invoker.html"
     },
     {
       "id": "6",
       "name": "ArchFiend",
-      "symbolSize": 0,
+      "symbolSize": 2,
       "value": "/guias/classes/Archfiend.html"
     },
     {
       "id": "7",
       "name": "ArchMage",
-      "symbolSize": 0,
+      "symbolSize": 11,
       "value": "/guias/classes/ArchMage.html"
     },
     {
       "id": "8",
       "name": "ArchPaladin",
-      "symbolSize": 0,
+      "symbolSize": 4,
       "value": "/guias/classes/ArchPaladin.html"
     },
     {
       "id": "9",
       "name": "Chaos Avenger",
-      "symbolSize": 0,
+      "symbolSize": 6,
       "value": "/guias/classes/Chaos%20Avenger.html"
     },
     {
       "id": "10",
       "name": "Chrono Chaorruptor",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Chrono%20Chaorruptor.html"
     },
     {
       "id": "11",
       "name": "Chrono Commandant",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Chrono%20Commandant.html"
     },
     {
       "id": "12",
       "name": "Chrono Shadowhunter",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Chrono%20ShadowHunter.html"
     },
     {
       "id": "13",
       "name": "Chronomancer Prime",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Chronomancer%20Prime.html"
     },
     {
       "id": "14",
       "name": "Dragon of Time",
-      "symbolSize": 0,
+      "symbolSize": 8,
       "value": "/guias/classes/Dragon%20of%20Time.html"
     },
     {
       "id": "15",
       "name": "Drakkar Knight",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Drakkar%20Knight.html"
     },
     {
       "id": "16",
       "name": "Great Thief",
-      "symbolSize": 0,
+      "symbolSize": 2,
       "value": "/guias/classes/Great%20Thief.html"
     },
     {
       "id": "17",
       "name": "Healer",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Healer.html"
     },
     {
       "id": "18",
       "name": "Legion DoomKnight",
-      "symbolSize": 0,
+      "symbolSize": 2,
       "value": "/guias/classes/Legion%20DoomKnight.html"
     },
     {
       "id": "19",
       "name": "Legion Revenant",
-      "symbolSize": 0,
+      "symbolSize": 5,
       "value": "/guias/classes/Legion%20Revenant.html"
     },
     {
       "id": "20",
       "name": "Lord of Order",
-      "symbolSize": 0,
+      "symbolSize": 4,
       "value": "/guias/classes/Lord%20of%20Order.html"
     },
     {
@@ -135,25 +135,25 @@
     {
       "id": "22",
       "name": "Rogue",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Rogue.html"
     },
     {
       "id": "23",
       "name": "StoneCrusher",
-      "symbolSize": 0,
+      "symbolSize": 2,
       "value": "/guias/classes/StoneCrusher.html"
     },
     {
       "id": "24",
       "name": "Verus Doomknight",
-      "symbolSize": 0,
+      "symbolSize": 2,
       "value": "/guias/classes/Verus%20DoomKnight.html"
     },
     {
       "id": "25",
       "name": "Warrior",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/guias/classes/Warrior.html"
     },
     {
@@ -201,13 +201,13 @@
     {
       "id": "33",
       "name": "GrimSkull",
-      "symbolSize": 0,
+      "symbolSize": 16,
       "value": "/guias/dungeons/grimskull.html"
     },
     {
       "id": "34",
       "name": "Temple Shrine",
-      "symbolSize": 0,
+      "symbolSize": 14,
       "value": "/guias/dungeons/templeshrine.html"
     },
     {
@@ -225,7 +225,7 @@
     {
       "id": "37",
       "name": "Forge",
-      "symbolSize": 0,
+      "symbolSize": 4,
       "value": "/guias/enhancements/forge/index.html"
     },
     {
@@ -285,13 +285,13 @@
     {
       "id": "47",
       "name": "Ultra Bosses",
-      "symbolSize": 0,
+      "symbolSize": 2,
       "value": "/guias/ultra-bosses/index.html"
     },
     {
       "id": "48",
       "name": "Champion Drakath",
-      "symbolSize": 0,
+      "symbolSize": 2,
       "value": "/guias/ultra-bosses/ultra-champion-drakath.html"
     },
     {
@@ -355,5 +355,246 @@
       "value": "/ultrahub/insignias/index.html"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "4",
+      "target": "7"
+    },
+    {
+      "source": "4",
+      "target": "5"
+    },
+    {
+      "source": "4",
+      "target": "8"
+    },
+    {
+      "source": "4",
+      "target": "6"
+    },
+    {
+      "source": "4",
+      "target": "9"
+    },
+    {
+      "source": "4",
+      "target": "10"
+    },
+    {
+      "source": "4",
+      "target": "11"
+    },
+    {
+      "source": "4",
+      "target": "12"
+    },
+    {
+      "source": "4",
+      "target": "13"
+    },
+    {
+      "source": "4",
+      "target": "14"
+    },
+    {
+      "source": "4",
+      "target": "15"
+    },
+    {
+      "source": "4",
+      "target": "16"
+    },
+    {
+      "source": "4",
+      "target": "17"
+    },
+    {
+      "source": "4",
+      "target": "18"
+    },
+    {
+      "source": "4",
+      "target": "19"
+    },
+    {
+      "source": "4",
+      "target": "20"
+    },
+    {
+      "source": "4",
+      "target": "7"
+    },
+    {
+      "source": "4",
+      "target": "22"
+    },
+    {
+      "source": "4",
+      "target": "23"
+    },
+    {
+      "source": "4",
+      "target": "24"
+    },
+    {
+      "source": "4",
+      "target": "25"
+    },
+    {
+      "source": "7",
+      "target": "5"
+    },
+    {
+      "source": "33",
+      "target": "19"
+    },
+    {
+      "source": "33",
+      "target": "14"
+    },
+    {
+      "source": "33",
+      "target": "7"
+    },
+    {
+      "source": "33",
+      "target": "9"
+    },
+    {
+      "source": "33",
+      "target": "24"
+    },
+    {
+      "source": "33",
+      "target": "18"
+    },
+    {
+      "source": "33",
+      "target": "14"
+    },
+    {
+      "source": "33",
+      "target": "7"
+    },
+    {
+      "source": "33",
+      "target": "14"
+    },
+    {
+      "source": "33",
+      "target": "9"
+    },
+    {
+      "source": "33",
+      "target": "14"
+    },
+    {
+      "source": "33",
+      "target": "7"
+    },
+    {
+      "source": "33",
+      "target": "14"
+    },
+    {
+      "source": "33",
+      "target": "19"
+    },
+    {
+      "source": "33",
+      "target": "9"
+    },
+    {
+      "source": "33",
+      "target": "14"
+    },
+    {
+      "source": "34",
+      "target": "20"
+    },
+    {
+      "source": "34",
+      "target": "9"
+    },
+    {
+      "source": "34",
+      "target": "16"
+    },
+    {
+      "source": "34",
+      "target": "6"
+    },
+    {
+      "source": "34",
+      "target": "8"
+    },
+    {
+      "source": "34",
+      "target": "19"
+    },
+    {
+      "source": "34",
+      "target": "20"
+    },
+    {
+      "source": "34",
+      "target": "8"
+    },
+    {
+      "source": "34",
+      "target": "5"
+    },
+    {
+      "source": "34",
+      "target": "19"
+    },
+    {
+      "source": "34",
+      "target": "20"
+    },
+    {
+      "source": "34",
+      "target": "8"
+    },
+    {
+      "source": "34",
+      "target": "5"
+    },
+    {
+      "source": "34",
+      "target": "14"
+    },
+    {
+      "source": "37",
+      "target": "7"
+    },
+    {
+      "source": "37",
+      "target": "7"
+    },
+    {
+      "source": "37",
+      "target": "7"
+    },
+    {
+      "source": "37",
+      "target": "7"
+    },
+    {
+      "source": "47",
+      "target": "7"
+    },
+    {
+      "source": "47",
+      "target": "5"
+    },
+    {
+      "source": "48",
+      "target": "9"
+    },
+    {
+      "source": "48",
+      "target": "23"
+    }
+  ]
 }
