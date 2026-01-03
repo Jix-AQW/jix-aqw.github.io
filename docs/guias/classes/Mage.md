@@ -29,27 +29,62 @@ Salve rapaziada, fala tu! Jix novamente e no vídeo de hoje decidi trazer para v
 
 ## Visão Geral
 
-Em construção.
+A Mage é uma classe offensive caster focada em dano mágico e controle. Usa gelo para debuff e fogo para DoT. Não tem cura, então depende de encantamentos.
+
+**Pontos Fortes:**
+- Dano em área.
+- Controle com debuffs.
+- Burst com DoT.
+
+**Pontos Fracos:**
+- Sem cura nativa.
+- Consumo de mana alto.
 
 ## Método de Obtenção
 
-Em construção.
+- **Character Creation:** Disponível gratuitamente na criação de personagem.
 
 ## Status
 
-Em construção.
+**Modelo de Status:** Offensive Caster  
+Foco em **INT**, **WIS** e **LUK** para dano mágico e crítico.
+
+- **STR:** Baixo.
+- **DEX:** Baixo.
+- **INT:** Alto.
+- **END:** Médio.
+- **CHA:** Baixo.
+- **LUK:** Alto.
 
 ## Combo
 
-Em construção.
+1. **Arcane Shield (Skill 5):** Reduz dano e converte para mana.
+2. **Ice Shard (Skill 3):** Debuff velocidade/dano (10s).
+3. **Fireball (Skill 2):** DoT (cancela gelo para burst).
+4. **Explosion (Skill 4):** Dano em área, detona DoT.
+
+**Dicas:** Mantenha gelo ativo para defesa. Use 2-4 para burst.
 
 ## Encantamentos
 
-Em construção.
+**Espada:**
+- **Wizard:** +10% INT.
+- **Lucky:** +10% LUK.
+- **Heal Vamp:** Regeneração de HP.
+
+**Capacete:**
+- **Wizard/Lucky.**
+
+**Capa:**
+- **Penitence:** Reduz dano DoT.
+- **Lament:** +dano crítico.
+- **Vanglory:** +15% dano.
 
 ## Consumíveis
 
-Em construção.
+- **Mana Potion:** Restaura mana.
+- **Potion:** Restaura HP.
+- **Tonic:** +10% INT.
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

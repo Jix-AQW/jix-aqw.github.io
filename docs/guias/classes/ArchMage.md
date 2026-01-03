@@ -43,11 +43,21 @@ A Archmage é uma classe híbrida (DPS/Tank) que alterna entre dois modos:
 - Skill 5 alterna entre modos e aumenta dano mágico em 30% por 30s (cuidado: consome 40% da vida!).  
 - Ataque básico não causa dano, mas reduz atributos do inimigo.  
 
-## Método de Obtenção  
-*Em construção. Verifique fontes oficiais do jogo ou guias atualizados.*  
+## Método de Obtenção
 
-## Status  
-*Em construção.*  
+- **Quest: Archmage's Ascension** - Complete a quest para obter a classe como recompensa.  
+
+## Status
+
+**Modelo de Status:** Offensive Caster  
+Foco em **INT** (Inteligência) para dano mágico.
+
+- **STR:** Baixo.
+- **DEX:** Baixo.
+- **INT:** Muito alto para dano.
+- **END:** Médio.
+- **CHA:** Médio.
+- **LUK:** Médio.  
 
 ## Combo  
 ### Rotação Base:  
@@ -91,8 +101,11 @@ A Archmage é uma classe híbrida (DPS/Tank) que alterna entre dois modos:
   - Priorize modo **Corporeal** para curar aliados.  
 - **Indicado**: Dungeons em grupo ou contra inimigos com DoT forte.  
 
-## Consumíveis  
-*Em construção.*  
+## Consumíveis
+
+- **Potent Scarab:** +10% dano mágico.
+- **Mana Potion:** Restaura mana.
+- **Tonic:** +10% INT para dano.  
 
 ## Referências Bibliográficas  
 Vozes da minha cabeça. 🧙

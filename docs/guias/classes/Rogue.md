@@ -35,27 +35,62 @@ Salve rapaziada, fala tu! Jix novamente e no vídeo de hoje decidi trazer para v
 
 ## Visão Geral
 
-Em construção.
+A Rogue é uma classe dodge melee focada em esquiva e veneno. Excelente para Hardcore devido à regeneração de HP ao esquivar. Usa poison para aumentar dano ao longo do tempo.
+
+**Pontos Fortes:**
+- Alta esquiva (+15% base).
+- Regeneração de HP ao esquivar.
+- Dano aumentado com poison.
+
+**Pontos Fracos:**
+- Não regenera mana ao esquivar.
+- Dependente de timing para dano máximo.
 
 ## Método de Obtenção
 
-Em construção.
+- **Character Creation:** Disponível gratuitamente na criação de personagem.
 
 ## Status
 
-Em construção.
+**Modelo de Status:** Dodge Melee  
+Foco em **DEX**, **STR** e **LUK** para esquiva, dano e crítico.
+
+- **STR:** Alto.
+- **DEX:** Muito alto.
+- **INT:** Baixo.
+- **END:** Médio.
+- **CHA:** Baixo.
+- **LUK:** Alto.
 
 ## Combo
 
-Em construção.
+1. **Viper's Kiss (Skill 2):** Aplica poison (130 DoT por 10s).
+2. **Footwork (Skill 3):** +30% esquiva por 7s (cuidado com cooldown).
+3. **Stiletto (Skill 4):** Dano aumentado quando inimigo <40% HP.
+4. **Opportunity's Strike (Skill 5):** Dano máximo no final do poison (use 2-3 vezes).
+
+**Dicas:** Use 2, 3, 5 repetidamente. Ative 4 quando inimigo morrendo.
 
 ## Encantamentos
 
-Em construção.
+**Espada:**
+- **Thief:** +10% DEX.
+- **Lacerate:** Crítico garantido.
+- **Praxis:** Cura equipe.
+
+**Capacete:**
+- **Thief:** +10% DEX.
+
+**Capa:**
+- **Vanglory:** +15% dano.
+- **Penitence:** Reduz dano DoT.
+- **Lament:** +dano crítico.
 
 ## Consumíveis
 
-Em construção.
+- **Potion:** Restaura HP.
+- **Tonic:** +10% DEX.
+- **Berserker Potion:** +10% dano.
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

@@ -36,27 +36,68 @@ Ajude o Bagre apoiando o canal!
 
 ## Visão Geral
 
-Em construção.
+A Chrono Commandant é uma classe tanque melee focada em sobrevivência e controle de combate. Ela utiliza stacks de "Time Rift" para amplificar dano, cura e defesa. É ideal para combater monstros que causam alto dano, permitindo que a equipe sobreviva enquanto ela absorve os ataques.
+
+**Pontos Fortes:**
+- Alta resistência a dano físico (+10% redução).
+- Cura escalável com stacks.
+- Taunt para proteger a equipe.
+
+**Pontos Fracos:**
+- Baixa velocidade e chance de crítico.
+- Dependente de stacks para dano máximo.
 
 ## Método de Obtenção
 
-Em construção.
+- **Calendário 2014**: Disponível durante o mês de dezembro de 2014.
+- **Book of Lore**: Pode ser obtido através do Book of Lore.
+- **HeroMart**: Merge 5 HeroPoints.
+- **Timelock Key**: Usando a 2014 Timelock Key.
 
 ## Status
 
-Em construção.
+**Modelo de Status:** Tank Melee  
+Foco em **STR** (Força) e **END** (Resistência) para maximizar vida e dano físico.
+
+- **STR:** Alto para dano.
+- **DEX:** Baixo.
+- **INT:** Baixo.
+- **END:** Muito alto para tanque.
+- **CHA:** Médio.
+- **LUK:** Baixo (melhore com encantamentos).
 
 ## Combo
 
-Em construção.
+1. **Stack Time Rift (Skill 2):** Use 4 vezes para maximizar stacks.
+2. **Time Rift Collapse (Skill 4):** Libera dano baseado nos stacks (0 sem stacks).
+3. **Time Rift Inversion (Skill 3):** Cura (escala com stacks) e concede +55% defesa por 22s.
+4. **Severed Rift (Skill 5):** Taunt o inimigo por 4s, reduzindo dano recebido em 25% e forçando-o a atacar apenas você.
+
+**Dicas:** Priorize cura antes de dano. Use em bosses com alto DPS.
 
 ## Encantamentos
 
-Em construção.
+**Espada:**
+- **Lacerate:** Garante crítico garantido, mas reduz velocidade e cura.
+- **Dauntless:** +6% velocidade e crítico, mas reduz cura.
+- **Valiance:** +30% todos atributos, mas mais arriscado.
+- **Ravenloss:** +10% dano, bom equilíbrio.
+
+**Capacete:**
+- **Forge:** +10% HP.
+- **Luck:** +10% LUK para crítico.
+- **Fighter:** +10% dano físico.
+
+**Capa:**
+- **Lament:** Essencial para crítico e velocidade.
+- **Penitence:** Para tanque contra bosses.
+- **Vanglory:** Para dano em equipes.
 
 ## Consumíveis
 
-Em construção.
+- **Fake Tonic:** +10% LUK para chance crítica.
+- **Potent Belorin:** +10% dano físico.
+- **Felicitous Future:** +10% LUK e dano crítico.
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

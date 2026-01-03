@@ -35,27 +35,63 @@ Salve rapaziada, fala tu! Jix novamente e no vídeo de hoje decidi trazer para v
 
 ## Visão Geral
 
-Em construção.
+A Healer é uma classe defensive caster focada em cura e suporte. Ideal para grupos, ela oferece cura em área e buffs de mana. No Hardcore, é excelente para sobrevivência devido aos buffs de redução de dano.
+
+**Pontos Fortes:**
+- Cura em área com HoT.
+- Redução de dano do inimigo.
+- Regeneração de mana.
+
+**Pontos Fracos:**
+- Dano limitado.
+- Dependente de vida para dano máximo.
 
 ## Método de Obtenção
 
-Em construção.
+- **Character Creation:** Disponível gratuitamente na criação de personagem.
 
 ## Status
 
-Em construção.
+**Modelo de Status:** Defensive Caster  
+Foco em **INT** e **END** para cura e vida.
+
+- **STR:** Baixo.
+- **DEX:** Baixo.
+- **INT:** Alto.
+- **END:** Alto.
+- **CHA:** Médio.
+- **LUK:** Médio.
 
 ## Combo
 
-Em construção.
+1. **Energy Flow (Skill 4):** Aplica buff de mana e redução de dano no inimigo.
+2. **Healing Word (Skill 3):** Cura em área com HoT.
+3. **Heartbeat (Skill 2):** Dano baseado em vida.
+4. **Pure Hearted (Skill 5):** Dano aumentado se inimigo andar.
+5. **Resolute/Holy:** Para defesa.
+
+**Dicas:** Use cura quando perder metade da vida. Lupa Energy Flow.
 
 ## Encantamentos
 
-Em construção.
+**Espada:**
+- **Healer/Wizard:** +10% INT.
+- **Valiance:** +30% atributos.
+- **Lacerate:** Crítico garantido.
+
+**Capacete:**
+- **Healer/Wizard:** +10% INT.
+- **Forge:** +10% HP.
+
+**Capa:**
+- **Penitence:** Reduz dano DoT.
+- **Absolution:** +10% cura.
 
 ## Consumíveis
 
-Em construção.
+- **Mana Potion:** Restaura mana.
+- **Potion:** Restaura HP.
+- **Tonic:** +10% INT.
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

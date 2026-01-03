@@ -31,23 +31,60 @@ Texto que ficará aparecendo na página principal do blog antes do leia.
 
 ## Visão Geral
 
-Em construção.
+A Warrior é uma classe básica tanque melee focada em força e resistência. É ideal para iniciantes, oferecendo bom equilíbrio entre dano e sobrevivência. Suas habilidades permitem controlar o combate e absorver dano.
+
+**Pontos Fortes:**
+- Fácil de usar.
+- Boa para farming básico.
+- Base para classes avançadas.
+
+**Pontos Fracos:**
+- Dano limitado comparado a classes avançadas.
+- Dependente de equipamentos.
 
 ## Método de Obtenção
 
 - Pode ser obtido em `/join Trainers` ao falar com NPC Thok 
 ## Status
 
-Em construção.
+**Modelo de Status:** Tank Melee  
+Foco em **STR** e **END** para dano e vida.
+
+- **STR:** Alto.
+- **DEX:** Médio.
+- **INT:** Baixo.
+- **END:** Alto.
+- **CHA:** Médio.
+- **LUK:** Médio.
 ## Combo
 
-Em construção.
+1. **Auto Attack** para dano básico.
+2. **Decisive Strike** para dano crítico.
+3. **Imbalancing Strike** para reduzir defesa do inimigo.
+4. **Prepared Strike** para dano aumentado.
+5. **Aggression** para boost de dano.
+6. **Resolute** para redução de dano recebido.
+7. **On Guard** para defesa.
+
+**Dicas:** Use Resolute e On Guard contra bosses.
 ## Encantamentos
 
-Em construção.
+**Espada:**
+- **Fighter:** +10% dano físico.
+- **Guardian:** +10% HP e defesa.
+- **Berserker:** +10% crítico, mas reduz defesa.
+
+**Capacete:**
+- **Helm:** +10% HP.
+- **Luck:** +10% LUK.
+
+**Capa:**
+- **Cloak:** +10% defesa.
 ## Consumíveis
 
-Em construção.
+- **Potion:** Restaura HP.
+- **Tonic:** +10% STR.
+- **Berserker Potion:** +10% dano.
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.
