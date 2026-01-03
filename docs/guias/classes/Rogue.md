@@ -88,9 +88,7 @@ Foco em **DEX**, **STR** e **LUK** para esquiva, dano e crítico.
 
 ## Consumíveis
 
-- **Potion:** Restaura HP.
-- **Tonic:** +10% DEX.
-- **Berserker Potion:** +10% dano.
+{{ read_csv('./assets/consumiveis-fisica-001.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

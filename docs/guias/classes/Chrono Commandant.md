@@ -95,9 +95,7 @@ Foco em **STR** (Força) e **END** (Resistência) para maximizar vida e dano fí
 
 ## Consumíveis
 
-- **Fake Tonic:** +10% LUK para chance crítica.
-- **Potent Belorin:** +10% dano físico.
-- **Felicitous Future:** +10% LUK e dano crítico.
+{{ read_csv('./assets/consumiveis-fisica-001.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

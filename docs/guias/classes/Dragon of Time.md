@@ -56,7 +56,7 @@ Em construção.
 
 ## Consumíveis
 
-Em construção.
+{{ read_csv('./assets/consumiveis-cura-001.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

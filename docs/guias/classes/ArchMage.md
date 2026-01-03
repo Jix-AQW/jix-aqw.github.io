@@ -103,9 +103,7 @@ Foco em **INT** (Inteligência) para dano mágico.
 
 ## Consumíveis
 
-- **Potent Scarab:** +10% dano mágico.
-- **Mana Potion:** Restaura mana.
-- **Tonic:** +10% INT para dano.  
+{{ read_csv('./assets/consumiveis-magica-001.csv') }}
 
 ## Referências Bibliográficas  
 Vozes da minha cabeça. 🧙

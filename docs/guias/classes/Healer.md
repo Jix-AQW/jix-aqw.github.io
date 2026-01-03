@@ -89,9 +89,7 @@ Foco em **INT** e **END** para cura e vida.
 
 ## Consumíveis
 
-- **Mana Potion:** Restaura mana.
-- **Potion:** Restaura HP.
-- **Tonic:** +10% INT.
+{{ read_csv('./assets/consumiveis-cura-001.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

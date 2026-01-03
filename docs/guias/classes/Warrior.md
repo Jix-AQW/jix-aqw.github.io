@@ -82,9 +82,7 @@ Foco em **STR** e **END** para dano e vida.
 - **Cloak:** +10% defesa.
 ## Consumíveis
 
-- **Potion:** Restaura HP.
-- **Tonic:** +10% STR.
-- **Berserker Potion:** +10% dano.
+{{ read_csv('./assets/consumiveis-fisica-001.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

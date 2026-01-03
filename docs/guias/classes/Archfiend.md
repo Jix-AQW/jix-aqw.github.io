@@ -57,7 +57,7 @@ Em construção.
 
 ## Consumíveis
 
-Em construção.
+{{ read_csv('./assets/consumiveis-hibrida-001.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

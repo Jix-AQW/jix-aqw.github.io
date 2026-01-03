@@ -82,9 +82,7 @@ Foco em **INT**, **WIS** e **LUK** para dano mágico e crítico.
 
 ## Consumíveis
 
-- **Mana Potion:** Restaura mana.
-- **Potion:** Restaura HP.
-- **Tonic:** +10% INT.
+{{ read_csv('./assets/consumiveis-magica-001.csv') }}
 
 ## Referências Bibliográficas
 Vozes da minha cabeça.

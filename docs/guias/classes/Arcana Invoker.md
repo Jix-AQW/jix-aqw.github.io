@@ -89,7 +89,7 @@ Seu funcionamento gira em torno do acúmulo de efeitos com a terceira skill e a 
 
 ## Consumíveis
 
-*Em construção.*
+{{ read_csv('./assets/consumiveis-magica-001.csv') }}
 
 ## Outros Vídeos
 
